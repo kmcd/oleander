@@ -11,4 +11,3 @@ dependencies {
     compile fileTree(dir: 'lib', include: '*.jar')
     runtime fileTree(dir: 'lib', include: '*.jar')
 }
-
