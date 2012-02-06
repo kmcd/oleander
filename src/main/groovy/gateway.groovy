@@ -9,13 +9,15 @@ import com.ib.client.OrderState
 import com.ib.client.UnderComp
 
 class Gateway implements EWrapper {
+   def quotes = [:]
+   def orders = [:]
    def client_socket = new EClientSocket(this)
-   def port = 4001
-   def client_id = 2
+   def port = 7496
+   def client_id = 1
    def connect() { client_socket.eConnect('localhost', port, client_id) }
    def disconnect() { if (client_socket.isConnected()) client_socket.eDisconnect() }
-   def quotes = []
 
+   // TODO: move unimplemented methods to a super class
    public void accountDownloadEnd(java.lang.String end) {}
    public void bondContractDetails(int reqId, ContractDetails contractDetails) {}
    public void connectionClosed() {}
@@ -36,10 +38,27 @@ class Gateway implements EWrapper {
    public void nextValidId( int orderId) {}
    public void openOrder( int orderId, Contract contract, Order order, OrderState orderState) {}
    public void openOrderEnd() {}
-   public void orderStatus( int orderId, String status, int filled, int remaining, double avgFillPrice, int permId, int parentId, double lastFillPrice, int clientId, String whyHeld) {}
-   public void realtimeBar(int reqId, long time, double open, double high, double low, double close, long volume, double wap, int count) {
-      quotes.add(EWrapperMsgGenerator.realtimeBar(reqId, time, open, high, low, close, volume, wap, count))
+   
+   // TODO: create all order status types
+   public void orderStatus( int orderId, String status, int filled, int remaining, double avgFillPrice, int permId, int parentId, double lastFillPrice, int clientId, String whyHeld) {
+      orders[orderId] = status.trim.toLowerCase() == 'filled'
    }
+   
+   public void realtimeBar(int reqId, long time, double open, double high, double low, double close, long volume, double wap, int count) {
+      def time_stamp = (new Date((time) * 1000)).format('yyyy-MM-dd HH:MM:ss')
+      
+      switch(reqId) {
+         case 1:
+            quotes["$time_stamp SPY"] = [bid:close]
+         case 2:
+            quotes["$time_stamp SPY"] = [ask:close]
+         case 3:
+            quotes["$time_stamp IVV"] = [bid:close]
+         case 4:
+            quotes["$time_stamp IVV"] = [ask:close]
+      }
+   }
+   
    public void receiveFA(int faDataType, String xml) {}
    public void scannerData(int reqId, int rank, ContractDetails contractDetails, String distance, String benchmark, String projection, String legsStr) {}
    public void scannerDataEnd(int reqId) {}
