@@ -7,74 +7,88 @@ import com.ib.client.Execution
 import com.ib.client.Order
 import com.ib.client.OrderState
 import com.ib.client.UnderComp
+import java.util.concurrent.ConcurrentHashMap
+import groovy.util.logging.Log
 
-class Gateway implements EWrapper {
-   def quotes = [:]
-   def orders = [:]
-   def client_socket = new EClientSocket(this)
+@Log
+class Gateway extends IbGateway {
+   def quotes = new ConcurrentHashMap()
+   def orders = new ConcurrentHashMap()
    def port = 7496
    def client_id = 1
+   def client_socket = new EClientSocket(this)
+   def requested_real_time_bars = 0
+   
    def connect() { client_socket.eConnect('localhost', port, client_id) }
    def disconnect() { if (client_socket.isConnected()) client_socket.eDisconnect() }
-
-   // TODO: move unimplemented methods to a super class
-   public void accountDownloadEnd(java.lang.String end) {}
-   public void bondContractDetails(int reqId, ContractDetails contractDetails) {}
-   public void connectionClosed() {}
-   public void contractDetails(int reqId, ContractDetails contractDetails) {}
-   public void contractDetailsEnd(int reqId) {}
-   public void currentTime(long time) {}
-   public void deltaNeutralValidation(int int_1, com.ib.client.UnderComp underComp) {}
-   public void deltaNeutralValidation(undercomp) {}
-   public void error( Exception e) { println e }
-   public void error( String str) { println str }
-   public void error(int id, int errorCode, String errorMsg){}
-   public void execDetails( int orderId, Contract contract, Execution execution) {}
-   public void execDetailsEnd(int at) {}
-   public void fundamentalData(int reqId, String data) {}
-   public void historicalData(int reqId, String date, double open, double high, double low, double close, int volume, int count, double WAP, boolean hasGaps) {}
-   public void managedAccounts( String accountsList) {}
-   public void marketDataType(int int_1, int int_2) {}
-   public void nextValidId( int orderId) {}
-   public void openOrder( int orderId, Contract contract, Order order, OrderState orderState) {}
-   public void openOrderEnd() {}
    
-   // TODO: create all order status types
    public void orderStatus( int orderId, String status, int filled, int remaining, double avgFillPrice, int permId, int parentId, double lastFillPrice, int clientId, String whyHeld) {
       orders[orderId] = status.trim.toLowerCase() == 'filled'
    }
    
    public void realtimeBar(int reqId, long time, double open, double high, double low, double close, long volume, double wap, int count) {
-      def time_stamp = (new Date((time) * 1000)).format('yyyy-MM-dd HH:MM:ss')
+      def time_stamp = (new Date((time) * 1000)).format('yyyy-MM-dd HH:mm:ss')
       
       switch(reqId) {
-         case 1:
-            quotes["$time_stamp SPY"] = [bid:close]
-         case 2:
-            quotes["$time_stamp SPY"] = [ask:close]
-         case 3:
-            quotes["$time_stamp IVV"] = [bid:close]
-         case 4:
-            quotes["$time_stamp IVV"] = [ask:close]
+         case 1: quotes["${time_stamp} SPY"] = [bid:close] ; break
+         case 2: quotes["${time_stamp} IVV"] = [bid:close] ; break
+         case 3: quotes["${time_stamp} SPY"] = [ask:close] ; break
+         case 4: quotes["${time_stamp} IVV"] = [ask:close] ; break
       }
    }
    
-   public void receiveFA(int faDataType, String xml) {}
-   public void scannerData(int reqId, int rank, ContractDetails contractDetails, String distance, String benchmark, String projection, String legsStr) {}
-   public void scannerDataEnd(int reqId) {}
-   public void scannerParameters(String xml) {}
-   public void tickEFP(int tickerId, int tickType, double basisPoints, String formattedBasisPoints, double impliedFuture, int holdDays, String futureExpiry, double dividendImpact, double dividendsToExpiry) {}
-   public void tickGeneric(int tickerId, int tickType, double value) {}
-   public void tickOptionComputation( int tickerId, int field, double impliedVol, double delta, double modelPrice, double pvDividend) {}
-   public void tickOptionComputation(int int_1, int int_2, double double1, double double2, double double3, double double4, double double5, double double6, double double7, double double8) {}
-   public void tickPrice( int tickerId, int field, double price, int canAutoExecute) {}
-   public void tickSize( int tickerId, int field, int size) {}
-   public void tickSnapshotEnd(int at) {}
-   public void tickString(int tickerId, int tickType, String value) {}
-   public void updateAccountTime(String timeStamp) {}
-   public void updateAccountValue(String key, String value, String currency, String accountName) {}
-   public void updateMktDepth( int tickerId, int position, int operation, int side, double price, int size) {}
-   public void updateMktDepthL2( int tickerId, int position, String marketMaker, int operation, int side, double price, int size) {}
-   public void updateNewsBulletin( int msgId, int msgType, String message, String origExchange) {}
-   public void updatePortfolio(Contract contract, int position, double marketPrice, double marketValue, double averageCost, double unrealizedPNL, double realizedPNL, String accountName) {}
+   public void historicalData(int reqId, String date, double open, double high, double low, double close, int volume, int count, double WAP, boolean hasGaps) {
+      if ( date =~ ~'finished' ) return
+         
+      def time_stamp = Date.parse("yyyyMMdd  HH:mm:ss", date).format('yyyy-MM-dd HH:mm:ss')
+      def bar_volume = volume as long
+      
+      switch(reqId) {
+         case 1: quotes["${time_stamp} SPY"] = [bid:close] ; break
+         case 2: quotes["${time_stamp} IVV"] = [bid:close] ; break
+      }  // TODO: dry up wrt realtimeBar()
+   }
+   
+   def real_time_bars(stock, type) {
+      def request_id
+      
+      switch(stock.symbol()) {
+         case "SPY":  request_id = type == "BID" ? 1 : 3 ; break
+         case "IVV":  request_id = type == "BID" ? 2 : 4 ; break
+      }  // TODO: dry up wrt realtimeBar()
+       
+      client_socket.reqRealTimeBars request_id, stock.contract, 5, type, true
+   }
+   
+   def place_order(contract,order) {
+      client_socket.placeOrder(nextValidId(), contract, order)
+      log.info("[ORDER] type:${order.m_action} symbol:${contract.m_symbol} quantity:${order.m_totalQuantity} price:${order.m_lmtPrice}")
+   }
+   
+   def cancel_last_two_orders_unless_both_filled() {
+      // Ensure enough time (eg sleep(2)) for orders to fill
+      
+      if ( ! last_two_orders_both_filled() ) {
+         client_socket.cancelOrder( last_two_orders[0] )
+         client_socket.cancelOrder( last_two_orders[1] )
+         
+         log.info("[ORDER] type:cancel ids:${last_two_orders}")
+      }
+   }
+   
+   def fetch_todays_quotes(stock,type) {
+      def today = new Date().format("yyyyMMdd HH:mm:ss z") as String
+      def request_id = stock.symbol() == 'SPY' ? 1 : 2
+      
+      client_socket.reqHistoricalData(request_id, stock.contract, today, "1 D", "30 secs", type, 1, 1)
+   }
+   
+   def last_two_orders() {
+      def orders = orders.keySet().toArray()
+      orders[-1..-2]
+   }
+   
+   def last_two_orders_both_filled() {
+      last_two_orders.every { it }
+   }
 }

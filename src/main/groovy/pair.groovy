@@ -1,14 +1,13 @@
 class Pair {
    def tickers = []
-   def quotes = [:]
    def today = String.format('%tF', new Date())
    
-   def spread() {
-      spreads_for(todays_quotes())
+   def spread(quotes) {
+      spreads_for(today_only(quotes))
    }
    
-   def todays_quotes() {
-      quotes.findAll { quote -> quote.key =~ ~"^$today" }.
+   def today_only(quotes) {
+      quotes.findAll { quote -> quote.key =~ ~"^${today}" }.
          sort { a,b -> parse_date(a.key) <=> parse_date(b.key) }
    }
    
@@ -29,8 +28,8 @@ class Pair {
    def bids_for(ticker, quotes) {
       quotes.findAll { quote ->
          // Ensure corresponding time stamp
-         quote.key =~ ~"$ticker" && quotes.count { it.key[0..-5] == quote.key[0..-5] } == 2
-      }.collect { new Float(it.value['bid']) }
+         quote.key =~ ~"${ticker}" && quotes.count { it.key[0..-5] == quote.key[0..-5] } == 2
+      }.collect { it.value["bid"] as Float }
    }
    
    def parse_date(time_stamp) { Date.parse("yyyy-MM-dd HH:mm:ss", time_stamp ) }
