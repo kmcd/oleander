@@ -18,13 +18,13 @@ gateway.real_time_bars ivv, 'BID'
 gateway.real_time_bars spy, 'ASK'
 gateway.real_time_bars ivv, 'ASK'
 
-sleep(10)
+sleep(10) // Wait for real time quotes
 
 while(true) {
-   // if ( Market.closed() ) { continue }
+   if ( Market.closed() ) { continue }
 
    if ( position.open ) {
-      if (position.profit(spy:spy_price, ivv:ivv_price) >= 10.0) {
+      if (position.profit(spy:spy.ask_price(), ivv:spy.ask_price()) >= 10.0) {
          pair_order.exit(spy.ask_price(), ivv.ask_price())
       }               
       if ( Market.closing_minute() ) { exit(position, spy_price, ivv_price) }
@@ -37,5 +37,7 @@ while(true) {
          position = new Position(SPY:spy.ask_price(), IVV:ivv.ask_price(), open:true)
          pair_order.enter(position)
       }
-   }   
+   }
+   
+   sleep(2)
 }
