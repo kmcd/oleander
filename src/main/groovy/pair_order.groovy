@@ -22,7 +22,7 @@ class PairOrder {
       
       gateway.place_order(short_contract(), short_order(cover_price) )
       gateway.place_order(long_contract(), long_order(sell_price) )
-      gateway.cancel_unless_last_two_orders_filled()
+      gateway.cancel_last_two_orders_unless_both_filled()
       
       position.open = false
    }
