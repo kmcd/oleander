@@ -14,27 +14,21 @@ class Quote {
       def to = parse_date(args['to']).time
       def json = new JsonSlurper()
       
-      args['tickers'].collect { 
+      args['tickers'].collect {
          repository.zrangeByScore(it, from, to).collect { json.parseText(it) }
-      }.flatten().inject([:]) { quotes, quote ->
-         def key = [ quote['time_stamp'], quote['ticker'] ].join(' ')
-         quotes[ key ] = [ bid:quote['bid'], ask:quote['ask'] ]
-         quotes
-      }.sort { it.key }
+      }.flatten().sort { it['time_stamp'] }
    }
    
    static create(reqId, time_stamp, open, high, low, close, volume, wap, count) {
       create(quote_for(reqId, close), ticker_for(reqId), time_stamp)
    }
    
-   static create(quotes, ticker, time_stamp) {
+   static create(quote, time_stamp, price) {
       def ts = parse_date(time_stamp)
       def json = new groovy.json.JsonBuilder()
-      def quote = [ time_stamp:ts.format(timestamp_format), ticker:ticker ]
-      ['bid', 'ask'].each { if(quotes[it]) quote.put(it,quotes[it]) }
+      json time_stamp:ts.format(timestamp_format), "${quote}":price
       
-      json quote
-      repository.zadd ticker, ts.time, json.toString()
+      repository.zadd quote, ts.time, json.toString()
    }
    
    static count(ticker) { repository.zcard ticker }

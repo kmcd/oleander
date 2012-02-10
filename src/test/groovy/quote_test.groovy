@@ -28,29 +28,32 @@ class QuoteTest extends GroovyTestCase {
       assert Quote.ticker_for(id('spy ask')) == 'spy'
       assert Quote.ticker_for(id('ivv bid')) == 'ivv'
       assert Quote.ticker_for(id('ivv ask')) == 'ivv'
-   }                      
+   }
 
    void test_unique_time_and_ticker() {
-      Quote.create bid:price, ask:price, 'spy', "2011-11-14 09:30:00"
-      Quote.create bid:price, ask:price, 'spy', "2011-11-14 09:30:00"
-                    
-      assert Quote.count("spy") == 1
+      Quote.create 'spy_bid', "2011-11-14 09:30:00", price
+      Quote.create 'spy_bid', "2011-11-14 09:30:00", price
+                                                 
+      assert Quote.count("spy_bid") == 1
    }  
    
    void test_fetch_quotes_by_date_range_for_ticker_pair() {
-      Quote.create bid:price, ask:price, 'spy', "2011-11-14 09:30:00"
-      Quote.create bid:price, ask:price, 'ivv', "2011-11-14 09:30:00"
-      Quote.create bid:price, ask:price, 'spy', "2011-11-14 09:31:00"
-      Quote.create bid:price, ask:price, 'ivv', "2011-11-14 09:31:00"
-        
-      assertEquals(
+      Quote.create 'spy_bid', "2011-11-14 09:30:00", price
+      Quote.create 'spy_ask', "2011-11-14 09:30:00", price
+      Quote.create 'ivv_bid', "2011-11-14 09:30:00", price
+      Quote.create 'ivv_ask', "2011-11-14 09:30:00", price
+      
+      Quote.create 'spy_bid', "2011-11-14 09:32:00", price
+
+      assertEquals(               
          [ 
-            "2011-11-14 09:30:00 spy": ['bid':price, 'ask':price],
-            "2011-11-14 09:30:00 ivv": ['bid':price, 'ask':price],
-            "2011-11-14 09:31:00 spy": ['bid':price, 'ask':price],
-            "2011-11-14 09:31:00 ivv": ['bid':price, 'ask':price]
-         ],
-         Quote.find_all(from:"2011-11-14 09:30:00", to:"2011-11-14 09:31:00", tickers:['spy', 'ivv'])
+            [spy_bid:price, time_stamp:"2011-11-14 09:30:00"],
+            [spy_ask:price, time_stamp:"2011-11-14 09:30:00"],
+            [ivv_bid:price, time_stamp:"2011-11-14 09:30:00"],
+            [ivv_ask:price, time_stamp:"2011-11-14 09:30:00"]
+         ],                                                
+         Quote.find_all(from:"2011-11-14 09:30:00", to:"2011-11-14 09:31:00", 
+            tickers:['spy_bid', 'spy_ask', 'ivv_bid', 'ivv_ask'])
       )
    }
 }
