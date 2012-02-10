@@ -29,7 +29,7 @@ class QuoteTest extends GroovyTestCase {
       assert Quote.ticker_for(id('ivv bid')) == 'ivv'
       assert Quote.ticker_for(id('ivv ask')) == 'ivv'
    }
-
+                               
    void test_unique_time_and_ticker() {
       Quote.create 'spy_bid', "2011-11-14 09:30:00", price
       Quote.create 'spy_bid', "2011-11-14 09:30:00", price
@@ -42,10 +42,9 @@ class QuoteTest extends GroovyTestCase {
       Quote.create 'spy_ask', "2011-11-14 09:30:00", price
       Quote.create 'ivv_bid', "2011-11-14 09:30:00", price
       Quote.create 'ivv_ask', "2011-11-14 09:30:00", price
+      Quote.create 'spy_bid', "2011-11-14 09:32:00", price  
       
-      Quote.create 'spy_bid', "2011-11-14 09:32:00", price
-
-      assertEquals(               
+      assertEquals(
          [ 
             [spy_bid:price, time_stamp:"2011-11-14 09:30:00"],
             [spy_ask:price, time_stamp:"2011-11-14 09:30:00"],
