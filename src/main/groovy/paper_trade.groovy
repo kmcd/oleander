@@ -2,12 +2,12 @@ import Gateway
 import Position
 import Pair
 
-gateway = new Gateway()
-spy = new Stock("SPY", gateway)
-ivv = new Stock("IVV", gateway)
-position = new Position(open:false)
-pair_order = new PairOrder(gateway)
-pair = new Pair(tickers:['SPY','IVV'])
+def gateway = new Gateway()
+def spy = new Stock("SPY", gateway)
+def ivv = new Stock("IVV", gateway)
+def position = new Position(open:false)
+def pair_order = new PairOrder(gateway)
+def pair = new Pair(tickers:['SPY','IVV'])
 
 gateway.connect()
 gateway.fetch_todays_quotes spy, 'BID'
@@ -18,26 +18,27 @@ gateway.real_time_bars ivv, 'BID'
 gateway.real_time_bars spy, 'ASK'
 gateway.real_time_bars ivv, 'ASK'
 
-sleep(10) // Wait for real time quotes
+sleep(5000) // Wait for real time quotes
 
 while(true) {
    if ( Market.closed() ) { continue }
 
    if ( position.open ) {
-      if (position.profit(spy:spy.ask_price(), ivv:spy.ask_price()) >= 10.0) {
-         pair_order.exit(spy.ask_price(), ivv.ask_price())
-      }               
-      if ( Market.closing_minute() ) { exit(position, spy_price, ivv_price) }
+      if (position.profit(spy:spy.ask(), ivv:ivv.ask()) >= 10.0) {
+         pair_order.exit(spy.bid(), ivv.bid())
+      }
+      if ( Market.closing_minute() ) { pair_order.exit(position, spy_price, ivv_price) }
    }
 
    if ( ! Market.closing_minute() ) {
       spread = pair.spread(gateway.quotes)
+      println "[SPREAD] ${new Date().format('yyyy-MM-dd HH:mm:ss')} spy:${spy.bid()} ivv:${ivv.bid()} ${spread}"
 
-      if( spread <= -0.03 || spread >= 0.03 )  {
-         position = new Position(SPY:spy.ask_price(), IVV:ivv.ask_price(), open:true)
+      if( spread <= -0.03 ||  spread >= 0.03 )  {
+         position = new Position(spy:spy.ask(), ivv:ivv.ask(), open:true, short_spy: spread >= 0.03)
          pair_order.enter(position)
       }
    }
    
-   sleep(2)
+   sleep(2000)
 }

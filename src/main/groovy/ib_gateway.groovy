@@ -9,6 +9,8 @@ import com.ib.client.OrderState
 import com.ib.client.UnderComp
 
 class IbGateway implements EWrapper {
+   def client_socket = new EClientSocket(this)
+   
    public void accountDownloadEnd(java.lang.String end) {}
    public void bondContractDetails(int reqId, ContractDetails contractDetails) {}
    public void connectionClosed() {}
@@ -26,7 +28,7 @@ class IbGateway implements EWrapper {
    public void historicalData(int reqId, String date, double open, double high, double low, double close, int volume, int count, double WAP, boolean hasGaps) {}
    public void managedAccounts( String accountsList) {}
    public void marketDataType(int int_1, int int_2) {}
-   public void nextValidId( int orderId) {}
+   public void nextValidId(int orderId) {}
    public void openOrder( int orderId, Contract contract, Order order, OrderState orderState) {}
    public void openOrderEnd() {}
    public void orderStatus( int orderId, String status, int filled, int remaining, double avgFillPrice, int permId, int parentId, double lastFillPrice, int clientId, String whyHeld) {}

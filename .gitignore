@@ -5,3 +5,4 @@ build
 .settings
 lib/oleander.jar
 vendor/tws_gateway/*.log
+log

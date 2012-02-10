@@ -12,9 +12,7 @@ class Pair {
    }
    
    def spreads_for(current_quotes) {
-      if( current_quotes.size() < 2 ) {
-         return 0.0
-      }
+      if( current_quotes.size() < 2 ) { return 0.0 }
       else {
          def spreads = [ bids_for("SPY", current_quotes), bids_for("IVV", current_quotes) ].
             transpose().collect { it.first() - it.last() }
@@ -29,10 +27,10 @@ class Pair {
       quotes.findAll { quote ->
          // Ensure corresponding time stamp
          quote.key =~ ~"${ticker}" && quotes.count { it.key[0..-5] == quote.key[0..-5] } == 2
-      }.collect { it.value["bid"] as Float }
+      }.collect { it.value["bid"] as Float } - null
    }
    
+   // TODO: move to shared lib
    def parse_date(time_stamp) { Date.parse("yyyy-MM-dd HH:mm:ss", time_stamp ) }
- 
    def average(spreads) { (spreads.sum() / spreads.size()) }
 }
