@@ -20,7 +20,7 @@ class Quote {
    }
    
    static create(reqId, time_stamp, open, high, low, close, volume, wap, count) {
-      create(quote_for(reqId, close), ticker_for(reqId), time_stamp)
+      create ticker_for(reqId) , time_stamp, close
    }
    
    static create(quote, time_stamp, price) {
@@ -33,14 +33,12 @@ class Quote {
    
    static count(ticker) { repository.zcard ticker }
    
-   static request_id(symbol, type) {
-      def quote_type = [symbol, type].collect { it.toLowerCase() }.join(' ')
+   static request_id(quote_type) {
       def id = quote_type.hashCode()
       request_ids[id] = quote_type
       id
    }
    
-   static quote_for(id, price)   { [ (request_ids[id][-3..-1]):price ] }
-   static ticker_for(id)         { request_ids[id][0..2] }
+   static ticker_for(id)         { request_ids[id] }
    static parse_date(time_stamp) { Date.parse(timestamp_format, time_stamp) }
 }

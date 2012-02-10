@@ -2,32 +2,21 @@ import groovy.util.GroovyTestCase
 
 class QuoteTest extends GroovyTestCase {
    def price = 123.4567
-   def id(type) { type.hashCode() }
    
    void setUp() {      
       Quote.repository.select 1
       Quote.repository.flushDB()
+      Quote.request_ids = [:]
    }
    
    void test_request_id() {
-      assert Quote.request_id('spy', 'bid') == id('spy bid')
-      assert Quote.request_id('spy', 'ask') == id('spy ask')
-      assert Quote.request_id('ivv', 'bid') == id('ivv bid')
-      assert Quote.request_id('ivv', 'ask') == id('ivv ask')
+      assert Quote.request_id('spy_bid') == 'spy_bid'.hashCode()
    }  
    
-   void test_quote_for_request_id() {
-      assert Quote.quote_for(id('spy bid'), price) == [bid:price]
-      assert Quote.quote_for(id('spy ask'), price) == [ask:price]
-      assert Quote.quote_for(id('ivv bid'), price) == [bid:price]
-      assert Quote.quote_for(id('ivv ask'), price) == [ask:price]
-   }  
-                                                       
    void test_ticker_for_request_id() {
-      assert Quote.ticker_for(id('spy bid')) == 'spy'
-      assert Quote.ticker_for(id('spy ask')) == 'spy'
-      assert Quote.ticker_for(id('ivv bid')) == 'ivv'
-      assert Quote.ticker_for(id('ivv ask')) == 'ivv'
+      assert Quote.ticker_for('spy_bid'.hashCode()) == null
+      Quote.request_id('spy_bid')
+      assert Quote.ticker_for('spy_bid'.hashCode()) == 'spy_bid'
    }
                                
    void test_unique_time_and_ticker() {
