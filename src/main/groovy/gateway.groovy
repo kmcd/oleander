@@ -31,11 +31,11 @@ class Gateway extends IbGateway {
    
    def real_time_bars(stock, type) {
       client_socket.reqRealTimeBars(
-         Quote.request_id(stock.symbol(), type), stock.contract, 5, type, true )
+         Quote.request_id(stock.symbol(), type), stock.contract, 5, type.toUpperCase(), true )
    }
    
    def place_order(contract, order) {
-      client_socket.reqIds(1)
+      client_socket.reqIds(client_id)
       client_socket.placeOrder(next_order_id, contract, order)
       
       log.info("[ORDER] type:${order.m_action} symbol:${contract.m_symbol} quantity:${order.m_totalQuantity} price:${order.m_lmtPrice}")
@@ -45,6 +45,6 @@ class Gateway extends IbGateway {
       def today = new Date().format("yyyyMMdd HH:mm:ss z") as String
       
       client_socket.reqHistoricalData( Quote.request_id(stock.symbol(), type),
-         stock.contract, today, "1 D", "30 secs", type, 1, 1 )
+         stock.contract, today, "1 D", "30 secs", type.toUpperCase(), 1, 1 )
    }
 }

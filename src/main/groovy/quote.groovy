@@ -19,6 +19,27 @@ class Quote {
       }.flatten().sort { it['time_stamp'] }
    }
    
+   static today(ticker) {
+      def date = new Date().format "yyyy-MM-dd"
+      find_all from:"$date 14:30:00", to:"$date 21:00:00", tickers:[ticker]
+   }
+   
+   static todays_bids_asks() {
+      def spy = today('spy_bid')
+      def ivv = today('ivv_ask')
+      def bids = []
+      def asks = []
+      
+      spy.each { bid -> 
+         def ask = ivv.find {  it['time_stamp'] == bid['time_stamp'] }
+         if(ask) {
+            bids << bid['spy_bid']
+            asks << ask['ivv_ask']
+         }
+      }
+      [bids, asks]
+   }
+   
    static create(reqId, time_stamp, open, high, low, close, volume, wap, count) {
       create ticker_for(reqId) , time_stamp, close
    }
@@ -33,7 +54,8 @@ class Quote {
    
    static count(ticker) { repository.zcard ticker }
    
-   static request_id(quote_type) {
+   static request_id(symbol, type) {
+      def quote_type = [symbol, type].collect { it.toLowerCase() }.join('_')
       def id = quote_type.hashCode()
       request_ids[id] = quote_type
       id

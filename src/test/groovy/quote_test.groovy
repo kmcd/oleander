@@ -10,12 +10,12 @@ class QuoteTest extends GroovyTestCase {
    }
    
    void test_request_id() {
-      assert Quote.request_id('spy_bid') == 'spy_bid'.hashCode()
+      assert Quote.request_id('spy', 'bid') == 'spy_bid'.hashCode()
    }  
    
    void test_ticker_for_request_id() {
       assert Quote.ticker_for('spy_bid'.hashCode()) == null
-      Quote.request_id('spy_bid')
+      Quote.request_id('spy', 'bid')
       assert Quote.ticker_for('spy_bid'.hashCode()) == 'spy_bid'
    }
                                
