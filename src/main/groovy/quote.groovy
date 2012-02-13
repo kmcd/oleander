@@ -24,7 +24,7 @@ class Quote {
       find_all from:"$date 14:30:00", to:"$date 21:00:00", tickers:[ticker]
    }
    
-   static todays_bids_asks() {
+   static current_bids_asks() {
       def spy = today('spy_bid')
       def ivv = today('ivv_ask')
       def bids = []

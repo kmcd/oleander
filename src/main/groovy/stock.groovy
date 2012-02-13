@@ -14,21 +14,16 @@ class Stock {
       contract.m_currency = "USD"
    }
    
-   def bid() { latest_price('bid') }
-   def ask() { latest_price('ask') }
+   def bid() { quote('bid') }
+   def ask() { quote('ask') }
+   
+   def quote(type) {
+      def quote_type = "${symbol()}_$type"
+      quotes = Quote.today(quote_type)
+      if( quotes.isEmpty() ) return
+      quotes.last()[quote]
+   }
+   
    def symbol() { contract.m_symbol }
-   
-   def latest_price(quote_type) {
-      (quotes().
-         sort { a,b -> date_parse(a.key) <=> date_parse(b.key) }.
-         collect { it.value[quote_type] as Float } 
-         - null 
-      ).last()
-   }
-   
-   def quotes() {
-      gateway.quotes.findAll { it.key =~ ~"${symbol()}" }
-   }
-   
    def date_parse(date) { Date.parse("yyyy-MM-dd HH:mm:ss", date) }
 }

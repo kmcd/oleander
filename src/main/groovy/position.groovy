@@ -7,6 +7,12 @@ class Position {
    def open
    def funding_available = 100000.00
    
+   def spy_profit_target(ivv_bid, target) {
+      def spy_ask = opening_long_price() - 10.0
+      while( profit(spy:spy_ask, ivv:ivv_bid) < target ) { spy_ask += 0.005 }
+      spy_ask
+   }
+   
    def profit(tickers) {
       def net_profit
       

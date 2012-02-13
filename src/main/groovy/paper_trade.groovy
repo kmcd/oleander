@@ -1,44 +1,61 @@
-import Gateway
-import Position
-import Pair
-
-def gateway = new Gateway()
-def spy = new Stock("SPY", gateway)
-def ivv = new Stock("IVV", gateway)
-def position = new Position(open:false)
-def pair_order = new PairOrder(gateway)
-def pair = new Pair(tickers:['SPY','IVV'])
+gateway = new Gateway()
+spy = new Stock("spy", gateway)
+ivv = new Stock("ivv", gateway)
+position = new Position(open:false)
+pair_order = new PairOrder(gateway)
+pair = new Pair()
 
 gateway.connect()
-gateway.fetch_todays_quotes spy, 'BID'
-gateway.fetch_todays_quotes ivv, 'BID'
 
-gateway.real_time_bars spy, 'BID'
-gateway.real_time_bars ivv, 'BID'
-gateway.real_time_bars spy, 'ASK'
-gateway.real_time_bars ivv, 'ASK'
+// TODO: refactor to fetch_todays_quotes 'spy', 'ivv'
+gateway.fetch_todays_quotes spy, 'bid'
+gateway.fetch_todays_quotes ivv, 'bid'
+gateway.fetch_todays_quotes spy, 'ask'
+gateway.fetch_todays_quotes ivv, 'ask'
 
-sleep(5000) // Wait for real time quotes
+// TODO: refactor to fetch_real_time_bars 'spy', 'ivv'
+gateway.real_time_bars spy, 'bid'
+gateway.real_time_bars ivv, 'bid'
+gateway.real_time_bars spy, 'ask'
+gateway.real_time_bars ivv, 'ask'
 
+// Place a synchronised pair order
+
+// position = new Position(spy:spy.ask(), ivv:ivv.bid(), open:true)
+// gateway.client_socket.reqIds(1)
+// contract = new Stock("spy").contract
+// order = pair_order.order("BUY", position.long_shares(), position.opening_long_price())
+// gateway.client_socket.placeOrder(gateway.next_order_id, contract, order)
+// gateway.client_socket.reqIds(1)
+// contract = new Stock("ivv").contract
+// order = pair_order.order("SELL", position.short_shares(), position.opening_short_price())
+// gateway.client_socket.placeOrder(gateway.next_order_id, contract, order)
+// 
+// position = new Position(spy:spy.ask(), ivv:ivv.bid(), open:true, short_spy:true)
+// gateway.client_socket.reqIds(1)
+// contract = new Stock("spy").contract
+// order = pair_order.order("BUY", position.short_shares(), position.opening_short_price())
+// gateway.client_socket.placeOrder(gateway.next_order_id, contract, order)
+// gateway.client_socket.reqIds(1)
+// contract = new Stock("ivv").contract
+// order = pair_order.order("SELL", position.long_shares(), position.opening_long_price())
+// gateway.client_socket.placeOrder(gateway.next_order_id, contract, order)
+
+// pair_order.enter(position)
+// pair_order.exit(spy.bid(), ivv.bid())
+
+// Paper trade
 while(true) {
-   if ( Market.closed() ) { continue }
-
    if ( position.open ) {
-      if (position.profit(spy:spy.ask(), ivv:ivv.ask()) >= 10.0) {
-         pair_order.exit(spy.bid(), ivv.bid())
-      }
-      if ( Market.closing_minute() ) { pair_order.exit(position, spy_price, ivv_price) }
+      spy_ask = position.profit_target(ivv.bid(), 10.0)
+      pair_order.exit(spy_ask, ivv.bid())
+   } 
+   else {
+      spy_bid = spy.bid() - 0.03 - Pair.spread(Quote.current_bids_asks())
+      position = new Position(spy:spy_bid, ivv:ivv.ask())
+      
+      // Ping for spy liquidity; short ivv marketable limit order
+      // If ivv cover fails: wait OR market ? nbbo +/-
+      pair_order.enter(position)
    }
-
-   if ( ! Market.closing_minute() ) {
-      spread = pair.spread(gateway.quotes)
-      println "[SPREAD] ${new Date().format('yyyy-MM-dd HH:mm:ss')} spy:${spy.bid()} ivv:${ivv.bid()} ${spread}"
-
-      if( spread <= -0.03 ||  spread >= 0.03 )  {
-         position = new Position(spy:spy.ask(), ivv:ivv.ask(), open:true, short_spy: spread >= 0.03)
-         pair_order.enter(position)
-      }
-   }
-   
-   sleep(2000)
 }
