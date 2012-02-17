@@ -22,9 +22,13 @@ class Gateway extends IbGateway {
    
    public void historicalData(int reqId, String date, double open, double high, double low, double close, int volume, int count, double WAP, boolean hasGaps) {
       if ( date =~ ~'finished' ) return
-      def time_stamp = Date.parse("yyyyMMdd  HH:mm:ss", date).format('yyyy-MM-dd HH:mm:ss')
+      def time_stamp = Date.parse("yyyyMMdd HH:mm:ss", date).format('yyyy-MM-dd HH:mm:ss:S')
       
       Quote.create(reqId, time_stamp, open, high, low, close, volume, WAP, count)
+   }
+   
+   public void tickPrice(int tickerId, int field, double price, int canAutoExecute) {
+      if (canAutoExecute) { Quote.create(tickerId, field, price) }
    }
    
    public void nextValidId(int orderId) { next_order_id = orderId }
@@ -34,8 +38,13 @@ class Gateway extends IbGateway {
          Quote.request_id(stock.symbol(), type), stock.contract, 5, type.toUpperCase(), true )
    }
    
+   def streaming_quotes(stock) {
+      client_socket.reqMktData( Quote.request_id(stock.symbol()), stock.contract, '', false )
+   }
+   
    def place_order(contract, order) {
       client_socket.reqIds(client_id)
+      wait_for_next_request_id_from_gateway()
       client_socket.placeOrder(next_order_id, contract, order)
       
       log.info("[ORDER] type:${order.m_action} symbol:${contract.m_symbol} quantity:${order.m_totalQuantity} price:${order.m_lmtPrice}")
@@ -47,4 +56,6 @@ class Gateway extends IbGateway {
       client_socket.reqHistoricalData( Quote.request_id(stock.symbol(), type),
          stock.contract, today, "1 D", "30 secs", type.toUpperCase(), 1, 1 )
    }
+   
+   def wait_for_next_request_id_from_gateway() { sleep(250) }
 }

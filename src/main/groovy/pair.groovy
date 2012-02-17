@@ -1,5 +1,4 @@
 class Pair {
-   
    def spread(bids,asks) {
       if( bids.size() != asks.size() ) { return }
       if( bids.size() < 2 )            { return 0.0 }

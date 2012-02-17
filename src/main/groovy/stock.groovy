@@ -19,9 +19,10 @@ class Stock {
    
    def quote(type) {
       def quote_type = "${symbol()}_$type"
-      quotes = Quote.today(quote_type)
+      
+      def quotes = Quote.today(quote_type)
       if( quotes.isEmpty() ) return
-      quotes.last()[quote]
+      quotes.last()[quote_type]
    }
    
    def symbol() { contract.m_symbol }

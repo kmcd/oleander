@@ -1,16 +1,16 @@
 import java.math.*
 
 class Position {
-   def short_spy
+   def short_spy = false
    def spy
    def ivv
    def open
    def funding_available = 100000.00
    
-   def spy_profit_target(ivv_bid, target) {
-      def spy_ask = opening_long_price() - 10.0
-      while( profit(spy:spy_ask, ivv:ivv_bid) < target ) { spy_ask += 0.005 }
-      spy_ask
+   def spy_profit_target(ivv_ask, target) {
+      def spy_bid = opening_long_price() - 10.0
+      while( profit(spy:spy_bid, ivv:ivv_ask) < target ) { spy_bid += 0.01 }
+      spy_bid
    }
    
    def profit(tickers) {
