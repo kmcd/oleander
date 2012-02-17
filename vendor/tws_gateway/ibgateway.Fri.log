@@ -5156,3 +5156,2583 @@ JO 15:20:15:644 JTS-DeadlockMonitor: GC:called=189 times CPU used=0.02%
 JO 15:20:15:644 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
 JO 15:20:30:933 JTS-Cleaner-16: Cleaning maps
 JO 15:20:35:373 JTS-Cleaner-16: Cleaning maps
+JO 15:21:30:933 JTS-Cleaner-16: Cleaning maps
+JO 15:21:35:373 JTS-Cleaner-16: Cleaning maps
+JO 15:22:30:933 JTS-Cleaner-16: Cleaning maps
+JO 15:22:35:373 JTS-Cleaner-16: Cleaning maps
+JO 15:23:18:273 JTS-ushmds2aServicePing-516: Farm ushmds2a/NATIVE: Closing dormant connection type:HISTORICAL_DATA
+JO 15:23:18:274 JTS-ushmds2aServicePing-516: Disconnecting mktgw1.ibllc.com:4000 with status 3
+JO 15:23:18:274 JTS-ushmds2aListener-512: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 15:23:18:275 JTS-ushmds2aServicePing-516: Terminating
+JO 15:23:18:276 JTS-ushmds2aListener-512: Terminating
+JO 15:23:18:276 JTS-Disconnected-577: Farm ushmds2a/NATIVE: Lost active connection with disconnect status 3
+JO 15:23:18:276 JTS-Disconnected-577: Farm ushmds2a/NATIVE: Not resetting
+JO 15:23:18:277 JTS-HmdsDispatcher-513: Terminating
+JO 15:23:18:278 JTS-AsyncNonLocked-15: ROUTING | connTracker:ushmds2a@de4588 | Disconnected | 1329492198278 | true
+JO 15:23:30:933 JTS-Cleaner-16: Cleaning maps
+JO 15:23:35:374 JTS-Cleaner-16: Cleaning maps
+JO 15:24:30:933 JTS-Cleaner-16: Cleaning maps
+JO 15:24:35:374 JTS-Cleaner-16: Cleaning maps
+JO 15:25:14:652 JTS-DeadlockMonitor: Memory:total=466,048KB free=420,798KB HeapUsage: Max=466,048KB used=29,989KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,687KB committed=41,056KB
+JO 15:25:15:663 JTS-DeadlockMonitor: CPU:cur=1.00% avg=0.27% 30 min avg=0.40% 5 min avg=0.37% 1 min avg=0.33%
+JO 15:25:15:663 JTS-DeadlockMonitor: GC:called=191 times CPU used=0.02%
+JO 15:25:15:663 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 15:25:30:933 JTS-Cleaner-16: Cleaning maps
+JO 15:25:35:374 JTS-Cleaner-16: Cleaning maps
+JO 15:25:43:000 JTS-CCPDispatcher-139: Setting time offset to 53 diff 10
+JO 15:25:43:000 JTS-CCPDispatcher-139: Setting time offset to 52 diff -1
+JO 15:26:30:942 JTS-Cleaner-16: Cleaning maps
+JO 15:26:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:27:30:943 JTS-Cleaner-16: Cleaning maps
+JO 15:27:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:28:30:943 JTS-Cleaner-16: Cleaning maps
+JO 15:28:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:29:30:944 JTS-Cleaner-16: Cleaning maps
+JO 15:29:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:30:14:660 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,073KB HeapUsage: Max=466,048KB used=30,052KB committed=227,392KB NonHeapUsage: Max=114,688KB used=40,700KB committed=41,056KB
+JO 15:30:15:671 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.28% 30 min avg=0.39% 5 min avg=0.38% 1 min avg=0.33%
+JO 15:30:15:672 JTS-DeadlockMonitor: GC:called=193 times CPU used=0.02%
+JO 15:30:15:672 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 15:30:30:945 JTS-Cleaner-16: Cleaning maps
+JO 15:30:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:31:30:945 JTS-Cleaner-16: Cleaning maps
+JO 15:31:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:32:30:945 JTS-Cleaner-16: Cleaning maps
+JO 15:32:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:33:30:946 JTS-Cleaner-16: Cleaning maps
+JO 15:33:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:34:30:946 JTS-Cleaner-16: Cleaning maps
+JO 15:34:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:35:14:693 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,297KB HeapUsage: Max=466,048KB used=30,116KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,701KB committed=41,056KB
+JO 15:35:15:705 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.28% 30 min avg=0.37% 5 min avg=0.37% 1 min avg=0.37%
+JO 15:35:15:705 JTS-DeadlockMonitor: GC:called=195 times CPU used=0.02%
+JO 15:35:15:705 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 15:35:30:946 JTS-Cleaner-16: Cleaning maps
+JO 15:35:35:383 JTS-Cleaner-16: Cleaning maps
+JO 15:35:43:000 JTS-CCPDispatcher-139: Setting time offset to 51 diff -1
+JO 15:35:43:000 JTS-CCPDispatcher-139: Setting time offset to 50 diff -1
+JO 15:36:30:944 JTS-Cleaner-16: Cleaning maps
+JO 15:36:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:37:30:944 JTS-Cleaner-16: Cleaning maps
+JO 15:37:35:382 JTS-Cleaner-16: Cleaning maps
+JO 15:38:30:944 JTS-Cleaner-16: Cleaning maps
+JO 15:38:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:39:30:944 JTS-Cleaner-16: Cleaning maps
+JO 15:39:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:40:14:678 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,638KB HeapUsage: Max=466,048KB used=30,180KB committed=227,136KB NonHeapUsage: Max=114,688KB used=40,703KB committed=41,056KB
+JO 15:40:15:689 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.28% 30 min avg=0.38% 5 min avg=0.42% 1 min avg=0.46%
+JO 15:40:15:689 JTS-DeadlockMonitor: GC:called=197 times CPU used=0.02%
+JO 15:40:15:689 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 15:40:30:944 JTS-Cleaner-16: Cleaning maps
+JO 15:40:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:41:30:944 JTS-Cleaner-16: Cleaning maps
+JO 15:41:32:696 JTS-CCPPing-138: Warning: not received heartbeat at 26388000 elapsed:11000
+JO 15:41:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:42:02:702 JTS-CCPPing-138: Warning: not received heartbeat at 26418000 elapsed:11000
+JO 15:42:22:707 JTS-CCPPing-138: Warning: not received heartbeat at 26438000 elapsed:11000
+JO 15:42:30:945 JTS-Cleaner-16: Cleaning maps
+JO 15:42:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:43:30:946 JTS-Cleaner-16: Cleaning maps
+JO 15:43:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:44:30:947 JTS-Cleaner-16: Cleaning maps
+JO 15:44:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:45:14:686 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,759KB HeapUsage: Max=466,048KB used=30,474KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,719KB committed=41,056KB
+JO 15:45:15:697 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.28% 30 min avg=0.40% 5 min avg=0.40% 1 min avg=0.25%
+JO 15:45:15:697 JTS-DeadlockMonitor: GC:called=199 times CPU used=0.02%
+JO 15:45:15:697 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 15:45:30:947 JTS-Cleaner-16: Cleaning maps
+JO 15:45:35:381 JTS-Cleaner-16: Cleaning maps
+JO 15:45:43:000 JTS-CCPDispatcher-139: Setting time offset to 73 diff 23
+JO 15:45:43:000 JTS-CCPDispatcher-139: Setting time offset to 73 diff 0
+JO 15:46:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:46:35:404 JTS-Cleaner-16: Cleaning maps
+JO 15:47:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:47:35:405 JTS-Cleaner-16: Cleaning maps
+JO 15:48:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:48:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:49:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:49:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:50:14:714 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,124KB HeapUsage: Max=466,048KB used=30,057KB committed=226,880KB NonHeapUsage: Max=114,688KB used=40,719KB committed=41,056KB
+JO 15:50:15:726 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.28% 30 min avg=0.40% 5 min avg=0.46% 1 min avg=0.42%
+JO 15:50:15:726 JTS-DeadlockMonitor: GC:called=201 times CPU used=0.02%
+JO 15:50:15:727 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 15:50:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:50:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:51:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:51:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:52:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:52:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:53:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:53:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:54:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:54:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:55:14:725 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,094KB HeapUsage: Max=466,048KB used=30,284KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,719KB committed=41,056KB
+JO 15:55:15:736 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.28% 30 min avg=0.41% 5 min avg=0.42% 1 min avg=0.46%
+JO 15:55:15:736 JTS-DeadlockMonitor: GC:called=203 times CPU used=0.02%
+JO 15:55:15:736 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 15:55:30:970 JTS-Cleaner-16: Cleaning maps
+JO 15:55:35:406 JTS-Cleaner-16: Cleaning maps
+JO 15:55:43:000 JTS-CCPDispatcher-139: Setting time offset to 80 diff 7
+JO 15:55:43:000 JTS-CCPDispatcher-139: Setting time offset to 80 diff 0
+JO 15:56:30:977 JTS-Cleaner-16: Cleaning maps
+JO 15:56:35:413 JTS-Cleaner-16: Cleaning maps
+JO 15:57:30:978 JTS-Cleaner-16: Cleaning maps
+JO 15:57:35:413 JTS-Cleaner-16: Cleaning maps
+JO 15:58:30:979 JTS-Cleaner-16: Cleaning maps
+JO 15:58:35:413 JTS-Cleaner-16: Cleaning maps
+JO 15:59:30:979 JTS-Cleaner-16: Cleaning maps
+JO 15:59:35:413 JTS-Cleaner-16: Cleaning maps
+JO 16:00:14:743 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,709KB HeapUsage: Max=466,048KB used=30,668KB committed=226,624KB NonHeapUsage: Max=114,688KB used=40,722KB committed=41,056KB
+JO 16:00:15:752 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.41% 5 min avg=0.41% 1 min avg=0.42%
+JO 16:00:15:754 JTS-DeadlockMonitor: GC:called=205 times CPU used=0.02%
+JO 16:00:15:754 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:00:30:979 JTS-Cleaner-16: Cleaning maps
+JO 16:00:35:413 JTS-Cleaner-16: Cleaning maps
+JO 16:01:30:979 JTS-Cleaner-16: Cleaning maps
+JO 16:01:35:413 JTS-Cleaner-16: Cleaning maps
+JO 16:02:30:979 JTS-Cleaner-16: Cleaning maps
+JO 16:02:35:414 JTS-Cleaner-16: Cleaning maps
+JO 16:03:30:979 JTS-Cleaner-16: Cleaning maps
+JO 16:03:35:414 JTS-Cleaner-16: Cleaning maps
+JO 16:04:23:023 JTS-CCPPing-138: Warning: not received heartbeat at 27758000 elapsed:11000
+JO 16:04:24:024 JTS-CCPPing-138: Warning: not received heartbeat at 27759000 elapsed:12000
+JO 16:04:25:025 JTS-CCPPing-138: Warning: not received heartbeat at 27760000 elapsed:13000
+JO 16:04:26:025 JTS-CCPPing-138: Warning: not received heartbeat at 27761000 elapsed:14000
+JO 16:04:27:026 JTS-CCPPing-138: Warning: sending test request at 27762000
+JO 16:04:28:027 JTS-CCPPing-138: Warning: not received heartbeat at 27763000 elapsed:16000
+JO 16:04:29:027 JTS-CCPPing-138: Warning: not received heartbeat at 27764000 elapsed:17000
+JO 16:04:30:028 JTS-CCPPing-138: Warning: not received heartbeat at 27765000 elapsed:18000
+JO 16:04:30:979 JTS-Cleaner-16: Cleaning maps
+JO 16:04:31:028 JTS-CCPPing-138: Warning: not received heartbeat at 27766000 elapsed:19000
+JO 16:04:32:029 JTS-CCPPing-138: Warning: not received heartbeat at 27767000 elapsed:20000
+JO 16:04:35:414 JTS-Cleaner-16: Cleaning maps
+JO 16:05:14:754 JTS-DeadlockMonitor: Memory:total=466,048KB free=423,130KB HeapUsage: Max=466,048KB used=30,002KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,734KB committed=41,088KB
+JO 16:05:15:764 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.43% 5 min avg=0.44% 1 min avg=0.29%
+JO 16:05:15:764 JTS-DeadlockMonitor: GC:called=207 times CPU used=0.02%
+JO 16:05:15:764 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:05:30:979 JTS-Cleaner-16: Cleaning maps
+JO 16:05:35:414 JTS-Cleaner-16: Cleaning maps
+JO 16:05:43:000 JTS-CCPDispatcher-139: Setting time offset to 87 diff 7
+JO 16:05:43:000 JTS-CCPDispatcher-139: Setting time offset to 87 diff 0
+JO 16:06:30:986 JTS-Cleaner-16: Cleaning maps
+JO 16:06:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:07:30:986 JTS-Cleaner-16: Cleaning maps
+JO 16:07:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:08:30:986 JTS-Cleaner-16: Cleaning maps
+JO 16:08:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:09:30:986 JTS-Cleaner-16: Cleaning maps
+JO 16:09:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:10:14:774 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,530KB HeapUsage: Max=466,048KB used=30,711KB committed=226,368KB NonHeapUsage: Max=114,688KB used=40,734KB committed=41,088KB
+JO 16:10:15:783 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.43% 5 min avg=0.43% 1 min avg=0.71%
+JO 16:10:15:783 JTS-DeadlockMonitor: GC:called=209 times CPU used=0.02%
+JO 16:10:15:783 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:10:30:987 JTS-Cleaner-16: Cleaning maps
+JO 16:10:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:11:30:988 JTS-Cleaner-16: Cleaning maps
+JO 16:11:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:12:30:989 JTS-Cleaner-16: Cleaning maps
+JO 16:12:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:13:30:989 JTS-Cleaner-16: Cleaning maps
+JO 16:13:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:14:30:989 JTS-Cleaner-16: Cleaning maps
+JO 16:14:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:14:43:176 JTS-CCPPing-138: Warning: not received heartbeat at 28378000 elapsed:11000
+JO 16:15:14:775 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,444KB HeapUsage: Max=466,048KB used=30,986KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,734KB committed=41,088KB
+JO 16:15:15:786 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.42% 5 min avg=0.34% 1 min avg=0.58%
+JO 16:15:15:786 JTS-DeadlockMonitor: GC:called=211 times CPU used=0.02%
+JO 16:15:15:786 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:15:30:989 JTS-Cleaner-16: Cleaning maps
+JO 16:15:33:188 JTS-CCPPing-138: Warning: not received heartbeat at 28428000 elapsed:11000
+JO 16:15:35:421 JTS-Cleaner-16: Cleaning maps
+JO 16:15:43:000 JTS-CCPDispatcher-139: Setting time offset to -2387 diff -2474
+JO 16:15:43:000 JTS-CCPDispatcher-139: Setting time offset to -2387 diff 0
+JO 16:16:28:515 JTS-Cleaner-16: Cleaning maps
+JO 16:16:30:728 JTS-CCPPing-138: Warning: not received heartbeat at 28488000 elapsed:11000
+JO 16:16:32:948 JTS-Cleaner-16: Cleaning maps
+JO 16:17:28:515 JTS-Cleaner-16: Cleaning maps
+JO 16:17:30:741 JTS-CCPPing-138: Warning: not received heartbeat at 28548000 elapsed:11000
+JO 16:17:31:742 JTS-CCPPing-138: Warning: not received heartbeat at 28549000 elapsed:12000
+JO 16:17:32:742 JTS-CCPPing-138: Warning: not received heartbeat at 28550000 elapsed:13000
+JO 16:17:32:948 JTS-Cleaner-16: Cleaning maps
+JO 16:18:16:752 JTS-CCPPing-138: Warning: not received heartbeat at 28594000 elapsed:11000
+JO 16:18:27:755 JTS-CCPPing-138: Warning: not received heartbeat at 28605000 elapsed:11000
+JO 16:18:28:515 JTS-Cleaner-16: Cleaning maps
+JO 16:18:32:949 JTS-Cleaner-16: Cleaning maps
+JO 16:18:38:757 JTS-CCPPing-138: Warning: not received heartbeat at 28616000 elapsed:11000
+JO 16:19:00:762 JTS-CCPPing-138: Warning: not received heartbeat at 28638000 elapsed:11000
+JO 16:19:20:767 JTS-CCPPing-138: Warning: not received heartbeat at 28658000 elapsed:11000
+JO 16:19:28:515 JTS-Cleaner-16: Cleaning maps
+JO 16:19:32:950 JTS-Cleaner-16: Cleaning maps
+JO 16:20:12:311 JTS-DeadlockMonitor: Memory:total=466,048KB free=423,738KB HeapUsage: Max=466,048KB used=30,200KB committed=226,176KB NonHeapUsage: Max=114,688KB used=40,736KB committed=41,088KB
+JO 16:20:13:321 JTS-DeadlockMonitor: CPU:cur=1.00% avg=0.29% 30 min avg=0.40% 5 min avg=0.38% 1 min avg=0.46%
+JO 16:20:13:321 JTS-DeadlockMonitor: GC:called=213 times CPU used=0.02%
+JO 16:20:13:321 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:20:28:515 JTS-Cleaner-16: Cleaning maps
+JO 16:20:32:950 JTS-Cleaner-16: Cleaning maps
+JO 16:20:40:784 JTS-CCPPing-138: Warning: not received heartbeat at 28738000 elapsed:11000
+JO 16:21:00:789 JTS-CCPPing-138: Warning: not received heartbeat at 28758000 elapsed:11000
+JO 16:21:01:790 JTS-CCPPing-138: Warning: not received heartbeat at 28759000 elapsed:12000
+JO 16:21:02:790 JTS-CCPPing-138: Warning: not received heartbeat at 28760000 elapsed:13000
+JO 16:21:13:793 JTS-CCPPing-138: Warning: not received heartbeat at 28771000 elapsed:11000
+JO 16:21:24:796 JTS-CCPPing-138: Warning: not received heartbeat at 28782000 elapsed:11000
+JO 16:21:25:796 JTS-CCPPing-138: Warning: not received heartbeat at 28783000 elapsed:12000
+JO 16:21:26:797 JTS-CCPPing-138: Warning: not received heartbeat at 28784000 elapsed:13000
+JO 16:21:27:797 JTS-CCPPing-138: Warning: not received heartbeat at 28785000 elapsed:14000
+JO 16:21:28:515 JTS-Cleaner-16: Cleaning maps
+JO 16:21:28:798 JTS-CCPPing-138: Warning: sending test request at 28786000
+JO 16:21:29:799 JTS-CCPPing-138: Warning: not received heartbeat at 28787000 elapsed:16000
+JO 16:21:30:799 JTS-CCPPing-138: Warning: not received heartbeat at 28788000 elapsed:17000
+JO 16:21:31:800 JTS-CCPPing-138: Warning: not received heartbeat at 28789000 elapsed:18000
+JO 16:21:32:800 JTS-CCPPing-138: Warning: not received heartbeat at 28790000 elapsed:19000
+JO 16:21:32:950 JTS-Cleaner-16: Cleaning maps
+JO 16:21:33:801 JTS-CCPPing-138: Warning: not received heartbeat at 28791000 elapsed:20000
+JO 16:21:34:801 JTS-CCPPing-138: Warning: not received heartbeat at 28792000 elapsed:21000
+JO 16:21:35:802 JTS-CCPPing-138: Warning: not received heartbeat at 28793000 elapsed:22000
+JO 16:21:36:803 JTS-CCPPing-138: Warning: not received heartbeat at 28794000 elapsed:23000
+JO 16:21:37:803 JTS-CCPPing-138: Warning: not received heartbeat at 28795000 elapsed:24000
+JO 16:21:38:535 JTS-Fuse-ServiceAuthTimeout-636: Farm usfarm/NATIVE: No ping response
+JO 16:21:38:536 JTS-Fuse-ServiceAuthTimeout-636: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 16:21:38:538 JTS-usfarmServicePing-154: Terminating
+JO 16:21:38:539 JTS-usfarmListener-149: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 16:21:38:540 JTS-usfarmDispatcher-150: Terminating
+JO 16:21:38:541 JTS-usfarmListener-149: Terminating
+JO 16:21:38:548 JTS-Disconnected-637: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 16:21:38:549 JTS-Disconnected-637: Farm usfarm/NATIVE: Resetting
+JO 16:21:38:549 JTS-Disconnected-637: NextConnectTime: 16:21:43:387  in 2451 msec;   base=5000  range = 10000  random: 464
+JO 16:21:38:636 JTS-RecordNotifier-19: Starting
+JO 16:21:38:804 JTS-CCPPing-138: Warning: not received heartbeat at 28796000 elapsed:25000
+JO 16:21:39:804 JTS-CCPPing-138: Warning: not received heartbeat at 28797000 elapsed:26000
+JO 16:21:40:805 JTS-CCPPing-138: Warning: not received heartbeat at 28798000 elapsed:27000
+JO 16:21:41:079 JTS-Fuse-nativepause-638: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:21:41:079 JTS-Fuse-nativepause-638: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:21:37:000 JTS-CCPDispatcher-139: Setting time offset to -7210 diff -4823
+JO 16:21:37:036 JTS-Fuse-nativepause-638: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:21:37:037 JTS-Fuse-nativepause-638: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:21:37:037 JTS-usfarmListener-639: Starting
+JO 16:21:37:038 JTS-Fuse-nativepause-638: start ping with 5000 for: JTS-usfarmServicePreAuthPing-641
+JO 16:21:37:038 JTS-usfarmDispatcher-640: Starting
+JO 16:21:37:038 JTS-usfarmServicePreAuthPing-641: Starting
+JO 16:21:37:044 JTS-usfarmListener-639: Initial listener buffer size is 43690
+JO 16:21:37:662 JTS-usfarmDispatcher-640: Received MD auth msg classid = 1
+JO 16:21:37:662 JTS-usfarmDispatcher-640: Received AUTH_PARAMS
+JO 16:21:38:419 JTS-usfarmDispatcher-640: Received MD auth msg classid = 1
+JO 16:21:38:419 JTS-usfarmDispatcher-640: Received SERVER_PARAMS
+JO 16:21:39:368 JTS-usfarmDispatcher-640: Received MD auth msg classid = 1
+JO 16:21:39:368 JTS-usfarmDispatcher-640: Received AUTH_RESULT
+JO 16:21:39:368 JTS-usfarmDispatcher-640: Passed pwd authentication.
+JO 16:21:41:494 JTS-usfarmDispatcher-640: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:21:41:494 JTS-usfarmDispatcher-640: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:21:41:494 JTS-usfarmDispatcher-640: start ping with 60000 for: JTS-usfarmServicePing-643
+JO 16:21:41:494 JTS-usfarmServicePreAuthPing-641: Terminating
+JO 16:21:41:497 JTS-usfarmServicePing-643: Starting
+JO 16:21:41:500 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/45...
+JO 16:21:41:501 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/47...
+JO 16:21:52:556 JTS-usfarmDispatcher-640: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 16:21:55:986 JTS-CCPPing-138: Warning: not received heartbeat at 28818000 elapsed:11000
+JO 16:21:56:987 JTS-CCPPing-138: Warning: not received heartbeat at 28819000 elapsed:12000
+JO 16:21:57:987 JTS-CCPPing-138: Warning: not received heartbeat at 28820000 elapsed:13000
+JO 16:21:58:988 JTS-CCPPing-138: Warning: not received heartbeat at 28821000 elapsed:14000
+JO 16:21:59:989 JTS-CCPPing-138: Warning: sending test request at 28822000
+JO 16:22:00:990 JTS-CCPPing-138: Warning: not received heartbeat at 28823000 elapsed:16000
+JO 16:22:01:990 JTS-CCPPing-138: Warning: not received heartbeat at 28824000 elapsed:17000
+JO 16:22:02:991 JTS-CCPPing-138: Warning: not received heartbeat at 28825000 elapsed:18000
+JO 16:22:03:991 JTS-CCPPing-138: Warning: not received heartbeat at 28826000 elapsed:19000
+JO 16:22:04:992 JTS-CCPPing-138: Warning: not received heartbeat at 28827000 elapsed:20000
+JO 16:22:05:992 JTS-CCPPing-138: Warning: not received heartbeat at 28828000 elapsed:21000
+JO 16:22:06:993 JTS-CCPPing-138: Warning: not received heartbeat at 28829000 elapsed:22000
+JO 16:22:07:993 JTS-CCPPing-138: Warning: not received heartbeat at 28830000 elapsed:23000
+JO 16:22:08:994 JTS-CCPPing-138: Warning: not received heartbeat at 28831000 elapsed:24000
+JO 16:22:20:998 JTS-CCPPing-138: Warning: not received heartbeat at 28843000 elapsed:11000
+JO 16:22:21:998 JTS-CCPPing-138: Warning: not received heartbeat at 28844000 elapsed:12000
+JO 16:22:22:999 JTS-CCPPing-138: Warning: not received heartbeat at 28845000 elapsed:13000
+JO 16:22:23:692 JTS-Cleaner-16: Cleaning maps
+JO 16:22:28:127 JTS-Cleaner-16: Cleaning maps
+JO 16:22:41:003 JTS-CCPPing-138: Warning: not received heartbeat at 28863000 elapsed:11000
+JO 16:22:42:004 JTS-CCPPing-138: Warning: not received heartbeat at 28864000 elapsed:12000
+JO 16:22:43:005 JTS-CCPPing-138: Warning: not received heartbeat at 28865000 elapsed:13000
+JO 16:22:44:005 JTS-CCPPing-138: Warning: not received heartbeat at 28866000 elapsed:14000
+JO 16:22:45:006 JTS-CCPPing-138: Warning: sending test request at 28867000
+JO 16:22:46:007 JTS-CCPPing-138: Warning: not received heartbeat at 28868000 elapsed:16000
+JO 16:22:47:007 JTS-CCPPing-138: Warning: not received heartbeat at 28869000 elapsed:17000
+JO 16:22:48:008 JTS-CCPPing-138: Warning: not received heartbeat at 28870000 elapsed:18000
+JO 16:22:49:008 JTS-CCPPing-138: Warning: not received heartbeat at 28871000 elapsed:19000
+JO 16:22:50:009 JTS-CCPPing-138: Warning: not received heartbeat at 28872000 elapsed:20000
+JO 16:22:51:010 JTS-CCPPing-138: Warning: not received heartbeat at 28873000 elapsed:21000
+JO 16:22:52:010 JTS-CCPPing-138: Warning: not received heartbeat at 28874000 elapsed:22000
+JO 16:22:53:011 JTS-CCPPing-138: Warning: not received heartbeat at 28875000 elapsed:23000
+JO 16:22:54:011 JTS-CCPPing-138: Warning: not received heartbeat at 28876000 elapsed:24000
+JO 16:22:55:012 JTS-CCPPing-138: Warning: not received heartbeat at 28877000 elapsed:25000
+JO 16:22:56:013 JTS-CCPPing-138: Warning: not received heartbeat at 28878000 elapsed:26000
+JO 16:22:57:013 JTS-CCPPing-138: Warning: not received heartbeat at 28879000 elapsed:27000
+JO 16:22:58:014 JTS-CCPPing-138: Warning: not received heartbeat at 28880000 elapsed:28000
+JO 16:22:59:014 JTS-CCPPing-138: Warning: not received heartbeat at 28881000 elapsed:29000
+JO 16:23:00:015 JTS-CCPPing-138: Warning: not received heartbeat at 28882000 elapsed:30000
+JO 16:23:23:693 JTS-Cleaner-16: Cleaning maps
+JO 16:23:26:021 JTS-CCPPing-138: Warning: not received heartbeat at 28908000 elapsed:11000
+JO 16:23:28:127 JTS-Cleaner-16: Cleaning maps
+JO 16:23:56:028 JTS-CCPPing-138: Warning: not received heartbeat at 28938000 elapsed:11000
+JO 16:23:57:029 JTS-CCPPing-138: Warning: not received heartbeat at 28939000 elapsed:12000
+JO 16:23:58:029 JTS-CCPPing-138: Warning: not received heartbeat at 28940000 elapsed:13000
+JO 16:23:59:030 JTS-CCPPing-138: Warning: not received heartbeat at 28941000 elapsed:14000
+JO 16:24:00:030 JTS-CCPPing-138: Warning: sending test request at 28942000
+JO 16:24:01:032 JTS-CCPPing-138: Warning: not received heartbeat at 28943000 elapsed:16000
+JO 16:24:02:032 JTS-CCPPing-138: Warning: not received heartbeat at 28944000 elapsed:17000
+JO 16:24:21:037 JTS-CCPPing-138: Warning: not received heartbeat at 28963000 elapsed:11000
+JO 16:24:23:694 JTS-Cleaner-16: Cleaning maps
+JO 16:24:28:127 JTS-Cleaner-16: Cleaning maps
+JO 16:24:51:502 JTS-Fuse-ServiceAuthTimeout-646: Farm usfarm/NATIVE: No ping response
+JO 16:24:51:502 JTS-Fuse-ServiceAuthTimeout-646: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 16:24:51:502 JTS-usfarmDispatcher-640: Terminating
+JO 16:24:51:503 JTS-usfarmListener-639: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 16:24:51:508 JTS-usfarmServicePing-643: Terminating
+JO 16:24:51:503 JTS-usfarmListener-639: Terminating
+JO 16:24:51:508 JTS-Disconnected-647: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 16:24:51:508 JTS-Disconnected-647: Farm usfarm/NATIVE: Resetting
+JO 16:24:51:508 JTS-Disconnected-647: NextConnectTime: 16:25:01:951  in 3233 msec;   base=5000  range = 10000  random: 1239
+JO 16:24:54:746 JTS-Fuse-nativepause-648: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:24:54:747 JTS-Fuse-nativepause-648: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:25:04:488 JTS-Fuse-nativepause-648: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:25:04:488 JTS-Fuse-nativepause-648: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:25:04:489 JTS-usfarmListener-649: Starting
+JO 16:25:04:495 JTS-usfarmListener-649: Initial listener buffer size is 43690
+JO 16:25:04:495 JTS-usfarmDispatcher-650: Starting
+JO 16:25:04:495 JTS-Fuse-nativepause-648: start ping with 5000 for: JTS-usfarmServicePreAuthPing-651
+JO 16:25:04:496 JTS-usfarmServicePreAuthPing-651: Starting
+JO 16:25:07:597 JTS-DeadlockMonitor: Memory:total=466,048KB free=396,082KB HeapUsage: Max=466,048KB used=38,870KB committed=226,304KB NonHeapUsage: Max=114,688KB used=40,741KB committed=41,088KB
+JO 16:25:08:275 JTS-usfarmDispatcher-650: Received MD auth msg classid = 1
+JO 16:25:08:275 JTS-usfarmDispatcher-650: Received AUTH_PARAMS
+JO 16:25:08:608 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.29% 30 min avg=0.39% 5 min avg=0.37% 1 min avg=0.17%
+JO 16:25:08:609 JTS-DeadlockMonitor: GC:called=215 times CPU used=0.02%
+JO 16:25:08:609 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:25:09:032 JTS-usfarmDispatcher-650: Received MD auth msg classid = 1
+JO 16:25:09:032 JTS-usfarmDispatcher-650: Received SERVER_PARAMS
+JO 16:25:09:497 JTS-usfarmServicePreAuthPing-651: Farm usfarm/PRE_NATIVE: Sending pre-auth test-request
+JO 16:25:09:792 JTS-usfarmDispatcher-650: Received MD auth msg classid = 1
+JO 16:25:09:792 JTS-usfarmDispatcher-650: Received AUTH_RESULT
+JO 16:25:09:792 JTS-usfarmDispatcher-650: Passed pwd authentication.
+JO 16:25:09:794 JTS-usfarmDispatcher-650: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:25:09:794 JTS-usfarmDispatcher-650: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:25:09:794 JTS-usfarmServicePreAuthPing-651: Terminating
+JO 16:25:09:795 JTS-usfarmDispatcher-650: start ping with 60000 for: JTS-usfarmServicePing-653
+JO 16:25:09:796 JTS-usfarmServicePing-653: Starting
+JO 16:25:09:798 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/49...
+JO 16:25:09:800 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/51...
+JO 16:25:14:973 JTS-usfarmDispatcher-650: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 16:25:16:050 JTS-CCPPing-138: Warning: not received heartbeat at 29018000 elapsed:11000
+JO 16:25:23:694 JTS-Cleaner-16: Cleaning maps
+JO 16:25:28:127 JTS-Cleaner-16: Cleaning maps
+JO 16:25:43:000 JTS-CCPDispatcher-139: Setting time offset to -623 diff 6587
+JO 16:25:43:000 JTS-CCPDispatcher-139: Setting time offset to -623 diff 0
+JO 16:26:30:281 JTS-Cleaner-16: Cleaning maps
+JO 16:26:34:715 JTS-Cleaner-16: Cleaning maps
+JO 16:27:30:281 JTS-Cleaner-16: Cleaning maps
+JO 16:27:34:716 JTS-Cleaner-16: Cleaning maps
+JO 16:28:16:984 JTS-usfarmListener-649: Error reading from socket mktgw1.ibllc.com:4000 - java.net.SocketException: Connection reset
+JO 16:28:16:985 JTS-usfarmListener-649: Disconnecting mktgw1.ibllc.com:4000 with status 1
+JO 16:28:16:985 JTS-usfarmListener-649: Terminating
+JO 16:28:16:986 JTS-Disconnected-657: Farm usfarm/NATIVE: Lost active connection with disconnect status 1
+JO 16:28:16:986 JTS-Disconnected-657: Farm usfarm/NATIVE: Resetting
+JO 16:28:16:986 JTS-Disconnected-657: NextConnectTime: 16:28:20:217  in 2608 msec;   base=5000  range = 10000  random: 609
+JO 16:28:16:991 JTS-usfarmDispatcher-650: Terminating
+JO 16:28:16:991 JTS-usfarmServicePing-653: Terminating
+JO 16:28:19:599 JTS-Fuse-nativepause-658: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:28:19:599 JTS-Fuse-nativepause-658: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:28:20:263 JTS-Fuse-nativepause-658: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:28:20:263 JTS-Fuse-nativepause-658: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:28:20:264 JTS-usfarmListener-659: Starting
+JO 16:28:20:264 JTS-Fuse-nativepause-658: start ping with 5000 for: JTS-usfarmServicePreAuthPing-661
+JO 16:28:20:265 JTS-usfarmDispatcher-660: Starting
+JO 16:28:20:265 JTS-usfarmServicePreAuthPing-661: Starting
+JO 16:28:20:266 JTS-usfarmListener-659: Initial listener buffer size is 43690
+JO 16:28:24:017 JTS-usfarmDispatcher-660: Received MD auth msg classid = 1
+JO 16:28:24:017 JTS-usfarmDispatcher-660: Received AUTH_PARAMS
+JO 16:28:24:750 JTS-usfarmDispatcher-660: Received MD auth msg classid = 1
+JO 16:28:24:750 JTS-usfarmDispatcher-660: Received SERVER_PARAMS
+JO 16:28:25:265 JTS-usfarmServicePreAuthPing-661: Farm usfarm/PRE_NATIVE: Sending pre-auth test-request
+JO 16:28:25:495 JTS-usfarmDispatcher-660: Received MD auth msg classid = 1
+JO 16:28:25:495 JTS-usfarmDispatcher-660: Received AUTH_RESULT
+JO 16:28:25:495 JTS-usfarmDispatcher-660: Passed pwd authentication.
+JO 16:28:25:495 JTS-usfarmDispatcher-660: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:28:25:495 JTS-usfarmDispatcher-660: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:28:25:496 JTS-usfarmDispatcher-660: start ping with 60000 for: JTS-usfarmServicePing-663
+JO 16:28:25:496 JTS-usfarmServicePreAuthPing-661: Terminating
+JO 16:28:25:501 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/53...
+JO 16:28:25:503 JTS-usfarmServicePing-663: Starting
+JO 16:28:25:503 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/55...
+JO 16:28:30:281 JTS-Cleaner-16: Cleaning maps
+JO 16:28:34:611 JTS-usfarmDispatcher-660: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 16:28:34:716 JTS-Cleaner-16: Cleaning maps
+JO 16:28:52:684 JTS-CCPPing-138: Warning: not received heartbeat at 29228000 elapsed:11000
+JO 16:29:30:281 JTS-Cleaner-16: Cleaning maps
+JO 16:29:34:716 JTS-Cleaner-16: Cleaning maps
+JO 16:29:42:696 JTS-CCPPing-138: Warning: not received heartbeat at 29278000 elapsed:11000
+JO 16:29:43:696 JTS-CCPPing-138: Warning: not received heartbeat at 29279000 elapsed:12000
+JO 16:29:44:697 JTS-CCPPing-138: Warning: not received heartbeat at 29280000 elapsed:13000
+JO 16:29:45:697 JTS-CCPPing-138: Warning: not received heartbeat at 29281000 elapsed:14000
+JO 16:29:46:698 JTS-CCPPing-138: Warning: sending test request at 29282000
+JO 16:29:47:699 JTS-CCPPing-138: Warning: not received heartbeat at 29283000 elapsed:16000
+JO 16:29:48:699 JTS-CCPPing-138: Warning: not received heartbeat at 29284000 elapsed:17000
+JO 16:29:49:700 JTS-CCPPing-138: Warning: not received heartbeat at 29285000 elapsed:18000
+JO 16:29:50:700 JTS-CCPPing-138: Warning: not received heartbeat at 29286000 elapsed:19000
+JO 16:29:51:701 JTS-CCPPing-138: Warning: not received heartbeat at 29287000 elapsed:20000
+JO 16:29:52:701 JTS-CCPPing-138: Warning: not received heartbeat at 29288000 elapsed:21000
+JO 16:29:53:702 JTS-CCPPing-138: Warning: not received heartbeat at 29289000 elapsed:22000
+JO 16:29:54:702 JTS-CCPPing-138: Warning: not received heartbeat at 29290000 elapsed:23000
+JO 16:29:55:703 JTS-CCPPing-138: Warning: not received heartbeat at 29291000 elapsed:24000
+JO 16:29:56:704 JTS-CCPPing-138: Warning: not received heartbeat at 29292000 elapsed:25000
+JO 16:29:57:704 JTS-CCPPing-138: Warning: not received heartbeat at 29293000 elapsed:26000
+JO 16:29:58:705 JTS-CCPPing-138: Warning: not received heartbeat at 29294000 elapsed:27000
+JO 16:29:59:705 JTS-CCPPing-138: Warning: not received heartbeat at 29295000 elapsed:28000
+JO 16:30:00:706 JTS-CCPPing-138: Warning: not received heartbeat at 29296000 elapsed:29000
+JO 16:30:01:706 JTS-CCPPing-138: Warning: not received heartbeat at 29297000 elapsed:30000
+JO 16:30:02:707 JTS-CCPPing-138: Warning: not received heartbeat at 29298000 elapsed:31000
+JO 16:30:03:707 JTS-CCPPing-138: Warning: not received heartbeat at 29299000 elapsed:32000
+JO 16:30:04:708 JTS-CCPPing-138: Warning: not received heartbeat at 29300000 elapsed:33000
+JO 16:30:05:708 JTS-CCPPing-138: Warning: not received heartbeat at 29301000 elapsed:34000
+JO 16:30:06:709 JTS-CCPPing-138: Warning: not received heartbeat at 29302000 elapsed:35000
+JO 16:30:07:710 JTS-CCPPing-138: It's time to reset the connection.
+JO 16:30:07:710 JTS-CCPPing-138: Disconnecting gw4.ibllc.com:4000 with status 12
+JO 16:30:07:710 JTS-CCPPing-138: SPLASH Creating mini screen for reconnect
+JO 16:30:07:710 JTS-CCPListener-131: Socket for connection gw4.ibllc.com:4000 was closed by another thread
+JO 16:30:07:710 JTS-CCPPing-138: NextConnectTime: 16:30:14:057  in 5724 msec;   base=5000  range = 10000  random: 3724
+JO 16:30:07:711 JTS-CCPDispatcher-139: Terminating
+JO 16:30:07:711 JTS-CCPListener-131: Terminating
+JO 16:30:07:711 JTS-CCPPing-138: Terminating
+JO 16:30:07:712 JTS-Disconnected-666: Connection to ccp disconnected.
+JO 16:30:07:713 JTS-Disconnected-666: Storing batch requests for retry:[]
+JO 16:30:07:713 JTS-Disconnected-666: IBGateway connection to ccp disconnected.
+JO 16:30:07:745 AWT-EventQueue-0: SPLASH Connecting to server
+JO 16:30:13:434 JTS-Fuse-Reconnect-665: Prelogin delay:0
+JO 16:30:13:436 JTS-Login-667: Starting
+JO 16:30:13:437 JTS-Login-667: SPLASH Connecting to server
+JO 16:30:13:437 JTS-Login-667: Connecting gw4.ibllc.com:4000 timeout=0
+JO 16:30:14:141 JTS-DeadlockMonitor: Memory:total=466,048KB free=407,006KB HeapUsage: Max=466,048KB used=39,397KB committed=228,992KB NonHeapUsage: Max=114,688KB used=40,769KB committed=41,088KB
+JO 16:30:14:349 JTS-Login-667: Connected to gw4.ibllc.com:4000 on local port 0
+JO 16:30:14:350 JTS-Login-667: Authenticating
+JO 16:30:14:350 JTS-CCPListener-668: Starting
+JO 16:30:14:351 JTS-Login-667: Sending connect request
+JO 16:30:14:351 JTS-Login-667: LOGIN_TIME_MONITOR	 16:30:14:974 since start = 6641 thread delay = 6641 global delay = 0 tag=null, cls=AuthDispatcher method=send
+JO 16:30:14:352 JTS-Login-667: SPLASH -0001 step 1 AuthDispatcher.send
+JO 16:30:14:352 JTS-AuthDispatcher-669: Starting
+JO 16:30:14:356 JTS-CCPListener-668: Initial listener buffer size is 43690
+JO 16:30:14:357 JTS-AuthResponseMonitor-670: Starting 
+JO 16:30:14:357 JTS-Login-667: Terminating
+JO 16:30:15:007 JTS-AuthDispatcher-669: SPLASH 0654 step 2 AuthDispatcher.processDataItr
+JO 16:30:15:013 JTS-AuthDispatcher-669: Received NS_AUTH_START: 1
+JO 16:30:15:016 JTS-AuthDispatcher-669: NS_AUTH_START config: 1
+JO 16:30:15:016 JTS-AuthDispatcher-669: pwd time to expiry ms: 2772880185000 days: 32094
+JO 16:30:15:016 JTS-AuthDispatcher-669: sendXYZMessage: 777
+JO 16:30:15:018 AWT-EventQueue-0: SPLASH Connecting to server
+JO 16:30:15:152 JTS-DeadlockMonitor: CPU:cur=1.50% avg=0.29% 30 min avg=0.39% 5 min avg=0.40% 1 min avg=0.58%
+JO 16:30:15:152 JTS-DeadlockMonitor: GC:called=217 times CPU used=0.02%
+JO 16:30:15:152 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:30:15:644 JTS-AuthDispatcher-669: SPLASH 0638 step 3 AuthDispatcher.processDataItr
+JO 16:30:15:645 JTS-AuthDispatcher-669: Receiver: 777
+JO 16:30:15:645 JTS-AuthDispatcher-669: processXYZMessage: 777 protocol version: 7
+JO 16:30:15:645 JTS-AuthDispatcher-669: Received AUTH_PARAMS
+JO 16:30:15:646 JTS-AuthDispatcher-669: sendXYZMessage: 777
+JO 16:30:16:194 JTS-AuthDispatcher-669: SPLASH 0549 step 3 AuthDispatcher.processDataItr
+JO 16:30:16:194 JTS-AuthDispatcher-669: Receiver: 777
+JO 16:30:16:194 JTS-AuthDispatcher-669: processXYZMessage: 777 protocol version: 7
+JO 16:30:16:194 JTS-AuthDispatcher-669: Received SERVER_PARAMS
+JO 16:30:16:210 JTS-AuthDispatcher-669: sendXYZMessage: 777
+JO 16:30:16:732 JTS-AuthDispatcher-669: SPLASH 0538 step 3 AuthDispatcher.processDataItr
+JO 16:30:16:732 JTS-AuthDispatcher-669: Receiver: 777
+JO 16:30:16:732 JTS-AuthDispatcher-669: processXYZMessage: 777 protocol version: 7
+JO 16:30:16:732 JTS-AuthDispatcher-669: Received AUTH_RESULT
+JO 16:30:16:732 JTS-AuthDispatcher-669: Passed pwd authentication.
+JO 16:30:16:732 JTS-AuthDispatcher-669: Authentication completed.
+JO 16:30:17:296 JTS-AuthDispatcher-669: SPLASH 0565 step 3 AuthDispatcher.processDataItr
+JO 16:30:17:296 JTS-AuthDispatcher-669: Received NS_CONNECT_RESPONSE
+JO 16:30:28:550 JTS-AuthDispatcher-669: SPLASH 11253 step 3 AuthDispatcher.processDataItr
+JO 16:30:28:550 JTS-AuthDispatcher-669: Received NS_FIX_START
+JO 16:30:28:551 JTS-AuthDispatcher-669: Terminating
+JO 16:30:28:551 JTS-AuthResponseMonitor-670: Terminating
+JO 16:30:28:552 JTS-PostAuthenticate-673: Authentication complete
+JO 16:30:28:553 JTS-PostAuthenticate-673: Locale=en_US  country=United States  variant=
+JO 16:30:28:553 JTS-PostAuthenticate-673: prohibiting class lookup [ji18n.Language]
+JO 16:30:28:598 JTS-PostAuthenticate-673: prohibiting class lookup [ji18n.Language_en]
+JO 16:30:28:599 JTS-PostAuthenticate-673: prohibiting class lookup [ji18n.Language_en_US]
+JO 16:30:28:599 JTS-PostAuthenticate-673: prohibiting resource lookup [ji18n/Language_en_US.properties]
+JO 16:30:28:599 JTS-PostAuthenticate-673:   actual locale: en
+JO 16:30:28:627 AWT-EventQueue-0: jtsLookAndFeel uninitialized
+JO 16:30:28:627 AWT-EventQueue-0: JtsLookAndFeel initialized
+JO 16:30:28:630 AWT-EventQueue-0: Current LAF: TWS LAF
+JO 16:30:28:632 JTS-PostAuthenticate-673: LOGIN_TIME_MONITOR	 16:30:29:255 since start = 20922 thread delay = 14281 global delay = 0 tag=Step7, cls=AbstractFixLogonHandler method=setDispatcherAndStartFixLogon
+JO 16:30:28:632 JTS-PostAuthenticate-673: SPLASH Requesting startup parameters
+JO 16:30:28:633 JTS-PostAuthenticate-673: pre-logon message successfully sent
+JO 16:30:28:633 JTS-PostAuthenticate-673: start ping with 1000 for: JTS-CCPPing-676
+JO 16:30:28:635 JTS-LogonDispatcher-675: Starting
+JO 16:30:28:643 JTS-CCPPing-676: Starting
+JO 16:30:29:415 JTS-UpgradeChecker-674: Cannot reach the web server to check if the upgrade version is available.
+JO 16:30:30:281 JTS-Cleaner-16: Cleaning maps
+JO 16:30:34:716 JTS-Cleaner-16: Cleaning maps
+JO 16:30:39:645 JTS-CCPPing-676: Warning: not received heartbeat at 29314000 elapsed:11000
+JO 16:30:40:645 JTS-CCPPing-676: Warning: not received heartbeat at 29315000 elapsed:12000
+JO 16:30:41:646 JTS-CCPPing-676: Warning: not received heartbeat at 29316000 elapsed:13000
+JO 16:30:42:647 JTS-CCPPing-676: Warning: not received heartbeat at 29317000 elapsed:14000
+JO 16:30:43:647 JTS-CCPPing-676: Warning: sending test request at 29318000
+JO 16:30:44:648 JTS-CCPPing-676: Warning: not received heartbeat at 29319000 elapsed:16000
+JO 16:30:45:649 JTS-CCPPing-676: Warning: not received heartbeat at 29320000 elapsed:17000
+JO 16:30:46:649 JTS-CCPPing-676: Warning: not received heartbeat at 29321000 elapsed:18000
+JO 16:30:47:650 JTS-CCPPing-676: Warning: not received heartbeat at 29322000 elapsed:19000
+JO 16:30:48:650 JTS-CCPPing-676: Warning: not received heartbeat at 29323000 elapsed:20000
+JO 16:30:49:651 JTS-CCPPing-676: Warning: not received heartbeat at 29324000 elapsed:21000
+JO 16:30:50:651 JTS-CCPPing-676: Warning: not received heartbeat at 29325000 elapsed:22000
+JO 16:30:51:652 JTS-CCPPing-676: Warning: not received heartbeat at 29326000 elapsed:23000
+JO 16:30:52:652 JTS-CCPPing-676: Warning: not received heartbeat at 29327000 elapsed:24000
+JO 16:30:53:653 JTS-CCPPing-676: Warning: not received heartbeat at 29328000 elapsed:25000
+JO 16:30:54:654 JTS-CCPPing-676: Warning: not received heartbeat at 29329000 elapsed:26000
+JO 16:30:55:654 JTS-CCPPing-676: Warning: not received heartbeat at 29330000 elapsed:27000
+JO 16:30:56:655 JTS-CCPPing-676: Warning: not received heartbeat at 29331000 elapsed:28000
+JO 16:30:57:655 JTS-CCPPing-676: Warning: not received heartbeat at 29332000 elapsed:29000
+JO 16:30:58:656 JTS-CCPPing-676: Warning: not received heartbeat at 29333000 elapsed:30000
+JO 16:30:59:656 JTS-CCPPing-676: Warning: not received heartbeat at 29334000 elapsed:31000
+JO 16:31:00:657 JTS-CCPPing-676: Warning: not received heartbeat at 29335000 elapsed:32000
+JO 16:31:01:657 JTS-CCPPing-676: Warning: not received heartbeat at 29336000 elapsed:33000
+JO 16:31:02:658 JTS-CCPPing-676: Warning: not received heartbeat at 29337000 elapsed:34000
+JO 16:31:03:659 JTS-CCPPing-676: Warning: not received heartbeat at 29338000 elapsed:35000
+JO 16:31:04:659 JTS-CCPPing-676: It's time to reset the connection.
+JO 16:31:04:660 JTS-CCPPing-676: Disconnecting gw4.ibllc.com:4000 with status 12
+JO 16:31:04:660 JTS-CCPListener-668: Socket for connection gw4.ibllc.com:4000 was closed by another thread
+JO 16:31:04:661 JTS-LogonDispatcher-675: Terminating
+JO 16:31:04:661 JTS-CCPPing-676: NextConnectTime: 16:31:21:670  in 16386 msec;   base=15000  range = 15000  random: 9387
+JO 16:31:04:664 JTS-CCPPing-676: SPLASH Attempt 2: network error, will retry in seconds
+JO 16:31:04:664 JTS-CCPPing-676: Terminating
+JO 16:31:04:664 JTS-CCPListener-668: Terminating
+JO 16:31:04:668 JTS-Disconnected-678: Connection to ccp disconnected.
+JO 16:31:04:668 JTS-Disconnected-678: Storing batch requests for retry:[]
+JO 16:31:04:668 JTS-Disconnected-678: IBGateway connection to ccp disconnected.
+JO 16:31:21:051 JTS-Fuse-Reconnect-677: Prelogin delay:0
+JO 16:31:21:052 JTS-Login-679: Starting
+JO 16:31:21:052 JTS-Login-679: SPLASH Connecting to server
+JO 16:31:21:052 JTS-Login-679: Connecting gw4.ibllc.com:4000 timeout=0
+JO 16:31:21:747 JTS-Login-679: Connected to gw4.ibllc.com:4000 on local port 0
+JO 16:31:21:750 JTS-Login-679: Authenticating
+JO 16:31:21:750 JTS-CCPListener-680: Starting
+JO 16:31:21:757 JTS-CCPListener-680: Initial listener buffer size is 43690
+JO 16:31:21:751 JTS-Login-679: Sending connect request
+JO 16:31:21:757 JTS-Login-679: LOGIN_TIME_MONITOR	 16:31:22:380 since start = 74047 thread delay = 53125 global delay = 0 tag=null, cls=AuthDispatcher method=send
+JO 16:31:21:757 JTS-Login-679: SPLASH 53208 step 3 AuthDispatcher.send
+JO 16:31:21:758 JTS-AuthDispatcher-681: Starting
+JO 16:31:21:758 JTS-AuthResponseMonitor-682: Starting 
+JO 16:31:21:758 JTS-Login-679: Terminating
+JO 16:31:25:267 JTS-AuthDispatcher-681: SPLASH 3510 step 4 AuthDispatcher.processDataItr
+JO 16:31:25:268 JTS-AuthDispatcher-681: Received NS_AUTH_START: 1
+JO 16:31:25:268 JTS-AuthDispatcher-681: NS_AUTH_START config: 32
+JO 16:31:25:268 JTS-AuthDispatcher-681: pwd time to expiry ms: 2772880117000 days: 32094
+JO 16:31:25:269 JTS-AuthDispatcher-681: sendXYZMessage: 772
+JO 16:31:25:271 AWT-EventQueue-0: SPLASH Connecting to server
+JO 16:31:26:148 JTS-AuthDispatcher-681: SPLASH 0881 step 5 AuthDispatcher.processDataItr
+JO 16:31:26:149 JTS-AuthDispatcher-681: Receiver: 772
+JO 16:31:26:149 JTS-AuthDispatcher-681: processXYZMessage: 772 protocol version: 7
+JO 16:31:26:149 JTS-AuthDispatcher-681: sendXYZMessage: 772
+JO 16:31:30:282 JTS-Cleaner-16: Cleaning maps
+JO 16:31:34:716 JTS-Cleaner-16: Cleaning maps
+JO 16:31:38:987 JTS-AuthDispatcher-681: SPLASH 12839 step 5 AuthDispatcher.processDataItr
+JO 16:31:38:987 JTS-AuthDispatcher-681: Receiver: 772
+JO 16:31:38:988 JTS-AuthDispatcher-681: processXYZMessage: 772 protocol version: 7
+JO 16:31:38:988 JTS-AuthDispatcher-681: Received Result
+JO 16:31:38:988 JTS-AuthDispatcher-681: Passed token authentication.
+JO 16:31:39:911 JTS-AuthDispatcher-681: SPLASH 0924 step 5 AuthDispatcher.processDataItr
+JO 16:31:39:911 JTS-AuthDispatcher-681: Receiver: 771
+JO 16:31:39:912 JTS-AuthDispatcher-681: processXYZMessage: 771 protocol version: 7
+JO 16:31:39:912 JTS-AuthDispatcher-681: Received Finish
+JO 16:31:39:912 JTS-AuthDispatcher-681: Finished authentication.
+JO 16:31:39:912 JTS-AuthDispatcher-681: Authentication completed.
+JO 16:31:39:912 JTS-AuthDispatcher-681: Received NS_CONNECT_RESPONSE
+JO 16:31:40:527 JTS-AuthDispatcher-681: SPLASH 0616 step 5 AuthDispatcher.processDataItr
+JO 16:31:40:527 JTS-AuthDispatcher-681: Received NS_FIX_START
+JO 16:31:40:528 JTS-AuthDispatcher-681: Terminating
+JO 16:31:40:528 JTS-AuthResponseMonitor-682: Terminating
+JO 16:31:40:529 JTS-PostAuthenticate-685: Authentication complete
+JO 16:31:40:531 JTS-PostAuthenticate-685: Locale=en_US  country=United States  variant=
+JO 16:31:40:531 JTS-PostAuthenticate-685: prohibiting class lookup [ji18n.Language]
+JO 16:31:40:552 JTS-PostAuthenticate-685: prohibiting class lookup [ji18n.Language_en]
+JO 16:31:40:553 JTS-PostAuthenticate-685: prohibiting class lookup [ji18n.Language_en_US]
+JO 16:31:40:554 JTS-PostAuthenticate-685: prohibiting resource lookup [ji18n/Language_en_US.properties]
+JO 16:31:40:554 JTS-PostAuthenticate-685:   actual locale: en
+JO 16:31:40:561 AWT-EventQueue-0: jtsLookAndFeel uninitialized
+JO 16:31:40:562 JTS-PostAuthenticate-685: LOGIN_TIME_MONITOR	 16:31:41:184 since start = 92851 thread delay = 18804 global delay = 0 tag=Step7, cls=AbstractFixLogonHandler method=setDispatcherAndStartFixLogon
+JO 16:31:40:562 JTS-PostAuthenticate-685: SPLASH Requesting startup parameters
+JO 16:31:40:562 AWT-EventQueue-0: JtsLookAndFeel initialized
+JO 16:31:40:562 JTS-PostAuthenticate-685: pre-logon message successfully sent
+JO 16:31:40:562 JTS-PostAuthenticate-685: start ping with 1000 for: JTS-CCPPing-688
+JO 16:31:40:562 JTS-LogonDispatcher-687: Starting
+JO 16:31:40:565 JTS-CCPPing-688: Starting
+JO 16:31:40:567 AWT-EventQueue-0: Current LAF: TWS LAF
+JO 16:31:41:144 AWT-EventQueue-0: WebRegionURL Path:/knowledgebase.pl URL:http://www.interactivebrokers.co.uk/knowledgebase.pl
+JO 16:31:41:144 AWT-EventQueue-0: Enabled features: null
+JO 16:31:41:000 AWT-EventQueue-0: Setting time offset to -767 diff -144
+JO 16:31:41:001 AWT-EventQueue-0: manualTicketPermission null
+JO 16:31:41:002 AWT-EventQueue-0: IBGateway connection to ccp succeeded
+JO 16:31:41:308 JTS-UpgradeChecker-686: Cannot reach the web server to check if the upgrade version is available.
+JO 16:31:41:308 JTS-LogonDispatcher-687: Terminating
+JO 16:31:41:309 AWT-EventQueue-0: WebRegionURL Path:/knowledgebase.pl URL:http://www.interactivebrokers.co.uk/knowledgebase.pl
+JO 16:31:41:309 JTS-CCPDispatcher-689: Starting
+JO 16:31:41:309 AWT-EventQueue-0: Enabled features: null
+JO 16:31:41:000 AWT-EventQueue-0: Setting time offset to -1077 diff -310
+JO 16:31:41:000 AWT-EventQueue-0: manualTicketPermission null
+JO 16:31:41:000 AWT-EventQueue-0: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:31:41:000 AWT-EventQueue-0: LOGIN_TIME_MONITOR	 16:31:42:077 since start = 93744 thread delay = 893 global delay = 24367217 tag=Step4, cls=JConQueryTool method=handlePreLogon
+JO 16:31:41:001 AWT-EventQueue-0: SPLASH Initializing environment
+JO 16:31:41:001 AWT-EventQueue-0: SPLASH 0928 step 6 JConQueryTool.handlePreLogon
+JO 16:31:41:002 AWT-EventQueue-0: Handling prelogon msg HOT_RESTART
+JO 16:31:41:002 AWT-EventQueue-0: Resetting seqNum during preLogon  resetTime=  logonResetTime=null
+JO 16:31:44:635 JTS-CCPDispatcher-689: WebRegionURL Path:/knowledgebase.pl URL:http://www.interactivebrokers.co.uk/knowledgebase.pl
+JO 16:31:44:636 JTS-CCPDispatcher-689: Enabled features: 1DAYSORDER,ACCTALL,AD,ALGODEF,AWAYCMTAREV,BESTSCHED,BETAHEDGE,BLOTTERGROUPS,BONDMENU,CMAG,COMPN,CONSTOP,CURRENTPRICEANDSIZE,DELAYMD,DELTAHEDGE,ESIGNAL,EXERCISE,FACLOSE,FROZEN,FXCONV,FXHEDGE,GREEKLIST,HEDGECFD,HOMEGROUP,IECOMBO1TO1,IECOMBONESTED,IGNOREYTW,ISW,LEDGER,LEGMARKUP,MANGAWAY,MKTADDLIQ,NEW_AUTH,NINDX,NONUSCOMBO,NONUSWHATIF,PAIRTRADE,PCTCHANGE,RELIND,SCALEDAYADJUST,SCALEFRAC,SCALEMOD,SCALERANDOMIZE,SCALETIMEMOD,SCALETIMEMOD1,SCALEWHATIF,SIMUPORTF,SLB,SLOWPOSUPD,STOPPROFITOFFSET,USEPARENTENDTIME,VOLAT,VOLATFUT,WGVISIBILITY,CUSIP:550;551,IBIS:575;576,MOODY:524,REUTFUND:15;16,REUTNEWS:13;14,WSH:509;510
+JO 16:31:45:000 JTS-CCPDispatcher-689: Setting time offset to -714 diff 363
+JO 16:31:45:000 JTS-CCPDispatcher-689: manualTicketPermission null
+JO 16:31:45:000 JTS-CCPDispatcher-689: Handling normal logon msg HOT_RESTART
+JO 16:31:45:002 AWT-EventQueue-0: Processing normal logon msg
+JO 16:31:45:002 AWT-EventQueue-0: Restart quick=true cold=false logon=HOT_RESTART batch=true
+JO 16:31:45:003 AWT-EventQueue-0: SPLASH Processing startup parameters
+JO 16:31:45:003 AWT-EventQueue-0: SPLASH 3639 step 7 JConQueryTool.processNormalLogon1-1
+JO 16:31:45:004 AWT-EventQueue-0: Processing normal logon 1
+JO 16:31:45:004 AWT-EventQueue-0: Updating seqNum during normal logon with 1
+JO 16:31:45:004 AWT-EventQueue-0: CM sendAccountSubscription called for DU125081.
+JO 16:31:45:005 AWT-EventQueue-0: SPLASH Loading order defaults
+JO 16:31:45:006 AWT-EventQueue-0: SPLASH Initializing managers
+JO 16:31:45:006 AWT-EventQueue-0: Reconnected!
+JO 16:31:45:006 AWT-EventQueue-0: Intelligent order recovery - save orders
+JO 16:31:45:006 AWT-EventQueue-0: Intelligent order recovery completed
+JO 16:31:45:006 AWT-EventQueue-0: Clear completed blotter orders
+JO 16:31:45:006 AWT-EventQueue-0: Transmitted orders are removed from TWS
+JO 16:31:45:007 AWT-EventQueue-0: SPLASH Starting application
+JO 16:31:45:007 AWT-EventQueue-0: Processing normal logon 2
+JO 16:31:45:007 AWT-EventQueue-0: Processing normal logon 3
+JO 16:31:45:007 AWT-EventQueue-0: TradeRequests:ExecReportMgr-restoreExecutions: sending reconnect FillUp request for initialized storage
+JO 16:31:45:010 AWT-EventQueue-0: TradeRequests:ReportStorage-sendWholeDayRequest: , requestId=today526, date=Fri Feb 17 09:45:35 GMT 2012, key=Fri
+JO 16:31:45:010 AWT-EventQueue-0: Sending trade request from 20120217-00:00:00 to 20120218-00:00:00
+JO 16:31:45:017 JTS-Cleaner-16: Cleaning maps
+JO 16:31:45:017 AWT-EventQueue-0: Re-trying batch requests:[]
+JO 16:31:45:019 JTS-RestoreExecutions-691: TradeRequests:ExecReportMgr-Clearing Models
+JO 16:31:45:020 JTS-RestoreExecutions-691: TradeRequests:ExecReportMgr-Sending position request
+JO 16:31:45:024 AWT-EventQueue-0: SPLASH Closing screen and saving 7 steps
+JO 16:31:45:025 JTS-RestoreExecutions-691: TradeRequests:ExecReportMgr-Sending ledger request
+JO 16:31:45:225 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:225 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:225 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:225 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:226 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:226 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:226 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:226 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:886 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:886 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:887 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:45:887 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:46:197 JTS-CCPDispatcher-689: Storage synced: ReportStorage[Fri, today=true]
+JO 16:31:46:598 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:46:598 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:46:598 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:46:598 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:46:737 JTS-CCPDispatcher-689: Received live orders end marker.
+JO 16:31:47:000 JTS-CCPDispatcher-689: Setting time offset to -452 diff 262
+JO 16:31:47:001 JTS-CCPDispatcher-689: CM Received account reset event for DU125081.
+JO 16:31:47:009 JTS-CCPDispatcher-689: Proccess end
+JO 16:31:47:605 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:47:605 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:47:605 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:48:344 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:48:344 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:48:345 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:48:345 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:096 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:096 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:096 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:097 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:848 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:848 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:848 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:49:848 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:50:604 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:50:605 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:31:50:605 JTS-usfarmDispatcher-660: book top: local size is not defined
+JO 16:32:06:742 JTS-CCPPing-688: Warning: not received heartbeat at 29365000 elapsed:11000
+JO 16:32:07:742 JTS-CCPPing-688: Warning: not received heartbeat at 29366000 elapsed:12000
+JO 16:32:08:743 JTS-CCPPing-688: Warning: not received heartbeat at 29367000 elapsed:13000
+JO 16:32:09:743 JTS-CCPPing-688: Warning: not received heartbeat at 29368000 elapsed:14000
+JO 16:32:10:744 JTS-CCPPing-688: Warning: sending test request at 29369000
+JO 16:32:11:745 JTS-CCPPing-688: Warning: not received heartbeat at 29370000 elapsed:16000
+JO 16:32:12:745 JTS-CCPPing-688: Warning: not received heartbeat at 29371000 elapsed:17000
+JO 16:31:53:000 JTS-CCPDispatcher-689: Setting time offset to -20473 diff -20021
+JO 16:32:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:32:14:866 JTS-Cleaner-16: Cleaning maps
+JO 16:32:25:259 JTS-Cleaner-16: Cleaning maps
+JO 16:32:41:737 JTS-CCPPing-688: Warning: not received heartbeat at 29420000 elapsed:11000
+JO 16:32:42:737 JTS-CCPPing-688: Warning: not received heartbeat at 29421000 elapsed:12000
+JO 16:32:43:738 JTS-CCPPing-688: Warning: not received heartbeat at 29422000 elapsed:13000
+JO 16:32:44:738 JTS-CCPPing-688: Warning: not received heartbeat at 29423000 elapsed:14000
+JO 16:32:45:739 JTS-CCPPing-688: Warning: sending test request at 29424000
+JO 16:32:46:740 JTS-CCPPing-688: Warning: not received heartbeat at 29425000 elapsed:16000
+JO 16:32:47:741 JTS-CCPPing-688: Warning: not received heartbeat at 29426000 elapsed:17000
+JO 16:32:48:741 JTS-CCPPing-688: Warning: not received heartbeat at 29427000 elapsed:18000
+JO 16:32:49:742 JTS-CCPPing-688: Warning: not received heartbeat at 29428000 elapsed:19000
+JO 16:32:50:742 JTS-CCPPing-688: Warning: not received heartbeat at 29429000 elapsed:20000
+JO 16:32:51:743 JTS-CCPPing-688: Warning: not received heartbeat at 29430000 elapsed:21000
+JO 16:32:52:744 JTS-CCPPing-688: Warning: not received heartbeat at 29431000 elapsed:22000
+JO 16:32:53:744 JTS-CCPPing-688: Warning: not received heartbeat at 29432000 elapsed:23000
+JO 16:32:54:745 JTS-CCPPing-688: Warning: not received heartbeat at 29433000 elapsed:24000
+JO 16:32:55:746 JTS-CCPPing-688: Warning: not received heartbeat at 29434000 elapsed:25000
+JO 16:33:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:33:14:866 JTS-Cleaner-16: Cleaning maps
+JO 16:33:25:259 JTS-Cleaner-16: Cleaning maps
+JO 16:33:35:756 JTS-CCPPing-688: Warning: not received heartbeat at 29474000 elapsed:11000
+JO 16:33:36:756 JTS-CCPPing-688: Warning: not received heartbeat at 29475000 elapsed:12000
+JO 16:33:37:757 JTS-CCPPing-688: Warning: not received heartbeat at 29476000 elapsed:13000
+JO 16:33:38:757 JTS-CCPPing-688: Warning: not received heartbeat at 29477000 elapsed:14000
+JO 16:33:39:758 JTS-CCPPing-688: Warning: sending test request at 29478000
+JO 16:33:40:759 JTS-CCPPing-688: Warning: not received heartbeat at 29479000 elapsed:16000
+JO 16:33:41:759 JTS-CCPPing-688: Warning: not received heartbeat at 29480000 elapsed:17000
+JO 16:33:42:760 JTS-CCPPing-688: Warning: not received heartbeat at 29481000 elapsed:18000
+JO 16:33:43:760 JTS-CCPPing-688: Warning: not received heartbeat at 29482000 elapsed:19000
+JO 16:33:44:761 JTS-CCPPing-688: Warning: not received heartbeat at 29483000 elapsed:20000
+JO 16:33:45:761 JTS-CCPPing-688: Warning: not received heartbeat at 29484000 elapsed:21000
+JO 16:33:46:762 JTS-CCPPing-688: Warning: not received heartbeat at 29485000 elapsed:22000
+JO 16:34:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:34:14:866 JTS-Cleaner-16: Cleaning maps
+JO 16:34:25:259 JTS-Cleaner-16: Cleaning maps
+JO 16:34:54:305 JTS-DeadlockMonitor: Memory:total=466,048KB free=381,548KB HeapUsage: Max=466,048KB used=44,674KB committed=229,248KB NonHeapUsage: Max=114,688KB used=40,855KB committed=41,152KB
+JO 16:34:55:316 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.40% 5 min avg=0.47% 1 min avg=0.21%
+JO 16:34:55:317 JTS-DeadlockMonitor: GC:called=219 times CPU used=0.02%
+JO 16:34:55:317 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:35:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:35:14:867 JTS-Cleaner-16: Cleaning maps
+JO 16:35:20:784 JTS-CCPPing-688: Warning: not received heartbeat at 29579000 elapsed:11000
+JO 16:35:21:785 JTS-CCPPing-688: Warning: not received heartbeat at 29580000 elapsed:12000
+JO 16:35:22:785 JTS-CCPPing-688: Warning: not received heartbeat at 29581000 elapsed:13000
+JO 16:35:23:786 JTS-CCPPing-688: Warning: not received heartbeat at 29582000 elapsed:14000
+JO 16:35:24:786 JTS-CCPPing-688: Warning: sending test request at 29583000
+JO 16:35:25:259 JTS-Cleaner-16: Cleaning maps
+JO 16:35:25:787 JTS-CCPPing-688: Warning: not received heartbeat at 29584000 elapsed:16000
+JO 16:35:26:787 JTS-CCPPing-688: Warning: not received heartbeat at 29585000 elapsed:17000
+JO 16:35:27:788 JTS-CCPPing-688: Warning: not received heartbeat at 29586000 elapsed:18000
+JO 16:35:28:788 JTS-CCPPing-688: Warning: not received heartbeat at 29587000 elapsed:19000
+JO 16:35:29:789 JTS-CCPPing-688: Warning: not received heartbeat at 29588000 elapsed:20000
+JO 16:35:30:789 JTS-CCPPing-688: Warning: not received heartbeat at 29589000 elapsed:21000
+JO 16:35:31:790 JTS-CCPPing-688: Warning: not received heartbeat at 29590000 elapsed:22000
+JO 16:35:55:796 JTS-CCPPing-688: Warning: not received heartbeat at 29614000 elapsed:11000
+JO 16:35:56:797 JTS-CCPPing-688: Warning: not received heartbeat at 29615000 elapsed:12000
+JO 16:35:57:797 JTS-CCPPing-688: Warning: not received heartbeat at 29616000 elapsed:13000
+JO 16:36:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:36:14:867 JTS-Cleaner-16: Cleaning maps
+JO 16:36:25:259 JTS-Cleaner-16: Cleaning maps
+JO 16:37:06:204 JTS-usfarmListener-659: Error reading from socket mktgw1.ibllc.com:4000 - java.net.SocketException: Connection reset
+JO 16:37:06:204 JTS-usfarmListener-659: Disconnecting mktgw1.ibllc.com:4000 with status 1
+JO 16:37:06:205 JTS-usfarmListener-659: Terminating
+JO 16:37:06:212 JTS-Disconnected-698: Farm usfarm/NATIVE: Lost active connection with disconnect status 1
+JO 16:37:06:212 JTS-Disconnected-698: Farm usfarm/NATIVE: Resetting
+JO 16:37:06:212 JTS-Disconnected-698: NextConnectTime: 16:37:30:613  in 3928 msec;   base=5000  range = 10000  random: 1936
+JO 16:37:06:215 JTS-usfarmServicePing-663: Terminating
+JO 16:37:06:215 JTS-usfarmDispatcher-660: Terminating
+JO 16:37:10:145 JTS-Fuse-nativepause-699: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:37:10:145 JTS-Fuse-nativepause-699: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:37:10:433 JTS-Cleaner-16: Cleaning maps
+JO 16:37:10:817 JTS-Fuse-nativepause-699: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:37:10:818 JTS-Fuse-nativepause-699: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:37:10:818 JTS-usfarmListener-700: Starting
+JO 16:37:10:819 JTS-Fuse-nativepause-699: start ping with 5000 for: JTS-usfarmServicePreAuthPing-702
+JO 16:37:10:819 JTS-usfarmDispatcher-701: Starting
+JO 16:37:10:819 JTS-usfarmServicePreAuthPing-702: Starting
+JO 16:37:10:826 JTS-usfarmListener-700: Initial listener buffer size is 43690
+JO 16:37:11:477 JTS-usfarmDispatcher-701: Received MD auth msg classid = 1
+JO 16:37:11:477 JTS-usfarmDispatcher-701: Received AUTH_PARAMS
+JO 16:37:12:260 JTS-usfarmDispatcher-701: Received MD auth msg classid = 1
+JO 16:37:12:260 JTS-usfarmDispatcher-701: Received SERVER_PARAMS
+JO 16:37:12:965 JTS-usfarmDispatcher-701: Received MD auth msg classid = 1
+JO 16:37:12:965 JTS-usfarmDispatcher-701: Received AUTH_RESULT
+JO 16:37:12:966 JTS-usfarmDispatcher-701: Passed pwd authentication.
+JO 16:37:12:967 JTS-usfarmDispatcher-701: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:37:12:967 JTS-usfarmDispatcher-701: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:37:12:967 JTS-usfarmDispatcher-701: start ping with 60000 for: JTS-usfarmServicePing-704
+JO 16:37:12:967 JTS-usfarmServicePreAuthPing-702: Terminating
+JO 16:37:12:972 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/57...
+JO 16:37:12:980 JTS-usfarmServicePing-704: Starting
+JO 16:37:12:981 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/59...
+JO 16:37:14:867 JTS-Cleaner-16: Cleaning maps
+JO 16:37:15:816 JTS-CCPPing-688: Warning: not received heartbeat at 29694000 elapsed:11000
+JO 16:37:16:816 JTS-CCPPing-688: Warning: not received heartbeat at 29695000 elapsed:12000
+JO 16:37:25:260 JTS-Cleaner-16: Cleaning maps
+JO 16:37:26:262 JTS-usfarmDispatcher-701: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 16:37:35:821 JTS-CCPPing-688: Warning: not received heartbeat at 29714000 elapsed:11000
+JO 16:37:36:821 JTS-CCPPing-688: Warning: not received heartbeat at 29715000 elapsed:12000
+JO 16:37:37:822 JTS-CCPPing-688: Warning: not received heartbeat at 29716000 elapsed:13000
+JO 16:37:38:822 JTS-CCPPing-688: Warning: not received heartbeat at 29717000 elapsed:14000
+JO 16:37:39:823 JTS-CCPPing-688: Warning: sending test request at 29718000
+JO 16:38:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:38:14:868 JTS-Cleaner-16: Cleaning maps
+JO 16:38:25:260 JTS-Cleaner-16: Cleaning maps
+JO 16:39:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:39:14:868 JTS-Cleaner-16: Cleaning maps
+JO 16:39:25:260 JTS-Cleaner-16: Cleaning maps
+JO 16:39:45:854 JTS-CCPPing-688: Warning: not received heartbeat at 29844000 elapsed:11000
+JO 16:39:46:855 JTS-CCPPing-688: Warning: not received heartbeat at 29845000 elapsed:12000
+JO 16:39:47:855 JTS-CCPPing-688: Warning: not received heartbeat at 29846000 elapsed:13000
+JO 16:39:54:276 JTS-DeadlockMonitor: Memory:total=466,048KB free=404,188KB HeapUsage: Max=466,048KB used=33,044KB committed=230,016KB NonHeapUsage: Max=114,688KB used=40,855KB committed=41,152KB
+JO 16:39:55:287 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.29% 30 min avg=0.38% 5 min avg=0.34% 1 min avg=0.25%
+JO 16:39:55:287 JTS-DeadlockMonitor: GC:called=221 times CPU used=0.02%
+JO 16:39:55:287 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:40:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:40:13:524 JTS-usfarmListener-700: Error reading from socket mktgw1.ibllc.com:4000 - java.net.SocketException: Connection reset
+JO 16:40:13:524 JTS-usfarmListener-700: Disconnecting mktgw1.ibllc.com:4000 with status 1
+JO 16:40:13:524 JTS-usfarmServicePing-704: Terminating
+JO 16:40:13:525 JTS-usfarmListener-700: Terminating
+JO 16:40:13:525 JTS-Disconnected-708: Farm usfarm/NATIVE: Lost active connection with disconnect status 1
+JO 16:40:13:525 JTS-Disconnected-708: Farm usfarm/NATIVE: Resetting
+JO 16:40:13:525 JTS-Disconnected-708: NextConnectTime: 16:40:40:309  in 6311 msec;   base=5000  range = 10000  random: 4312
+JO 16:40:13:530 JTS-usfarmDispatcher-701: Terminating
+JO 16:40:14:868 JTS-Cleaner-16: Cleaning maps
+JO 16:40:19:841 JTS-Fuse-nativepause-709: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:40:19:841 JTS-Fuse-nativepause-709: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:40:20:423 JTS-Fuse-nativepause-709: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:40:20:423 JTS-Fuse-nativepause-709: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:40:20:424 JTS-usfarmListener-710: Starting
+JO 16:40:20:424 JTS-Fuse-nativepause-709: start ping with 5000 for: JTS-usfarmServicePreAuthPing-712
+JO 16:40:20:425 JTS-usfarmDispatcher-711: Starting
+JO 16:40:20:425 JTS-usfarmServicePreAuthPing-712: Starting
+JO 16:40:20:432 JTS-usfarmListener-710: Initial listener buffer size is 43690
+JO 16:40:20:998 JTS-usfarmDispatcher-711: Received MD auth msg classid = 1
+JO 16:40:20:999 JTS-usfarmDispatcher-711: Received AUTH_PARAMS
+JO 16:40:21:750 JTS-usfarmDispatcher-711: Received MD auth msg classid = 1
+JO 16:40:21:750 JTS-usfarmDispatcher-711: Received SERVER_PARAMS
+JO 16:40:24:067 JTS-usfarmDispatcher-711: Received MD auth msg classid = 1
+JO 16:40:24:068 JTS-usfarmDispatcher-711: Received AUTH_RESULT
+JO 16:40:24:068 JTS-usfarmDispatcher-711: Passed pwd authentication.
+JO 16:40:24:068 JTS-usfarmDispatcher-711: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:40:24:068 JTS-usfarmDispatcher-711: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:40:24:068 JTS-usfarmDispatcher-711: start ping with 60000 for: JTS-usfarmServicePing-714
+JO 16:40:24:068 JTS-usfarmServicePreAuthPing-712: Terminating
+JO 16:40:24:075 JTS-usfarmServicePing-714: Starting
+JO 16:40:24:076 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/61...
+JO 16:40:24:078 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/63...
+JO 16:40:25:261 JTS-Cleaner-16: Cleaning maps
+JO 16:40:25:865 JTS-CCPPing-688: Warning: not received heartbeat at 29884000 elapsed:11000
+JO 16:40:26:866 JTS-CCPPing-688: Warning: not received heartbeat at 29885000 elapsed:12000
+JO 16:40:27:866 JTS-CCPPing-688: Warning: not received heartbeat at 29886000 elapsed:13000
+JO 16:40:29:740 JTS-usfarmDispatcher-711: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 16:40:45:871 JTS-CCPPing-688: Warning: not received heartbeat at 29904000 elapsed:11000
+JO 16:40:56:873 JTS-CCPPing-688: Warning: not received heartbeat at 29915000 elapsed:11000
+JO 16:41:10:432 JTS-Cleaner-16: Cleaning maps
+JO 16:41:14:868 JTS-Cleaner-16: Cleaning maps
+JO 16:41:25:261 JTS-Cleaner-16: Cleaning maps
+JO 16:41:53:000 JTS-CCPDispatcher-689: Setting time offset to -715 diff 19758
+JO 16:41:53:000 JTS-CCPDispatcher-689: Setting time offset to -715 diff 0
+JO 16:42:30:190 JTS-Cleaner-16: Cleaning maps
+JO 16:42:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:42:35:650 JTS-CCPPing-688: Warning: not received heartbeat at 29994000 elapsed:11000
+JO 16:42:36:650 JTS-CCPPing-688: Warning: not received heartbeat at 29995000 elapsed:12000
+JO 16:42:37:651 JTS-CCPPing-688: Warning: not received heartbeat at 29996000 elapsed:13000
+JO 16:42:38:651 JTS-CCPPing-688: Warning: not received heartbeat at 29997000 elapsed:14000
+JO 16:42:39:652 JTS-CCPPing-688: Warning: sending test request at 29998000
+JO 16:42:45:019 JTS-Cleaner-16: Cleaning maps
+JO 16:43:30:190 JTS-Cleaner-16: Cleaning maps
+JO 16:43:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:43:45:020 JTS-Cleaner-16: Cleaning maps
+JO 16:44:11:674 JTS-CCPPing-688: Warning: not received heartbeat at 30090000 elapsed:11000
+JO 16:44:30:190 JTS-Cleaner-16: Cleaning maps
+JO 16:44:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:44:41:681 JTS-CCPPing-688: Warning: not received heartbeat at 30120000 elapsed:11000
+JO 16:44:45:020 JTS-Cleaner-16: Cleaning maps
+JO 16:45:14:071 JTS-DeadlockMonitor: Memory:total=466,048KB free=415,895KB HeapUsage: Max=466,048KB used=30,143KB committed=225,024KB NonHeapUsage: Max=114,688KB used=40,865KB committed=41,216KB
+JO 16:45:15:082 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.38% 5 min avg=0.33% 1 min avg=0.25%
+JO 16:45:15:082 JTS-DeadlockMonitor: GC:called=223 times CPU used=0.02%
+JO 16:45:15:083 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:45:30:190 JTS-Cleaner-16: Cleaning maps
+JO 16:45:34:627 JTS-Cleaner-16: Cleaning maps
+JO 16:45:35:693 JTS-CCPPing-688: Warning: not received heartbeat at 30174000 elapsed:11000
+JO 16:45:45:020 JTS-Cleaner-16: Cleaning maps
+JO 16:45:46:697 JTS-CCPPing-688: Warning: not received heartbeat at 30185000 elapsed:11000
+JO 16:46:25:707 JTS-CCPPing-688: Warning: not received heartbeat at 30224000 elapsed:11000
+JO 16:46:30:191 JTS-Cleaner-16: Cleaning maps
+JO 16:46:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:46:45:020 JTS-Cleaner-16: Cleaning maps
+JO 16:47:30:191 JTS-Cleaner-16: Cleaning maps
+JO 16:47:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:47:35:722 JTS-CCPPing-688: Warning: not received heartbeat at 30294000 elapsed:11000
+JO 16:47:44:380 JTS-usfarmListener-710: Error reading from socket mktgw1.ibllc.com:4000 - java.net.SocketException: Connection reset
+JO 16:47:44:380 JTS-usfarmListener-710: Disconnecting mktgw1.ibllc.com:4000 with status 1
+JO 16:47:44:381 JTS-usfarmListener-710: Terminating
+JO 16:47:44:383 JTS-Disconnected-722: Farm usfarm/NATIVE: Lost active connection with disconnect status 1
+JO 16:47:44:383 JTS-usfarmServicePing-714: Terminating
+JO 16:47:44:384 JTS-Disconnected-722: Farm usfarm/NATIVE: Resetting
+JO 16:47:44:384 JTS-usfarmDispatcher-711: Terminating
+JO 16:47:44:384 JTS-Disconnected-722: NextConnectTime: 16:47:51:426  in 6327 msec;   base=5000  range = 10000  random: 4331
+JO 16:47:45:021 JTS-Cleaner-16: Cleaning maps
+JO 16:47:50:718 JTS-Fuse-nativepause-723: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:47:50:718 JTS-Fuse-nativepause-723: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:47:51:350 JTS-Fuse-nativepause-723: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:47:51:351 JTS-Fuse-nativepause-723: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:47:51:351 JTS-usfarmListener-724: Starting
+JO 16:47:51:352 JTS-Fuse-nativepause-723: start ping with 5000 for: JTS-usfarmServicePreAuthPing-726
+JO 16:47:51:352 JTS-usfarmDispatcher-725: Starting
+JO 16:47:51:353 JTS-usfarmServicePreAuthPing-726: Starting
+JO 16:47:51:357 JTS-usfarmListener-724: Initial listener buffer size is 43690
+JO 16:47:52:158 JTS-usfarmDispatcher-725: Received MD auth msg classid = 1
+JO 16:47:52:158 JTS-usfarmDispatcher-725: Received AUTH_PARAMS
+JO 16:47:52:908 JTS-usfarmDispatcher-725: Received MD auth msg classid = 1
+JO 16:47:52:908 JTS-usfarmDispatcher-725: Received SERVER_PARAMS
+JO 16:47:53:651 JTS-usfarmDispatcher-725: Received MD auth msg classid = 1
+JO 16:47:53:651 JTS-usfarmDispatcher-725: Received AUTH_RESULT
+JO 16:47:53:651 JTS-usfarmDispatcher-725: Passed pwd authentication.
+JO 16:47:55:843 JTS-usfarmDispatcher-725: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:47:55:843 JTS-usfarmDispatcher-725: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:47:55:859 JTS-usfarmDispatcher-725: start ping with 60000 for: JTS-usfarmServicePing-728
+JO 16:47:55:859 JTS-usfarmServicePreAuthPing-726: Terminating
+JO 16:47:55:861 JTS-usfarmServicePing-728: Starting
+JO 16:47:55:863 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/65...
+JO 16:47:55:863 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/67...
+JO 16:48:05:729 JTS-CCPPing-688: Warning: not received heartbeat at 30324000 elapsed:11000
+JO 16:48:10:443 JTS-usfarmDispatcher-725: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 16:48:30:191 JTS-Cleaner-16: Cleaning maps
+JO 16:48:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:48:45:021 JTS-Cleaner-16: Cleaning maps
+JO 16:49:15:746 JTS-CCPPing-688: Warning: not received heartbeat at 30394000 elapsed:11000
+JO 16:49:30:192 JTS-Cleaner-16: Cleaning maps
+JO 16:49:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:49:35:750 JTS-CCPPing-688: Warning: not received heartbeat at 30414000 elapsed:11000
+JO 16:49:45:021 JTS-Cleaner-16: Cleaning maps
+JO 16:49:46:753 JTS-CCPPing-688: Warning: not received heartbeat at 30425000 elapsed:11000
+JO 16:50:14:048 JTS-DeadlockMonitor: Memory:total=466,048KB free=420,600KB HeapUsage: Max=466,048KB used=30,547KB committed=229,440KB NonHeapUsage: Max=114,688KB used=40,865KB committed=41,216KB
+JO 16:50:15:059 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.37% 5 min avg=0.32% 1 min avg=0.29%
+JO 16:50:15:059 JTS-DeadlockMonitor: GC:called=225 times CPU used=0.02%
+JO 16:50:15:059 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:50:30:192 JTS-Cleaner-16: Cleaning maps
+JO 16:50:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:50:45:021 JTS-Cleaner-16: Cleaning maps
+JO 16:50:55:768 JTS-CCPPing-688: Warning: not received heartbeat at 30494000 elapsed:11000
+JO 16:50:56:768 JTS-CCPPing-688: Warning: not received heartbeat at 30495000 elapsed:12000
+JO 16:51:07:771 JTS-CCPPing-688: Warning: not received heartbeat at 30506000 elapsed:11000
+JO 16:51:25:775 JTS-CCPPing-688: Warning: not received heartbeat at 30524000 elapsed:11000
+JO 16:51:30:192 JTS-Cleaner-16: Cleaning maps
+JO 16:51:34:626 JTS-Cleaner-16: Cleaning maps
+JO 16:51:36:778 JTS-CCPPing-688: Warning: not received heartbeat at 30535000 elapsed:11000
+JO 16:51:45:021 JTS-Cleaner-16: Cleaning maps
+JO 16:51:53:000 JTS-CCPDispatcher-689: Setting time offset to -677 diff 38
+JO 16:51:53:000 JTS-CCPDispatcher-689: Setting time offset to -677 diff 0
+JO 16:52:05:904 JTS-Fuse-ServiceAuthTimeout-732: Farm usfarm/NATIVE: No ping response
+JO 16:52:05:904 JTS-Fuse-ServiceAuthTimeout-732: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 16:52:05:905 JTS-usfarmListener-724: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 16:52:05:906 JTS-usfarmDispatcher-725: Terminating
+JO 16:52:05:906 JTS-usfarmListener-724: Terminating
+JO 16:52:05:913 JTS-usfarmServicePing-728: Terminating
+JO 16:52:05:913 JTS-Disconnected-733: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 16:52:05:913 JTS-Disconnected-733: Farm usfarm/NATIVE: Resetting
+JO 16:52:05:913 JTS-Disconnected-733: NextConnectTime: 16:52:13:055  in 6465 msec;   base=5000  range = 10000  random: 4474
+JO 16:52:12:381 JTS-Fuse-nativepause-734: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:52:12:381 JTS-Fuse-nativepause-734: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:52:13:826 JTS-CCPPing-688: Warning: not received heartbeat at 30572000 elapsed:11000
+JO 16:52:14:827 JTS-CCPPing-688: Warning: not received heartbeat at 30573000 elapsed:12000
+JO 16:52:15:827 JTS-CCPPing-688: Warning: not received heartbeat at 30574000 elapsed:13000
+JO 16:52:16:282 JTS-Fuse-nativepause-734: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:52:16:282 JTS-Fuse-nativepause-734: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:52:16:284 JTS-usfarmListener-735: Starting
+JO 16:52:16:284 JTS-Fuse-nativepause-734: start ping with 5000 for: JTS-usfarmServicePreAuthPing-737
+JO 16:52:16:284 JTS-usfarmDispatcher-736: Starting
+JO 16:52:16:285 JTS-usfarmServicePreAuthPing-737: Starting
+JO 16:52:16:288 JTS-usfarmListener-735: Initial listener buffer size is 43690
+JO 16:52:16:845 JTS-usfarmDispatcher-736: Received MD auth msg classid = 1
+JO 16:52:16:845 JTS-usfarmDispatcher-736: Received AUTH_PARAMS
+JO 16:52:19:344 JTS-usfarmDispatcher-736: Received MD auth msg classid = 1
+JO 16:52:19:344 JTS-usfarmDispatcher-736: Received SERVER_PARAMS
+JO 16:52:20:360 JTS-usfarmDispatcher-736: Received MD auth msg classid = 1
+JO 16:52:20:360 JTS-usfarmDispatcher-736: Received AUTH_RESULT
+JO 16:52:20:360 JTS-usfarmDispatcher-736: Passed pwd authentication.
+JO 16:52:21:285 JTS-usfarmServicePreAuthPing-737: Farm usfarm/PRE_NATIVE: Sending pre-auth test-request
+JO 16:52:22:717 JTS-usfarmDispatcher-736: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:52:22:718 JTS-usfarmDispatcher-736: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:52:22:718 JTS-usfarmServicePreAuthPing-737: Terminating
+JO 16:52:22:718 JTS-usfarmDispatcher-736: start ping with 60000 for: JTS-usfarmServicePing-739
+JO 16:52:22:722 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/69...
+JO 16:52:22:723 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/71...
+JO 16:52:22:723 JTS-usfarmServicePing-739: Starting
+JO 16:52:30:230 JTS-Cleaner-16: Cleaning maps
+JO 16:52:34:664 JTS-Cleaner-16: Cleaning maps
+JO 16:52:41:615 JTS-usfarmDispatcher-736: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 16:52:45:059 JTS-Cleaner-16: Cleaning maps
+JO 16:53:30:230 JTS-Cleaner-16: Cleaning maps
+JO 16:53:33:845 JTS-CCPPing-688: Warning: not received heartbeat at 30652000 elapsed:11000
+JO 16:53:34:664 JTS-Cleaner-16: Cleaning maps
+JO 16:53:34:845 JTS-CCPPing-688: Warning: not received heartbeat at 30653000 elapsed:12000
+JO 16:53:35:846 JTS-CCPPing-688: Warning: not received heartbeat at 30654000 elapsed:13000
+JO 16:53:36:846 JTS-CCPPing-688: Warning: not received heartbeat at 30655000 elapsed:14000
+JO 16:53:37:847 JTS-CCPPing-688: Warning: sending test request at 30656000
+JO 16:53:38:848 JTS-CCPPing-688: Warning: not received heartbeat at 30657000 elapsed:16000
+JO 16:53:45:059 JTS-Cleaner-16: Cleaning maps
+JO 16:54:28:860 JTS-CCPPing-688: Warning: not received heartbeat at 30707000 elapsed:11000
+JO 16:54:29:861 JTS-CCPPing-688: Warning: not received heartbeat at 30708000 elapsed:12000
+JO 16:54:30:230 JTS-Cleaner-16: Cleaning maps
+JO 16:54:30:861 JTS-CCPPing-688: Warning: not received heartbeat at 30709000 elapsed:13000
+JO 16:54:34:665 JTS-Cleaner-16: Cleaning maps
+JO 16:54:45:059 JTS-Cleaner-16: Cleaning maps
+JO 16:54:45:865 JTS-CCPPing-688: Warning: not received heartbeat at 30724000 elapsed:11000
+JO 16:54:56:867 JTS-CCPPing-688: Warning: not received heartbeat at 30735000 elapsed:11000
+JO 16:55:14:099 JTS-DeadlockMonitor: Memory:total=466,048KB free=419,065KB HeapUsage: Max=466,048KB used=30,954KB committed=225,024KB NonHeapUsage: Max=114,688KB used=40,865KB committed=41,216KB
+JO 16:55:15:110 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.29% 30 min avg=0.36% 5 min avg=0.28% 1 min avg=0.33%
+JO 16:55:15:111 JTS-DeadlockMonitor: GC:called=227 times CPU used=0.02%
+JO 16:55:15:111 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 16:55:16:100 JTS-CCPPing-688: Warning: not received heartbeat at 30754000 elapsed:11000
+JO 16:55:30:231 JTS-Cleaner-16: Cleaning maps
+JO 16:55:34:664 JTS-Cleaner-16: Cleaning maps
+JO 16:55:45:059 JTS-Cleaner-16: Cleaning maps
+JO 16:56:30:232 JTS-Cleaner-16: Cleaning maps
+JO 16:56:34:664 JTS-Cleaner-16: Cleaning maps
+JO 16:56:45:059 JTS-Cleaner-16: Cleaning maps
+JO 16:57:06:124 JTS-CCPPing-688: Warning: not received heartbeat at 30864000 elapsed:11000
+JO 16:57:07:125 JTS-CCPPing-688: Warning: not received heartbeat at 30865000 elapsed:12000
+JO 16:57:08:125 JTS-CCPPing-688: Warning: not received heartbeat at 30866000 elapsed:13000
+JO 16:57:19:128 JTS-CCPPing-688: Warning: not received heartbeat at 30877000 elapsed:11000
+JO 16:57:30:130 JTS-CCPPing-688: Warning: not received heartbeat at 30888000 elapsed:11000
+JO 16:57:30:231 JTS-Cleaner-16: Cleaning maps
+JO 16:57:31:131 JTS-CCPPing-688: Warning: not received heartbeat at 30889000 elapsed:12000
+JO 16:57:32:131 JTS-CCPPing-688: Warning: not received heartbeat at 30890000 elapsed:13000
+JO 16:57:33:131 JTS-CCPPing-688: Warning: not received heartbeat at 30891000 elapsed:14000
+JO 16:57:34:664 JTS-Cleaner-16: Cleaning maps
+JO 16:57:45:059 JTS-Cleaner-16: Cleaning maps
+JO 16:57:59:137 JTS-CCPPing-688: Warning: not received heartbeat at 30917000 elapsed:11000
+JO 16:58:30:231 JTS-Cleaner-16: Cleaning maps
+JO 16:58:34:664 JTS-Cleaner-16: Cleaning maps
+JO 16:58:45:059 JTS-Cleaner-16: Cleaning maps
+JO 16:58:59:151 JTS-CCPPing-688: Warning: not received heartbeat at 30977000 elapsed:11000
+JO 16:59:19:156 JTS-CCPPing-688: Warning: not received heartbeat at 30997000 elapsed:11000
+JO 16:59:30:158 JTS-CCPPing-688: Warning: not received heartbeat at 31008000 elapsed:11000
+JO 16:59:30:232 JTS-Cleaner-16: Cleaning maps
+JO 16:59:31:159 JTS-CCPPing-688: Warning: not received heartbeat at 31009000 elapsed:12000
+JO 16:59:32:159 JTS-CCPPing-688: Warning: not received heartbeat at 31010000 elapsed:13000
+JO 16:59:32:730 JTS-Fuse-ServiceAuthTimeout-746: Farm usfarm/NATIVE: No ping response
+JO 16:59:32:730 JTS-Fuse-ServiceAuthTimeout-746: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 16:59:32:730 JTS-usfarmServicePing-739: Terminating
+JO 16:59:32:731 JTS-usfarmListener-735: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 16:59:32:731 JTS-usfarmDispatcher-736: Terminating
+JO 16:59:32:735 JTS-usfarmListener-735: Terminating
+JO 16:59:32:735 JTS-Disconnected-747: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 16:59:32:735 JTS-Disconnected-747: Farm usfarm/NATIVE: Resetting
+JO 16:59:32:735 JTS-Disconnected-747: NextConnectTime: 16:59:36:981  in 3569 msec;   base=5000  range = 10000  random: 1574
+JO 16:59:33:160 JTS-CCPPing-688: Warning: not received heartbeat at 31011000 elapsed:14000
+JO 16:59:34:664 JTS-Cleaner-16: Cleaning maps
+JO 16:59:36:307 JTS-Fuse-nativepause-748: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 16:59:36:307 JTS-Fuse-nativepause-748: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 16:59:36:953 JTS-Fuse-nativepause-748: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 16:59:36:953 JTS-Fuse-nativepause-748: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 16:59:36:954 JTS-usfarmListener-749: Starting
+JO 16:59:36:954 JTS-Fuse-nativepause-748: start ping with 5000 for: JTS-usfarmServicePreAuthPing-751
+JO 16:59:36:954 JTS-usfarmDispatcher-750: Starting
+JO 16:59:36:955 JTS-usfarmServicePreAuthPing-751: Starting
+JO 16:59:36:961 JTS-usfarmListener-749: Initial listener buffer size is 43690
+JO 16:59:37:560 JTS-usfarmDispatcher-750: Received MD auth msg classid = 1
+JO 16:59:37:560 JTS-usfarmDispatcher-750: Received AUTH_PARAMS
+JO 16:59:38:311 JTS-usfarmDispatcher-750: Received MD auth msg classid = 1
+JO 16:59:38:311 JTS-usfarmDispatcher-750: Received SERVER_PARAMS
+JO 16:59:39:062 JTS-usfarmDispatcher-750: Received MD auth msg classid = 1
+JO 16:59:39:062 JTS-usfarmDispatcher-750: Received AUTH_RESULT
+JO 16:59:39:062 JTS-usfarmDispatcher-750: Passed pwd authentication.
+JO 16:59:39:062 JTS-usfarmDispatcher-750: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 16:59:39:063 JTS-usfarmDispatcher-750: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 16:59:39:063 JTS-usfarmDispatcher-750: start ping with 60000 for: JTS-usfarmServicePing-753
+JO 16:59:39:063 JTS-usfarmServicePreAuthPing-751: Terminating
+JO 16:59:39:071 JTS-usfarmServicePing-753: Starting
+JO 16:59:39:073 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/73...
+JO 16:59:39:074 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/75...
+JO 16:59:45:059 JTS-Cleaner-16: Cleaning maps
+JO 17:00:03:702 JTS-usfarmDispatcher-750: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 17:00:14:112 JTS-DeadlockMonitor: Memory:total=466,048KB free=418,955KB HeapUsage: Max=466,048KB used=32,123KB committed=228,928KB NonHeapUsage: Max=114,688KB used=40,865KB committed=41,216KB
+JO 17:00:15:123 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.29% 30 min avg=0.35% 5 min avg=0.35% 1 min avg=0.42%
+JO 17:00:15:124 JTS-DeadlockMonitor: GC:called=229 times CPU used=0.02%
+JO 17:00:15:124 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:00:19:171 JTS-CCPPing-688: Warning: not received heartbeat at 31057000 elapsed:11000
+JO 17:00:20:172 JTS-CCPPing-688: Warning: not received heartbeat at 31058000 elapsed:12000
+JO 17:00:30:232 JTS-Cleaner-16: Cleaning maps
+JO 17:00:34:664 JTS-Cleaner-16: Cleaning maps
+JO 17:00:36:175 JTS-CCPPing-688: Warning: not received heartbeat at 31074000 elapsed:11000
+JO 17:00:45:060 JTS-Cleaner-16: Cleaning maps
+JO 17:00:47:178 JTS-CCPPing-688: Warning: not received heartbeat at 31085000 elapsed:11000
+JO 17:00:48:179 JTS-CCPPing-688: Warning: not received heartbeat at 31086000 elapsed:12000
+JO 17:00:49:179 JTS-CCPPing-688: Warning: not received heartbeat at 31087000 elapsed:13000
+JO 17:00:50:180 JTS-CCPPing-688: Warning: not received heartbeat at 31088000 elapsed:14000
+JO 17:00:51:180 JTS-CCPPing-688: Warning: sending test request at 31089000
+JO 17:01:22:188 JTS-CCPPing-688: Warning: not received heartbeat at 31120000 elapsed:11000
+JO 17:01:23:189 JTS-CCPPing-688: Warning: not received heartbeat at 31121000 elapsed:12000
+JO 17:01:30:232 JTS-Cleaner-16: Cleaning maps
+JO 17:01:34:664 JTS-Cleaner-16: Cleaning maps
+JO 17:01:45:059 JTS-Cleaner-16: Cleaning maps
+JO 17:01:52:196 JTS-CCPPing-688: Warning: not received heartbeat at 31150000 elapsed:11000
+JO 17:01:53:000 JTS-CCPDispatcher-689: Setting time offset to -637 diff 40
+JO 17:01:53:000 JTS-CCPDispatcher-689: Setting time offset to -637 diff 0
+JO 17:02:30:272 JTS-Cleaner-16: Cleaning maps
+JO 17:02:33:246 JTS-CCPPing-688: Warning: not received heartbeat at 31191000 elapsed:11000
+JO 17:02:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:02:44:249 JTS-CCPPing-688: Warning: not received heartbeat at 31202000 elapsed:11000
+JO 17:02:45:099 JTS-Cleaner-16: Cleaning maps
+JO 17:02:45:249 JTS-CCPPing-688: Warning: not received heartbeat at 31203000 elapsed:12000
+JO 17:02:46:250 JTS-CCPPing-688: Warning: not received heartbeat at 31204000 elapsed:13000
+JO 17:02:47:250 JTS-CCPPing-688: Warning: not received heartbeat at 31205000 elapsed:14000
+JO 17:02:58:253 JTS-CCPPing-688: Warning: not received heartbeat at 31216000 elapsed:11000
+JO 17:03:13:258 JTS-CCPPing-688: Warning: not received heartbeat at 31231000 elapsed:11000
+JO 17:03:14:258 JTS-CCPPing-688: Warning: not received heartbeat at 31232000 elapsed:12000
+JO 17:03:15:259 JTS-CCPPing-688: Warning: not received heartbeat at 31233000 elapsed:13000
+JO 17:03:30:272 JTS-Cleaner-16: Cleaning maps
+JO 17:03:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:03:45:099 JTS-Cleaner-16: Cleaning maps
+JO 17:04:17:274 JTS-CCPPing-688: Warning: not received heartbeat at 31295000 elapsed:11000
+JO 17:04:30:273 JTS-Cleaner-16: Cleaning maps
+JO 17:04:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:04:45:100 JTS-Cleaner-16: Cleaning maps
+JO 17:05:14:163 JTS-DeadlockMonitor: Memory:total=466,048KB free=422,790KB HeapUsage: Max=466,048KB used=30,172KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,865KB committed=41,216KB
+JO 17:05:15:174 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.34% 5 min avg=0.41% 1 min avg=0.42%
+JO 17:05:15:174 JTS-DeadlockMonitor: GC:called=231 times CPU used=0.02%
+JO 17:05:15:174 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:05:17:289 JTS-CCPPing-688: Warning: not received heartbeat at 31355000 elapsed:11000
+JO 17:05:30:272 JTS-Cleaner-16: Cleaning maps
+JO 17:05:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:05:37:294 JTS-CCPPing-688: Warning: not received heartbeat at 31375000 elapsed:11000
+JO 17:05:45:101 JTS-Cleaner-16: Cleaning maps
+JO 17:06:30:272 JTS-Cleaner-16: Cleaning maps
+JO 17:06:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:06:45:101 JTS-Cleaner-16: Cleaning maps
+JO 17:07:07:314 JTS-CCPPing-688: Warning: not received heartbeat at 31465000 elapsed:11000
+JO 17:07:18:317 JTS-CCPPing-688: Warning: not received heartbeat at 31476000 elapsed:11000
+JO 17:07:30:272 JTS-Cleaner-16: Cleaning maps
+JO 17:07:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:07:45:101 JTS-Cleaner-16: Cleaning maps
+JO 17:08:30:273 JTS-Cleaner-16: Cleaning maps
+JO 17:08:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:08:45:102 JTS-Cleaner-16: Cleaning maps
+JO 17:08:57:338 JTS-CCPPing-688: Warning: not received heartbeat at 31575000 elapsed:11000
+JO 17:09:30:273 JTS-Cleaner-16: Cleaning maps
+JO 17:09:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:09:45:102 JTS-Cleaner-16: Cleaning maps
+JO 17:10:07:353 JTS-CCPPing-688: Warning: not received heartbeat at 31645000 elapsed:11000
+JO 17:10:14:171 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,966KB HeapUsage: Max=466,048KB used=30,254KB committed=228,736KB NonHeapUsage: Max=114,688KB used=40,865KB committed=41,216KB
+JO 17:10:15:182 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.33% 5 min avg=0.30% 1 min avg=0.21%
+JO 17:10:15:182 JTS-DeadlockMonitor: GC:called=233 times CPU used=0.02%
+JO 17:10:15:182 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:10:30:273 JTS-Cleaner-16: Cleaning maps
+JO 17:10:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:10:37:359 JTS-CCPPing-688: Warning: not received heartbeat at 31675000 elapsed:11000
+JO 17:10:38:359 JTS-CCPPing-688: Warning: not received heartbeat at 31676000 elapsed:12000
+JO 17:10:39:360 JTS-CCPPing-688: Warning: not received heartbeat at 31677000 elapsed:13000
+JO 17:10:45:102 JTS-Cleaner-16: Cleaning maps
+JO 17:11:27:370 JTS-CCPPing-688: Warning: not received heartbeat at 31725000 elapsed:11000
+JO 17:11:30:274 JTS-Cleaner-16: Cleaning maps
+JO 17:11:34:705 JTS-Cleaner-16: Cleaning maps
+JO 17:11:45:102 JTS-Cleaner-16: Cleaning maps
+JO 17:11:53:000 JTS-CCPDispatcher-689: Setting time offset to -1294 diff -657
+JO 17:11:53:000 JTS-CCPDispatcher-689: Setting time offset to -1294 diff 0
+JO 17:12:12:722 JTS-CCPPing-688: Warning: not received heartbeat at 31771000 elapsed:11000
+JO 17:12:29:617 JTS-Cleaner-16: Cleaning maps
+JO 17:12:34:048 JTS-Cleaner-16: Cleaning maps
+JO 17:12:44:446 JTS-Cleaner-16: Cleaning maps
+JO 17:13:06:733 JTS-CCPPing-688: Warning: not received heartbeat at 31825000 elapsed:11000
+JO 17:13:29:617 JTS-Cleaner-16: Cleaning maps
+JO 17:13:34:048 JTS-Cleaner-16: Cleaning maps
+JO 17:13:44:446 JTS-Cleaner-16: Cleaning maps
+JO 17:14:17:749 JTS-CCPPing-688: Warning: not received heartbeat at 31896000 elapsed:11000
+JO 17:14:29:617 JTS-Cleaner-16: Cleaning maps
+JO 17:14:34:048 JTS-Cleaner-16: Cleaning maps
+JO 17:14:44:446 JTS-Cleaner-16: Cleaning maps
+JO 17:15:13:524 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,775KB HeapUsage: Max=466,048KB used=30,336KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,865KB committed=41,216KB
+JO 17:15:14:534 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.34% 5 min avg=0.39% 1 min avg=0.33%
+JO 17:15:14:534 JTS-DeadlockMonitor: GC:called=235 times CPU used=0.02%
+JO 17:15:14:534 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:15:29:618 JTS-Cleaner-16: Cleaning maps
+JO 17:15:34:048 JTS-Cleaner-16: Cleaning maps
+JO 17:15:37:768 JTS-CCPPing-688: Warning: not received heartbeat at 31976000 elapsed:11000
+JO 17:15:38:768 JTS-CCPPing-688: Warning: not received heartbeat at 31977000 elapsed:12000
+JO 17:15:44:447 JTS-Cleaner-16: Cleaning maps
+JO 17:15:57:772 JTS-CCPPing-688: Warning: not received heartbeat at 31996000 elapsed:11000
+JO 17:15:58:773 JTS-CCPPing-688: Warning: not received heartbeat at 31997000 elapsed:12000
+JO 17:16:17:778 JTS-CCPPing-688: Warning: not received heartbeat at 32016000 elapsed:11000
+JO 17:16:18:778 JTS-CCPPing-688: Warning: not received heartbeat at 32017000 elapsed:12000
+JO 17:16:29:618 JTS-Cleaner-16: Cleaning maps
+JO 17:16:34:048 JTS-Cleaner-16: Cleaning maps
+JO 17:16:44:447 JTS-Cleaner-16: Cleaning maps
+JO 17:17:29:618 JTS-Cleaner-16: Cleaning maps
+JO 17:17:34:049 JTS-Cleaner-16: Cleaning maps
+JO 17:17:44:447 JTS-Cleaner-16: Cleaning maps
+JO 17:18:29:619 JTS-Cleaner-16: Cleaning maps
+JO 17:18:34:049 JTS-Cleaner-16: Cleaning maps
+JO 17:18:44:447 JTS-Cleaner-16: Cleaning maps
+JO 17:18:47:813 JTS-CCPPing-688: Warning: not received heartbeat at 32166000 elapsed:11000
+JO 17:19:29:619 JTS-Cleaner-16: Cleaning maps
+JO 17:19:34:049 JTS-Cleaner-16: Cleaning maps
+JO 17:19:44:447 JTS-Cleaner-16: Cleaning maps
+JO 17:19:57:830 JTS-CCPPing-688: Warning: not received heartbeat at 32236000 elapsed:11000
+JO 17:19:58:830 JTS-CCPPing-688: Warning: not received heartbeat at 32237000 elapsed:12000
+JO 17:19:59:831 JTS-CCPPing-688: Warning: not received heartbeat at 32238000 elapsed:13000
+JO 17:20:00:832 JTS-CCPPing-688: Warning: not received heartbeat at 32239000 elapsed:14000
+JO 17:20:13:521 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,221KB HeapUsage: Max=466,048KB used=30,419KB committed=228,224KB NonHeapUsage: Max=114,688KB used=40,901KB committed=41,248KB
+JO 17:20:14:533 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.34% 5 min avg=0.28% 1 min avg=0.29%
+JO 17:20:14:533 JTS-DeadlockMonitor: GC:called=237 times CPU used=0.02%
+JO 17:20:14:533 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:20:29:619 JTS-Cleaner-16: Cleaning maps
+JO 17:20:34:049 JTS-Cleaner-16: Cleaning maps
+JO 17:20:44:447 JTS-Cleaner-16: Cleaning maps
+JO 17:20:48:473 JTS-Fuse-ServiceAuthTimeout-774: Farm usfarm/NATIVE: No ping response
+JO 17:20:48:474 JTS-Fuse-ServiceAuthTimeout-774: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 17:20:48:481 JTS-usfarmDispatcher-750: Terminating
+JO 17:20:48:481 JTS-usfarmServicePing-753: Terminating
+JO 17:20:48:481 JTS-usfarmListener-749: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 17:20:48:481 JTS-usfarmListener-749: Terminating
+JO 17:20:48:483 JTS-Disconnected-775: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 17:20:48:487 JTS-Disconnected-775: Farm usfarm/NATIVE: Resetting
+JO 17:20:48:487 JTS-Disconnected-775: NextConnectTime: 17:20:52:088  in 2307 msec;   base=5000  range = 10000  random: 320
+JO 17:20:50:797 JTS-Fuse-nativepause-776: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 17:20:50:797 JTS-Fuse-nativepause-776: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 17:20:51:304 JTS-Fuse-nativepause-776: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 17:20:51:305 JTS-Fuse-nativepause-776: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 17:20:51:305 JTS-usfarmListener-777: Starting
+JO 17:20:51:310 JTS-usfarmListener-777: Initial listener buffer size is 43690
+JO 17:20:51:310 JTS-usfarmDispatcher-778: Starting
+JO 17:20:51:311 JTS-Fuse-nativepause-776: start ping with 5000 for: JTS-usfarmServicePreAuthPing-779
+JO 17:20:51:311 JTS-usfarmServicePreAuthPing-779: Starting
+JO 17:20:51:852 JTS-usfarmDispatcher-778: Received MD auth msg classid = 1
+JO 17:20:51:852 JTS-usfarmDispatcher-778: Received AUTH_PARAMS
+JO 17:20:52:354 JTS-usfarmDispatcher-778: Received MD auth msg classid = 1
+JO 17:20:52:354 JTS-usfarmDispatcher-778: Received SERVER_PARAMS
+JO 17:20:52:855 JTS-usfarmDispatcher-778: Received MD auth msg classid = 1
+JO 17:20:52:855 JTS-usfarmDispatcher-778: Received AUTH_RESULT
+JO 17:20:52:855 JTS-usfarmDispatcher-778: Passed pwd authentication.
+JO 17:20:52:855 JTS-usfarmDispatcher-778: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 17:20:52:855 JTS-usfarmDispatcher-778: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 17:20:52:856 JTS-usfarmServicePreAuthPing-779: Terminating
+JO 17:20:52:860 JTS-usfarmDispatcher-778: start ping with 60000 for: JTS-usfarmServicePing-781
+JO 17:20:52:868 JTS-usfarmServicePing-781: Starting
+JO 17:20:52:869 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/77...
+JO 17:20:52:871 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/79...
+JO 17:20:57:984 JTS-usfarmDispatcher-778: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 17:21:17:849 JTS-CCPPing-688: Warning: not received heartbeat at 32316000 elapsed:11000
+JO 17:21:29:619 JTS-Cleaner-16: Cleaning maps
+JO 17:21:34:050 JTS-Cleaner-16: Cleaning maps
+JO 17:21:44:447 JTS-Cleaner-16: Cleaning maps
+JO 17:21:53:000 JTS-CCPDispatcher-689: Setting time offset to -606 diff 688
+JO 17:21:53:000 JTS-CCPDispatcher-689: Setting time offset to -606 diff 0
+JO 17:22:30:307 JTS-Cleaner-16: Cleaning maps
+JO 17:22:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:22:45:135 JTS-Cleaner-16: Cleaning maps
+JO 17:23:13:563 JTS-CCPPing-688: Warning: not received heartbeat at 32431000 elapsed:11000
+JO 17:23:24:566 JTS-CCPPing-688: Warning: not received heartbeat at 32442000 elapsed:11000
+JO 17:23:25:566 JTS-CCPPing-688: Warning: not received heartbeat at 32443000 elapsed:12000
+JO 17:23:26:567 JTS-CCPPing-688: Warning: not received heartbeat at 32444000 elapsed:13000
+JO 17:23:30:308 JTS-Cleaner-16: Cleaning maps
+JO 17:23:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:23:43:571 JTS-CCPPing-688: Warning: not received heartbeat at 32461000 elapsed:11000
+JO 17:23:44:571 JTS-CCPPing-688: Warning: not received heartbeat at 32462000 elapsed:12000
+JO 17:23:45:135 JTS-Cleaner-16: Cleaning maps
+JO 17:24:03:576 JTS-CCPPing-688: Warning: not received heartbeat at 32481000 elapsed:11000
+JO 17:24:04:576 JTS-CCPPing-688: Warning: not received heartbeat at 32482000 elapsed:12000
+JO 17:24:05:577 JTS-CCPPing-688: Warning: not received heartbeat at 32483000 elapsed:13000
+JO 17:24:06:577 JTS-CCPPing-688: Warning: not received heartbeat at 32484000 elapsed:14000
+JO 17:24:07:578 JTS-CCPPing-688: Warning: sending test request at 32485000
+JO 17:24:08:579 JTS-CCPPing-688: Warning: not received heartbeat at 32486000 elapsed:16000
+JO 17:24:09:579 JTS-CCPPing-688: Warning: not received heartbeat at 32487000 elapsed:17000
+JO 17:24:10:580 JTS-CCPPing-688: Warning: not received heartbeat at 32488000 elapsed:18000
+JO 17:24:11:580 JTS-CCPPing-688: Warning: not received heartbeat at 32489000 elapsed:19000
+JO 17:24:22:583 JTS-CCPPing-688: Warning: not received heartbeat at 32500000 elapsed:11000
+JO 17:24:30:308 JTS-Cleaner-16: Cleaning maps
+JO 17:24:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:24:45:136 JTS-Cleaner-16: Cleaning maps
+JO 17:25:14:226 JTS-DeadlockMonitor: Memory:total=466,048KB free=418,589KB HeapUsage: Max=466,048KB used=30,196KB committed=225,088KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 17:25:15:237 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.35% 5 min avg=0.40% 1 min avg=0.50%
+JO 17:25:15:237 JTS-DeadlockMonitor: GC:called=239 times CPU used=0.02%
+JO 17:25:15:237 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:25:30:308 JTS-Cleaner-16: Cleaning maps
+JO 17:25:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:25:38:600 JTS-CCPPing-688: Warning: not received heartbeat at 32576000 elapsed:11000
+JO 17:25:45:136 JTS-Cleaner-16: Cleaning maps
+JO 17:26:18:609 JTS-CCPPing-688: Warning: not received heartbeat at 32616000 elapsed:11000
+JO 17:26:29:612 JTS-CCPPing-688: Warning: not received heartbeat at 32627000 elapsed:11000
+JO 17:26:30:308 JTS-Cleaner-16: Cleaning maps
+JO 17:26:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:26:45:137 JTS-Cleaner-16: Cleaning maps
+JO 17:27:30:308 JTS-Cleaner-16: Cleaning maps
+JO 17:27:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:27:41:629 JTS-CCPPing-688: Warning: not received heartbeat at 32699000 elapsed:11000
+JO 17:27:42:630 JTS-CCPPing-688: Warning: not received heartbeat at 32700000 elapsed:12000
+JO 17:27:43:630 JTS-CCPPing-688: Warning: not received heartbeat at 32701000 elapsed:13000
+JO 17:27:44:631 JTS-CCPPing-688: Warning: not received heartbeat at 32702000 elapsed:14000
+JO 17:27:45:137 JTS-Cleaner-16: Cleaning maps
+JO 17:27:45:631 JTS-CCPPing-688: Warning: sending test request at 32703000
+JO 17:28:30:308 JTS-Cleaner-16: Cleaning maps
+JO 17:28:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:28:45:137 JTS-Cleaner-16: Cleaning maps
+JO 17:29:30:309 JTS-Cleaner-16: Cleaning maps
+JO 17:29:34:738 JTS-Cleaner-16: Cleaning maps
+JO 17:29:45:137 JTS-Cleaner-16: Cleaning maps
+JO 17:30:14:234 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,852KB HeapUsage: Max=466,048KB used=30,280KB committed=227,904KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 17:30:15:245 JTS-DeadlockMonitor: CPU:cur=1.00% avg=0.30% 30 min avg=0.36% 5 min avg=0.36% 1 min avg=0.50%
+JO 17:30:15:245 JTS-DeadlockMonitor: GC:called=241 times CPU used=0.02%
+JO 17:30:15:245 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:30:30:309 JTS-Cleaner-16: Cleaning maps
+JO 17:30:34:739 JTS-Cleaner-16: Cleaning maps
+JO 17:30:45:137 JTS-Cleaner-16: Cleaning maps
+JO 17:31:29:679 JTS-CCPPing-688: Warning: not received heartbeat at 32927000 elapsed:11000
+JO 17:31:30:309 JTS-Cleaner-16: Cleaning maps
+JO 17:31:34:739 JTS-Cleaner-16: Cleaning maps
+JO 17:31:40:682 JTS-CCPPing-688: Warning: not received heartbeat at 32938000 elapsed:11000
+JO 17:31:41:683 JTS-CCPPing-688: Warning: not received heartbeat at 32939000 elapsed:12000
+JO 17:31:45:137 JTS-Cleaner-16: Cleaning maps
+JO 17:31:53:000 JTS-CCPDispatcher-689: Setting time offset to -590 diff 16
+JO 17:31:53:000 JTS-CCPDispatcher-689: Setting time offset to -590 diff 0
+JO 17:32:30:325 JTS-Cleaner-16: Cleaning maps
+JO 17:32:34:756 JTS-Cleaner-16: Cleaning maps
+JO 17:32:45:153 JTS-Cleaner-16: Cleaning maps
+JO 17:33:30:326 JTS-Cleaner-16: Cleaning maps
+JO 17:33:34:756 JTS-Cleaner-16: Cleaning maps
+JO 17:33:45:153 JTS-Cleaner-16: Cleaning maps
+JO 17:34:30:326 JTS-Cleaner-16: Cleaning maps
+JO 17:34:34:756 JTS-Cleaner-16: Cleaning maps
+JO 17:34:45:153 JTS-Cleaner-16: Cleaning maps
+JO 17:35:14:262 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,024KB HeapUsage: Max=466,048KB used=30,364KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 17:35:15:273 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.33% 5 min avg=0.27% 1 min avg=0.29%
+JO 17:35:15:273 JTS-DeadlockMonitor: GC:called=243 times CPU used=0.02%
+JO 17:35:15:273 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:35:30:326 JTS-Cleaner-16: Cleaning maps
+JO 17:35:34:757 JTS-Cleaner-16: Cleaning maps
+JO 17:35:45:153 JTS-Cleaner-16: Cleaning maps
+JO 17:35:49:749 JTS-CCPPing-688: Warning: not received heartbeat at 33187000 elapsed:11000
+JO 17:35:50:749 JTS-CCPPing-688: Warning: not received heartbeat at 33188000 elapsed:12000
+JO 17:36:09:754 JTS-CCPPing-688: Warning: not received heartbeat at 33207000 elapsed:11000
+JO 17:36:30:327 JTS-Cleaner-16: Cleaning maps
+JO 17:36:34:757 JTS-Cleaner-16: Cleaning maps
+JO 17:36:45:153 JTS-Cleaner-16: Cleaning maps
+JO 17:37:29:772 JTS-CCPPing-688: Warning: not received heartbeat at 33287000 elapsed:11000
+JO 17:37:30:327 JTS-Cleaner-16: Cleaning maps
+JO 17:37:34:757 JTS-Cleaner-16: Cleaning maps
+JO 17:37:45:154 JTS-Cleaner-16: Cleaning maps
+JO 17:37:59:779 JTS-CCPPing-688: Warning: not received heartbeat at 33317000 elapsed:11000
+JO 17:38:30:327 JTS-Cleaner-16: Cleaning maps
+JO 17:38:34:757 JTS-Cleaner-16: Cleaning maps
+JO 17:38:45:153 JTS-Cleaner-16: Cleaning maps
+JO 17:38:59:793 JTS-CCPPing-688: Warning: not received heartbeat at 33377000 elapsed:11000
+JO 17:39:00:794 JTS-CCPPing-688: Warning: not received heartbeat at 33378000 elapsed:12000
+JO 17:39:01:794 JTS-CCPPing-688: Warning: not received heartbeat at 33379000 elapsed:13000
+JO 17:39:02:795 JTS-CCPPing-688: Warning: not received heartbeat at 33380000 elapsed:14000
+JO 17:39:19:799 JTS-CCPPing-688: Warning: not received heartbeat at 33397000 elapsed:11000
+JO 17:39:30:327 JTS-Cleaner-16: Cleaning maps
+JO 17:39:34:757 JTS-Cleaner-16: Cleaning maps
+JO 17:39:45:153 JTS-Cleaner-16: Cleaning maps
+JO 17:40:14:274 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,400KB HeapUsage: Max=466,048KB used=30,667KB committed=227,456KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 17:40:15:285 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.35% 5 min avg=0.42% 1 min avg=0.33%
+JO 17:40:15:285 JTS-DeadlockMonitor: GC:called=245 times CPU used=0.02%
+JO 17:40:15:286 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:40:30:327 JTS-Cleaner-16: Cleaning maps
+JO 17:40:34:757 JTS-Cleaner-16: Cleaning maps
+JO 17:40:45:154 JTS-Cleaner-16: Cleaning maps
+JO 17:41:00:821 JTS-CCPPing-688: Warning: not received heartbeat at 33498000 elapsed:11000
+JO 17:41:01:821 JTS-CCPPing-688: Warning: not received heartbeat at 33499000 elapsed:12000
+JO 17:41:02:822 JTS-CCPPing-688: Warning: not received heartbeat at 33500000 elapsed:13000
+JO 17:41:03:591 JTS-Fuse-ServiceAuthTimeout-801: Farm usfarm/NATIVE: No ping response
+JO 17:41:03:591 JTS-Fuse-ServiceAuthTimeout-801: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 17:41:03:591 JTS-usfarmServicePing-781: Terminating
+JO 17:41:03:592 JTS-usfarmListener-777: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 17:41:03:593 JTS-usfarmDispatcher-778: Terminating
+JO 17:41:03:594 JTS-usfarmListener-777: Terminating
+JO 17:41:03:597 JTS-Disconnected-802: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 17:41:03:597 JTS-Disconnected-802: Farm usfarm/NATIVE: Resetting
+JO 17:41:03:597 JTS-Disconnected-802: NextConnectTime: 17:41:09:767  in 5580 msec;   base=5000  range = 10000  random: 3586
+JO 17:41:03:822 JTS-CCPPing-688: Warning: not received heartbeat at 33501000 elapsed:14000
+JO 17:41:09:177 JTS-Fuse-nativepause-803: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 17:41:09:177 JTS-Fuse-nativepause-803: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 17:41:12:633 JTS-Fuse-nativepause-803: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 17:41:12:633 JTS-Fuse-nativepause-803: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 17:41:12:634 JTS-usfarmListener-804: Starting
+JO 17:41:12:636 JTS-usfarmListener-804: Initial listener buffer size is 43690
+JO 17:41:12:637 JTS-usfarmDispatcher-805: Starting
+JO 17:41:12:637 JTS-Fuse-nativepause-803: start ping with 5000 for: JTS-usfarmServicePreAuthPing-806
+JO 17:41:12:637 JTS-usfarmServicePreAuthPing-806: Starting
+JO 17:41:13:204 JTS-usfarmDispatcher-805: Received MD auth msg classid = 1
+JO 17:41:13:205 JTS-usfarmDispatcher-805: Received AUTH_PARAMS
+JO 17:41:13:701 JTS-usfarmDispatcher-805: Received MD auth msg classid = 1
+JO 17:41:13:701 JTS-usfarmDispatcher-805: Received SERVER_PARAMS
+JO 17:41:14:196 JTS-usfarmDispatcher-805: Received MD auth msg classid = 1
+JO 17:41:14:196 JTS-usfarmDispatcher-805: Received AUTH_RESULT
+JO 17:41:14:196 JTS-usfarmDispatcher-805: Passed pwd authentication.
+JO 17:41:14:198 JTS-usfarmDispatcher-805: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 17:41:14:198 JTS-usfarmDispatcher-805: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 17:41:14:199 JTS-usfarmServicePreAuthPing-806: Terminating
+JO 17:41:14:200 JTS-usfarmDispatcher-805: start ping with 60000 for: JTS-usfarmServicePing-808
+JO 17:41:14:205 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/81...
+JO 17:41:14:206 JTS-usfarmServicePing-808: Starting
+JO 17:41:14:206 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/83...
+JO 17:41:23:979 JTS-usfarmDispatcher-805: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 17:41:30:327 JTS-Cleaner-16: Cleaning maps
+JO 17:41:34:757 JTS-Cleaner-16: Cleaning maps
+JO 17:41:45:154 JTS-Cleaner-16: Cleaning maps
+JO 17:41:53:000 JTS-CCPDispatcher-689: Setting time offset to -4502 diff -3912
+JO 17:41:53:000 JTS-CCPDispatcher-689: Setting time offset to -4503 diff -1
+JO 17:42:26:414 JTS-Cleaner-16: Cleaning maps
+JO 17:42:30:844 JTS-Cleaner-16: Cleaning maps
+JO 17:42:41:241 JTS-Cleaner-16: Cleaning maps
+JO 17:43:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:43:30:844 JTS-Cleaner-16: Cleaning maps
+JO 17:43:41:242 JTS-Cleaner-16: Cleaning maps
+JO 17:44:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:44:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:44:41:242 JTS-Cleaner-16: Cleaning maps
+JO 17:45:10:372 JTS-DeadlockMonitor: Memory:total=466,048KB free=419,076KB HeapUsage: Max=466,048KB used=30,449KB committed=225,088KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 17:45:11:384 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.34% 5 min avg=0.29% 1 min avg=0.21%
+JO 17:45:11:384 JTS-DeadlockMonitor: GC:called=247 times CPU used=0.02%
+JO 17:45:11:384 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:45:16:965 JTS-CCPPing-688: Warning: not received heartbeat at 33758000 elapsed:11000
+JO 17:45:17:965 JTS-CCPPing-688: Warning: not received heartbeat at 33759000 elapsed:12000
+JO 17:45:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:45:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:45:41:243 JTS-Cleaner-16: Cleaning maps
+JO 17:45:56:974 JTS-CCPPing-688: Warning: not received heartbeat at 33798000 elapsed:11000
+JO 17:46:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:46:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:46:41:243 JTS-Cleaner-16: Cleaning maps
+JO 17:47:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:47:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:47:41:243 JTS-Cleaner-16: Cleaning maps
+JO 17:48:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:48:27:011 JTS-CCPPing-688: Warning: not received heartbeat at 33948000 elapsed:11000
+JO 17:48:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:48:41:244 JTS-Cleaner-16: Cleaning maps
+JO 17:48:47:016 JTS-CCPPing-688: Warning: not received heartbeat at 33968000 elapsed:11000
+JO 17:49:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:49:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:49:37:028 JTS-CCPPing-688: Warning: not received heartbeat at 34018000 elapsed:11000
+JO 17:49:41:244 JTS-Cleaner-16: Cleaning maps
+JO 17:50:10:387 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,516KB HeapUsage: Max=466,048KB used=30,300KB committed=227,136KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 17:50:11:399 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.33% 5 min avg=0.26% 1 min avg=0.21%
+JO 17:50:11:399 JTS-DeadlockMonitor: GC:called=249 times CPU used=0.02%
+JO 17:50:11:399 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 17:50:26:415 JTS-Cleaner-16: Cleaning maps
+JO 17:50:27:039 JTS-CCPPing-688: Warning: not received heartbeat at 34068000 elapsed:11000
+JO 17:50:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:50:41:244 JTS-Cleaner-16: Cleaning maps
+JO 17:50:57:046 JTS-CCPPing-688: Warning: not received heartbeat at 34098000 elapsed:11000
+JO 17:51:26:416 JTS-Cleaner-16: Cleaning maps
+JO 17:51:30:845 JTS-Cleaner-16: Cleaning maps
+JO 17:51:41:245 JTS-Cleaner-16: Cleaning maps
+JO 17:51:53:000 JTS-CCPDispatcher-689: Setting time offset to -501 diff 4002
+JO 17:51:53:000 JTS-CCPDispatcher-689: Setting time offset to -501 diff 0
+JO 17:52:03:062 JTS-CCPPing-688: Warning: not received heartbeat at 34160000 elapsed:11000
+JO 17:52:23:067 JTS-CCPPing-688: Warning: not received heartbeat at 34180000 elapsed:11000
+JO 17:52:30:418 JTS-Cleaner-16: Cleaning maps
+JO 17:52:34:848 JTS-Cleaner-16: Cleaning maps
+JO 17:52:45:247 JTS-Cleaner-16: Cleaning maps
+JO 17:53:23:081 JTS-CCPPing-688: Warning: not received heartbeat at 34240000 elapsed:11000
+JO 17:53:30:418 JTS-Cleaner-16: Cleaning maps
+JO 17:53:34:084 JTS-CCPPing-688: Warning: not received heartbeat at 34251000 elapsed:11000
+JO 17:53:34:848 JTS-Cleaner-16: Cleaning maps
+JO 17:53:45:247 JTS-Cleaner-16: Cleaning maps
+JO 17:54:30:418 JTS-Cleaner-16: Cleaning maps
+JO 17:54:34:848 JTS-Cleaner-16: Cleaning maps
+JO 17:54:42:100 JTS-CCPPing-688: Warning: not received heartbeat at 34319000 elapsed:11000
+JO 17:54:45:248 JTS-Cleaner-16: Cleaning maps
+JO 17:55:12:106 JTS-CCPPing-688: Warning: not received heartbeat at 34349000 elapsed:11000
+JO 17:55:14:400 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,886KB HeapUsage: Max=466,048KB used=30,387KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 17:55:15:410 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.32% 5 min avg=0.34% 1 min avg=0.42%
+JO 17:55:15:410 JTS-DeadlockMonitor: GC:called=251 times CPU used=0.02%
+JO 17:55:15:410 JTS-DeadlockMonitor: Finalizer:cur=0.50% avg=0.00% 30 min avg=0.00% 5 min avg=0.01% 1 min avg=0.04%
+JO 17:55:30:418 JTS-Cleaner-16: Cleaning maps
+JO 17:55:34:849 JTS-Cleaner-16: Cleaning maps
+JO 17:55:45:248 JTS-Cleaner-16: Cleaning maps
+JO 17:56:30:418 JTS-Cleaner-16: Cleaning maps
+JO 17:56:34:849 JTS-Cleaner-16: Cleaning maps
+JO 17:56:45:248 JTS-Cleaner-16: Cleaning maps
+JO 17:57:30:419 JTS-Cleaner-16: Cleaning maps
+JO 17:57:32:139 JTS-CCPPing-688: Warning: not received heartbeat at 34489000 elapsed:11000
+JO 17:57:34:849 JTS-Cleaner-16: Cleaning maps
+JO 17:57:45:249 JTS-Cleaner-16: Cleaning maps
+JO 17:58:30:419 JTS-Cleaner-16: Cleaning maps
+JO 17:58:34:850 JTS-Cleaner-16: Cleaning maps
+JO 17:58:45:249 JTS-Cleaner-16: Cleaning maps
+JO 17:59:09:161 JTS-CCPPing-688: Warning: not received heartbeat at 34586000 elapsed:11000
+JO 17:59:20:164 JTS-CCPPing-688: Warning: not received heartbeat at 34597000 elapsed:11000
+JO 17:59:30:420 JTS-Cleaner-16: Cleaning maps
+JO 17:59:34:850 JTS-Cleaner-16: Cleaning maps
+JO 17:59:45:249 JTS-Cleaner-16: Cleaning maps
+JO 18:00:14:410 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,193KB HeapUsage: Max=466,048KB used=30,709KB committed=226,752KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 18:00:15:422 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.31% 5 min avg=0.27% 1 min avg=0.21%
+JO 18:00:15:422 JTS-DeadlockMonitor: GC:called=253 times CPU used=0.02%
+JO 18:00:15:422 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:00:30:420 JTS-Cleaner-16: Cleaning maps
+JO 18:00:34:850 JTS-Cleaner-16: Cleaning maps
+JO 18:00:42:418 JTS-CCPPing-688: Warning: not received heartbeat at 34679000 elapsed:11000
+JO 18:00:45:249 JTS-Cleaner-16: Cleaning maps
+JO 18:01:30:420 JTS-Cleaner-16: Cleaning maps
+JO 18:01:34:851 JTS-Cleaner-16: Cleaning maps
+JO 18:01:45:249 JTS-Cleaner-16: Cleaning maps
+JO 18:01:53:000 JTS-CCPDispatcher-689: Setting time offset to -519 diff -18
+JO 18:01:53:000 JTS-CCPDispatcher-689: Setting time offset to -519 diff 0
+JO 18:02:03:419 JTS-CCPPing-688: Warning: not received heartbeat at 34760000 elapsed:11000
+JO 18:02:14:759 JTS-usfarmListener-804: Error reading from socket mktgw1.ibllc.com:4000 - java.net.SocketException: Connection reset
+JO 18:02:14:759 JTS-usfarmListener-804: Disconnecting mktgw1.ibllc.com:4000 with status 1
+JO 18:02:14:759 JTS-usfarmDispatcher-805: Terminating
+JO 18:02:14:759 JTS-usfarmServicePing-808: Terminating
+JO 18:02:14:760 JTS-usfarmListener-804: Terminating
+JO 18:02:14:760 JTS-Disconnected-830: Farm usfarm/NATIVE: Lost active connection with disconnect status 1
+JO 18:02:14:760 JTS-Disconnected-830: Farm usfarm/NATIVE: Resetting
+JO 18:02:14:760 JTS-Disconnected-830: NextConnectTime: 18:02:19:646  in 4367 msec;   base=5000  range = 10000  random: 2368
+JO 18:02:19:132 JTS-Fuse-nativepause-831: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 18:02:19:133 JTS-Fuse-nativepause-831: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 18:02:19:550 JTS-Fuse-nativepause-831: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 18:02:19:551 JTS-Fuse-nativepause-831: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 18:02:19:551 JTS-usfarmListener-832: Starting
+JO 18:02:19:552 JTS-Fuse-nativepause-831: start ping with 5000 for: JTS-usfarmServicePreAuthPing-834
+JO 18:02:19:552 JTS-usfarmDispatcher-833: Starting
+JO 18:02:19:553 JTS-usfarmServicePreAuthPing-834: Starting
+JO 18:02:19:559 JTS-usfarmListener-832: Initial listener buffer size is 43690
+JO 18:02:20:013 JTS-usfarmDispatcher-833: Received MD auth msg classid = 1
+JO 18:02:20:014 JTS-usfarmDispatcher-833: Received AUTH_PARAMS
+JO 18:02:20:511 JTS-usfarmDispatcher-833: Received MD auth msg classid = 1
+JO 18:02:20:511 JTS-usfarmDispatcher-833: Received SERVER_PARAMS
+JO 18:02:21:012 JTS-usfarmDispatcher-833: Received MD auth msg classid = 1
+JO 18:02:21:013 JTS-usfarmDispatcher-833: Received AUTH_RESULT
+JO 18:02:21:023 JTS-usfarmDispatcher-833: Passed pwd authentication.
+JO 18:02:21:027 JTS-usfarmDispatcher-833: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 18:02:21:027 JTS-usfarmDispatcher-833: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 18:02:21:027 JTS-usfarmDispatcher-833: start ping with 60000 for: JTS-usfarmServicePing-836
+JO 18:02:21:027 JTS-usfarmServicePreAuthPing-834: Terminating
+JO 18:02:21:032 JTS-usfarmServicePing-836: Starting
+JO 18:02:21:034 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/85...
+JO 18:02:21:035 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/87...
+JO 18:02:21:370 JTS-usfarmDispatcher-833: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 18:02:30:402 JTS-Cleaner-16: Cleaning maps
+JO 18:02:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:02:45:231 JTS-Cleaner-16: Cleaning maps
+JO 18:03:03:434 JTS-CCPPing-688: Warning: not received heartbeat at 34820000 elapsed:11000
+JO 18:03:04:434 JTS-CCPPing-688: Warning: not received heartbeat at 34821000 elapsed:12000
+JO 18:03:05:434 JTS-CCPPing-688: Warning: not received heartbeat at 34822000 elapsed:13000
+JO 18:03:06:435 JTS-CCPPing-688: Warning: not received heartbeat at 34823000 elapsed:14000
+JO 18:03:07:436 JTS-CCPPing-688: Warning: sending test request at 34824000
+JO 18:03:08:436 JTS-CCPPing-688: Warning: not received heartbeat at 34825000 elapsed:16000
+JO 18:03:09:437 JTS-CCPPing-688: Warning: not received heartbeat at 34826000 elapsed:17000
+JO 18:03:10:437 JTS-CCPPing-688: Warning: not received heartbeat at 34827000 elapsed:18000
+JO 18:03:30:402 JTS-Cleaner-16: Cleaning maps
+JO 18:03:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:03:45:232 JTS-Cleaner-16: Cleaning maps
+JO 18:04:12:451 JTS-CCPPing-688: Warning: not received heartbeat at 34889000 elapsed:11000
+JO 18:04:30:402 JTS-Cleaner-16: Cleaning maps
+JO 18:04:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:04:45:232 JTS-Cleaner-16: Cleaning maps
+JO 18:05:14:395 JTS-DeadlockMonitor: Memory:total=466,048KB free=419,128KB HeapUsage: Max=466,048KB used=30,232KB committed=225,088KB NonHeapUsage: Max=114,688KB used=40,905KB committed=41,248KB
+JO 18:05:15:405 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.33% 5 min avg=0.40% 1 min avg=0.37%
+JO 18:05:15:405 JTS-DeadlockMonitor: GC:called=255 times CPU used=0.02%
+JO 18:05:15:405 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:05:30:402 JTS-Cleaner-16: Cleaning maps
+JO 18:05:31:035 JTS-Fuse-ServiceAuthTimeout-839: Farm usfarm/NATIVE: No ping response
+JO 18:05:31:035 JTS-Fuse-ServiceAuthTimeout-839: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 18:05:31:036 JTS-usfarmServicePing-836: Terminating
+JO 18:05:31:036 JTS-usfarmDispatcher-833: Terminating
+JO 18:05:31:036 JTS-usfarmListener-832: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 18:05:31:036 JTS-usfarmListener-832: Terminating
+JO 18:05:31:036 JTS-Disconnected-840: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 18:05:31:036 JTS-Disconnected-840: Farm usfarm/NATIVE: Resetting
+JO 18:05:31:036 JTS-Disconnected-840: NextConnectTime: 18:05:37:537  in 5982 msec;   base=5000  range = 10000  random: 3983
+JO 18:05:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:05:37:023 JTS-Fuse-nativepause-841: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 18:05:37:024 JTS-Fuse-nativepause-841: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 18:05:37:446 JTS-Fuse-nativepause-841: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 18:05:37:446 JTS-Fuse-nativepause-841: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 18:05:37:447 JTS-usfarmListener-842: Starting
+JO 18:05:37:448 JTS-Fuse-nativepause-841: start ping with 5000 for: JTS-usfarmServicePreAuthPing-844
+JO 18:05:37:448 JTS-usfarmDispatcher-843: Starting
+JO 18:05:37:448 JTS-usfarmServicePreAuthPing-844: Starting
+JO 18:05:37:455 JTS-usfarmListener-842: Initial listener buffer size is 43690
+JO 18:05:37:876 JTS-usfarmDispatcher-843: Received MD auth msg classid = 1
+JO 18:05:37:877 JTS-usfarmDispatcher-843: Received AUTH_PARAMS
+JO 18:05:38:381 JTS-usfarmDispatcher-843: Received MD auth msg classid = 1
+JO 18:05:38:381 JTS-usfarmDispatcher-843: Received SERVER_PARAMS
+JO 18:05:39:387 JTS-usfarmDispatcher-843: Received MD auth msg classid = 1
+JO 18:05:39:387 JTS-usfarmDispatcher-843: Received AUTH_RESULT
+JO 18:05:39:387 JTS-usfarmDispatcher-843: Passed pwd authentication.
+JO 18:05:39:388 JTS-usfarmDispatcher-843: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 18:05:39:388 JTS-usfarmDispatcher-843: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 18:05:39:388 JTS-usfarmDispatcher-843: start ping with 60000 for: JTS-usfarmServicePing-846
+JO 18:05:39:388 JTS-usfarmServicePreAuthPing-844: Terminating
+JO 18:05:39:401 JTS-usfarmServicePing-846: Starting
+JO 18:05:39:404 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/89...
+JO 18:05:39:406 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/91...
+JO 18:05:45:232 JTS-Cleaner-16: Cleaning maps
+JO 18:05:57:889 JTS-usfarmDispatcher-843: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 18:06:02:474 JTS-CCPPing-688: Warning: not received heartbeat at 34999000 elapsed:11000
+JO 18:06:03:475 JTS-CCPPing-688: Warning: not received heartbeat at 35000000 elapsed:12000
+JO 18:06:04:475 JTS-CCPPing-688: Warning: not received heartbeat at 35001000 elapsed:13000
+JO 18:06:05:476 JTS-CCPPing-688: Warning: not received heartbeat at 35002000 elapsed:14000
+JO 18:06:30:402 JTS-Cleaner-16: Cleaning maps
+JO 18:06:32:482 JTS-CCPPing-688: Warning: not received heartbeat at 35029000 elapsed:11000
+JO 18:06:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:06:45:233 JTS-Cleaner-16: Cleaning maps
+JO 18:07:30:402 JTS-Cleaner-16: Cleaning maps
+JO 18:07:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:07:45:233 JTS-Cleaner-16: Cleaning maps
+JO 18:08:30:402 JTS-Cleaner-16: Cleaning maps
+JO 18:08:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:08:43:511 JTS-CCPPing-688: Warning: not received heartbeat at 35160000 elapsed:11000
+JO 18:08:45:233 JTS-Cleaner-16: Cleaning maps
+JO 18:09:30:403 JTS-Cleaner-16: Cleaning maps
+JO 18:09:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:09:45:234 JTS-Cleaner-16: Cleaning maps
+JO 18:10:14:405 JTS-DeadlockMonitor: Memory:total=466,048KB free=419,869KB HeapUsage: Max=466,048KB used=30,647KB committed=226,432KB NonHeapUsage: Max=114,688KB used=40,909KB committed=41,248KB
+JO 18:10:15:416 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.32% 5 min avg=0.37% 1 min avg=0.42%
+JO 18:10:15:416 JTS-DeadlockMonitor: GC:called=257 times CPU used=0.02%
+JO 18:10:15:416 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:10:30:403 JTS-Cleaner-16: Cleaning maps
+JO 18:10:34:833 JTS-Cleaner-16: Cleaning maps
+JO 18:10:45:234 JTS-Cleaner-16: Cleaning maps
+JO 18:11:30:403 JTS-Cleaner-16: Cleaning maps
+JO 18:11:34:834 JTS-Cleaner-16: Cleaning maps
+JO 18:11:45:234 JTS-Cleaner-16: Cleaning maps
+JO 18:11:49:408 JTS-Fuse-ServiceAuthTimeout-852: Farm usfarm/NATIVE: No ping response
+JO 18:11:49:409 JTS-Fuse-ServiceAuthTimeout-852: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 18:11:49:409 JTS-usfarmListener-842: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 18:11:49:409 JTS-usfarmListener-842: Terminating
+JO 18:11:49:418 JTS-usfarmServicePing-846: Terminating
+JO 18:11:49:418 JTS-usfarmDispatcher-843: Terminating
+JO 18:11:49:418 JTS-Disconnected-853: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 18:11:49:419 JTS-Disconnected-853: Farm usfarm/NATIVE: Resetting
+JO 18:11:49:419 JTS-Disconnected-853: NextConnectTime: 18:11:53:242  in 3304 msec;   base=5000  range = 10000  random: 1314
+JO 18:11:52:728 JTS-Fuse-nativepause-854: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 18:11:52:729 JTS-Fuse-nativepause-854: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 18:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 486 diff 1005
+JO 18:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 486 diff 0
+JO 18:11:54:197 JTS-Fuse-nativepause-854: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 18:11:54:197 JTS-Fuse-nativepause-854: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 18:11:54:198 JTS-usfarmListener-855: Starting
+JO 18:11:54:201 JTS-usfarmListener-855: Initial listener buffer size is 43690
+JO 18:11:54:201 JTS-usfarmDispatcher-856: Starting
+JO 18:11:54:201 JTS-Fuse-nativepause-854: start ping with 5000 for: JTS-usfarmServicePreAuthPing-857
+JO 18:11:54:201 JTS-usfarmServicePreAuthPing-857: Starting
+JO 18:11:54:828 JTS-usfarmDispatcher-856: Received MD auth msg classid = 1
+JO 18:11:54:829 JTS-usfarmDispatcher-856: Received AUTH_PARAMS
+JO 18:11:55:327 JTS-usfarmDispatcher-856: Received MD auth msg classid = 1
+JO 18:11:55:327 JTS-usfarmDispatcher-856: Received SERVER_PARAMS
+JO 18:11:55:829 JTS-usfarmDispatcher-856: Received MD auth msg classid = 1
+JO 18:11:55:830 JTS-usfarmDispatcher-856: Received AUTH_RESULT
+JO 18:11:55:830 JTS-usfarmDispatcher-856: Passed pwd authentication.
+JO 18:11:57:015 JTS-usfarmDispatcher-856: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 18:11:57:015 JTS-usfarmDispatcher-856: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 18:11:57:016 JTS-usfarmServicePreAuthPing-857: Terminating
+JO 18:11:57:017 JTS-usfarmDispatcher-856: start ping with 60000 for: JTS-usfarmServicePing-859
+JO 18:11:57:017 JTS-usfarmServicePing-859: Starting
+JO 18:11:57:019 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/93...
+JO 18:11:57:021 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/95...
+JO 18:12:31:408 JTS-Cleaner-16: Cleaning maps
+JO 18:12:32:614 JTS-usfarmDispatcher-856: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 18:12:35:839 JTS-Cleaner-16: Cleaning maps
+JO 18:12:46:239 JTS-Cleaner-16: Cleaning maps
+JO 18:13:31:408 JTS-Cleaner-16: Cleaning maps
+JO 18:13:35:839 JTS-Cleaner-16: Cleaning maps
+JO 18:13:46:240 JTS-Cleaner-16: Cleaning maps
+JO 18:14:31:408 JTS-Cleaner-16: Cleaning maps
+JO 18:14:35:840 JTS-Cleaner-16: Cleaning maps
+JO 18:14:46:240 JTS-Cleaner-16: Cleaning maps
+JO 18:15:15:417 JTS-DeadlockMonitor: Memory:total=466,048KB free=419,908KB HeapUsage: Max=466,048KB used=31,062KB committed=225,088KB NonHeapUsage: Max=114,688KB used=40,908KB committed=41,248KB
+JO 18:15:16:428 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.32% 5 min avg=0.28% 1 min avg=0.33%
+JO 18:15:16:428 JTS-DeadlockMonitor: GC:called=259 times CPU used=0.02%
+JO 18:15:16:428 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:15:31:409 JTS-Cleaner-16: Cleaning maps
+JO 18:15:34:605 JTS-CCPPing-688: Warning: not received heartbeat at 35570000 elapsed:11000
+JO 18:15:35:606 JTS-CCPPing-688: Warning: not received heartbeat at 35571000 elapsed:12000
+JO 18:15:35:840 JTS-Cleaner-16: Cleaning maps
+JO 18:15:46:241 JTS-Cleaner-16: Cleaning maps
+JO 18:15:54:611 JTS-CCPPing-688: Warning: not received heartbeat at 35590000 elapsed:11000
+JO 18:16:14:614 JTS-CCPPing-688: Warning: not received heartbeat at 35610000 elapsed:11000
+JO 18:16:25:617 JTS-CCPPing-688: Warning: not received heartbeat at 35621000 elapsed:11000
+JO 18:16:31:409 JTS-Cleaner-16: Cleaning maps
+JO 18:16:35:841 JTS-Cleaner-16: Cleaning maps
+JO 18:16:44:622 JTS-CCPPing-688: Warning: not received heartbeat at 35640000 elapsed:11000
+JO 18:16:46:241 JTS-Cleaner-16: Cleaning maps
+JO 18:17:31:409 JTS-Cleaner-16: Cleaning maps
+JO 18:17:35:841 JTS-Cleaner-16: Cleaning maps
+JO 18:17:46:241 JTS-Cleaner-16: Cleaning maps
+JO 18:18:19:644 JTS-CCPPing-688: Warning: not received heartbeat at 35735000 elapsed:11000
+JO 18:18:20:645 JTS-CCPPing-688: Warning: not received heartbeat at 35736000 elapsed:12000
+JO 18:18:31:409 JTS-Cleaner-16: Cleaning maps
+JO 18:18:31:647 JTS-CCPPing-688: Warning: not received heartbeat at 35747000 elapsed:11000
+JO 18:18:35:841 JTS-Cleaner-16: Cleaning maps
+JO 18:18:42:650 JTS-CCPPing-688: Warning: not received heartbeat at 35758000 elapsed:11000
+JO 18:18:43:650 JTS-CCPPing-688: Warning: not received heartbeat at 35759000 elapsed:12000
+JO 18:18:44:651 JTS-CCPPing-688: Warning: not received heartbeat at 35760000 elapsed:13000
+JO 18:18:45:651 JTS-CCPPing-688: Warning: not received heartbeat at 35761000 elapsed:14000
+JO 18:18:46:241 JTS-Cleaner-16: Cleaning maps
+JO 18:18:46:652 JTS-CCPPing-688: Warning: sending test request at 35762000
+JO 18:18:47:653 JTS-CCPPing-688: Warning: not received heartbeat at 35763000 elapsed:16000
+JO 18:18:58:656 JTS-CCPPing-688: Warning: not received heartbeat at 35774000 elapsed:11000
+JO 18:18:59:656 JTS-CCPPing-688: Warning: not received heartbeat at 35775000 elapsed:12000
+JO 18:19:00:657 JTS-CCPPing-688: Warning: not received heartbeat at 35776000 elapsed:13000
+JO 18:19:01:657 JTS-CCPPing-688: Warning: not received heartbeat at 35777000 elapsed:14000
+JO 18:19:02:658 JTS-CCPPing-688: Warning: sending test request at 35778000
+JO 18:19:03:659 JTS-CCPPing-688: Warning: not received heartbeat at 35779000 elapsed:16000
+JO 18:19:04:659 JTS-CCPPing-688: Warning: not received heartbeat at 35780000 elapsed:17000
+JO 18:19:05:660 JTS-CCPPing-688: Warning: not received heartbeat at 35781000 elapsed:18000
+JO 18:19:06:660 JTS-CCPPing-688: Warning: not received heartbeat at 35782000 elapsed:19000
+JO 18:19:23:665 JTS-CCPPing-688: Warning: not received heartbeat at 35799000 elapsed:11000
+JO 18:19:24:665 JTS-CCPPing-688: Warning: not received heartbeat at 35800000 elapsed:12000
+JO 18:19:31:409 JTS-Cleaner-16: Cleaning maps
+JO 18:19:35:841 JTS-Cleaner-16: Cleaning maps
+JO 18:19:46:241 JTS-Cleaner-16: Cleaning maps
+JO 18:20:15:426 JTS-DeadlockMonitor: Memory:total=466,048KB free=421,368KB HeapUsage: Max=466,048KB used=31,155KB committed=226,240KB NonHeapUsage: Max=114,688KB used=40,908KB committed=41,248KB
+JO 18:20:16:438 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.34% 5 min avg=0.38% 1 min avg=0.33%
+JO 18:20:16:439 JTS-DeadlockMonitor: GC:called=261 times CPU used=0.02%
+JO 18:20:16:439 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:20:23:792 JTS-CCPPing-688: Warning: not received heartbeat at 35859000 elapsed:11000
+JO 18:20:24:793 JTS-CCPPing-688: Warning: not received heartbeat at 35860000 elapsed:12000
+JO 18:20:25:793 JTS-CCPPing-688: Warning: not received heartbeat at 35861000 elapsed:13000
+JO 18:20:26:794 JTS-CCPPing-688: Warning: not received heartbeat at 35862000 elapsed:14000
+JO 18:20:31:410 JTS-Cleaner-16: Cleaning maps
+JO 18:20:35:841 JTS-Cleaner-16: Cleaning maps
+JO 18:20:46:241 JTS-Cleaner-16: Cleaning maps
+JO 18:21:31:409 JTS-Cleaner-16: Cleaning maps
+JO 18:21:33:810 JTS-CCPPing-688: Warning: not received heartbeat at 35929000 elapsed:11000
+JO 18:21:35:841 JTS-Cleaner-16: Cleaning maps
+JO 18:21:46:241 JTS-Cleaner-16: Cleaning maps
+JO 18:21:54:000 JTS-CCPDispatcher-689: Setting time offset to 491 diff 5
+JO 18:21:54:000 JTS-CCPDispatcher-689: Setting time offset to 491 diff 0
+JO 18:22:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:22:35:846 JTS-Cleaner-16: Cleaning maps
+JO 18:22:46:246 JTS-Cleaner-16: Cleaning maps
+JO 18:23:31:415 JTS-Cleaner-16: Cleaning maps
+JO 18:23:35:846 JTS-Cleaner-16: Cleaning maps
+JO 18:23:46:247 JTS-Cleaner-16: Cleaning maps
+JO 18:23:57:442 JTS-usfarmListener-855: Error reading from socket mktgw1.ibllc.com:4000 - java.net.SocketException: Connection reset
+JO 18:23:57:443 JTS-usfarmListener-855: Disconnecting mktgw1.ibllc.com:4000 with status 1
+JO 18:23:57:443 JTS-usfarmDispatcher-856: Terminating
+JO 18:23:57:443 JTS-usfarmListener-855: Terminating
+JO 18:23:57:443 JTS-Disconnected-872: Farm usfarm/NATIVE: Lost active connection with disconnect status 1
+JO 18:23:57:444 JTS-Disconnected-872: Farm usfarm/NATIVE: Resetting
+JO 18:23:57:444 JTS-Disconnected-872: NextConnectTime: 18:23:59:491  in 2538 msec;   base=5000  range = 10000  random: 539
+JO 18:23:57:449 JTS-usfarmServicePing-859: Terminating
+JO 18:23:59:982 JTS-Fuse-nativepause-873: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 18:23:59:983 JTS-Fuse-nativepause-873: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 18:24:00:428 JTS-Fuse-nativepause-873: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 18:24:00:428 JTS-Fuse-nativepause-873: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 18:24:00:432 JTS-usfarmListener-874: Starting
+JO 18:24:00:433 JTS-Fuse-nativepause-873: start ping with 5000 for: JTS-usfarmServicePreAuthPing-876
+JO 18:24:00:433 JTS-usfarmDispatcher-875: Starting
+JO 18:24:00:433 JTS-usfarmServicePreAuthPing-876: Starting
+JO 18:24:00:443 JTS-usfarmListener-874: Initial listener buffer size is 43690
+JO 18:24:01:013 JTS-usfarmDispatcher-875: Received MD auth msg classid = 1
+JO 18:24:01:014 JTS-usfarmDispatcher-875: Received AUTH_PARAMS
+JO 18:24:02:637 JTS-usfarmDispatcher-875: Received MD auth msg classid = 1
+JO 18:24:02:637 JTS-usfarmDispatcher-875: Received SERVER_PARAMS
+JO 18:24:03:247 JTS-usfarmDispatcher-875: Received MD auth msg classid = 1
+JO 18:24:03:247 JTS-usfarmDispatcher-875: Received AUTH_RESULT
+JO 18:24:03:247 JTS-usfarmDispatcher-875: Passed pwd authentication.
+JO 18:24:03:250 JTS-usfarmDispatcher-875: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 18:24:03:250 JTS-usfarmDispatcher-875: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 18:24:03:250 JTS-usfarmServicePreAuthPing-876: Terminating
+JO 18:24:03:251 JTS-usfarmDispatcher-875: start ping with 60000 for: JTS-usfarmServicePing-878
+JO 18:24:03:253 JTS-usfarmServicePing-878: Starting
+JO 18:24:03:254 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/97...
+JO 18:24:03:255 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/99...
+JO 18:24:07:739 JTS-usfarmDispatcher-875: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 18:24:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:24:35:846 JTS-Cleaner-16: Cleaning maps
+JO 18:24:46:247 JTS-Cleaner-16: Cleaning maps
+JO 18:25:05:864 JTS-CCPPing-688: Warning: not received heartbeat at 36141000 elapsed:11000
+JO 18:25:15:444 JTS-DeadlockMonitor: Memory:total=466,048KB free=418,309KB HeapUsage: Max=466,048KB used=30,261KB committed=225,088KB NonHeapUsage: Max=114,688KB used=40,909KB committed=41,248KB
+JO 18:25:16:455 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.33% 5 min avg=0.27% 1 min avg=0.29%
+JO 18:25:16:456 JTS-DeadlockMonitor: GC:called=263 times CPU used=0.02%
+JO 18:25:16:456 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:25:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:25:35:846 JTS-Cleaner-16: Cleaning maps
+JO 18:25:46:247 JTS-Cleaner-16: Cleaning maps
+JO 18:25:55:876 JTS-CCPPing-688: Warning: not received heartbeat at 36191000 elapsed:11000
+JO 18:25:56:876 JTS-CCPPing-688: Warning: not received heartbeat at 36192000 elapsed:12000
+JO 18:26:15:881 JTS-CCPPing-688: Warning: not received heartbeat at 36211000 elapsed:11000
+JO 18:26:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:26:35:846 JTS-Cleaner-16: Cleaning maps
+JO 18:26:46:248 JTS-Cleaner-16: Cleaning maps
+JO 18:27:05:892 JTS-CCPPing-688: Warning: not received heartbeat at 36261000 elapsed:11000
+JO 18:27:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:27:35:847 JTS-Cleaner-16: Cleaning maps
+JO 18:27:45:901 JTS-CCPPing-688: Warning: not received heartbeat at 36301000 elapsed:11000
+JO 18:27:46:248 JTS-Cleaner-16: Cleaning maps
+JO 18:28:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:28:35:847 JTS-Cleaner-16: Cleaning maps
+JO 18:28:46:248 JTS-Cleaner-16: Cleaning maps
+JO 18:29:25:923 JTS-CCPPing-688: Warning: not received heartbeat at 36401000 elapsed:11000
+JO 18:29:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:29:35:847 JTS-Cleaner-16: Cleaning maps
+JO 18:29:46:248 JTS-Cleaner-16: Cleaning maps
+JO 18:30:15:458 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,448KB HeapUsage: Max=466,048KB used=30,353KB committed=226,112KB NonHeapUsage: Max=114,688KB used=40,909KB committed=41,248KB
+JO 18:30:15:934 JTS-CCPPing-688: Warning: not received heartbeat at 36451000 elapsed:11000
+JO 18:30:16:469 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.34% 5 min avg=0.32% 1 min avg=0.42%
+JO 18:30:16:469 JTS-DeadlockMonitor: GC:called=265 times CPU used=0.02%
+JO 18:30:16:469 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:30:31:414 JTS-Cleaner-16: Cleaning maps
+JO 18:30:35:848 JTS-Cleaner-16: Cleaning maps
+JO 18:30:46:248 JTS-Cleaner-16: Cleaning maps
+JO 18:30:55:944 JTS-CCPPing-688: Warning: not received heartbeat at 36491000 elapsed:11000
+JO 18:30:56:945 JTS-CCPPing-688: Warning: not received heartbeat at 36492000 elapsed:12000
+JO 18:31:07:947 JTS-CCPPing-688: Warning: not received heartbeat at 36503000 elapsed:11000
+JO 18:31:25:952 JTS-CCPPing-688: Warning: not received heartbeat at 36521000 elapsed:11000
+JO 18:31:31:415 JTS-Cleaner-16: Cleaning maps
+JO 18:31:35:848 JTS-Cleaner-16: Cleaning maps
+JO 18:31:46:249 JTS-Cleaner-16: Cleaning maps
+JO 18:31:54:000 JTS-CCPDispatcher-689: Setting time offset to 504 diff 13
+JO 18:31:54:000 JTS-CCPDispatcher-689: Setting time offset to 503 diff -1
+JO 18:32:31:427 JTS-Cleaner-16: Cleaning maps
+JO 18:32:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:32:44:983 JTS-CCPPing-688: Warning: not received heartbeat at 36600000 elapsed:11000
+JO 18:32:46:261 JTS-Cleaner-16: Cleaning maps
+JO 18:33:31:428 JTS-Cleaner-16: Cleaning maps
+JO 18:33:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:33:46:261 JTS-Cleaner-16: Cleaning maps
+JO 18:34:27:006 JTS-CCPPing-688: Warning: not received heartbeat at 36702000 elapsed:11000
+JO 18:34:31:428 JTS-Cleaner-16: Cleaning maps
+JO 18:34:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:34:38:008 JTS-CCPPing-688: Warning: not received heartbeat at 36713000 elapsed:11000
+JO 18:34:46:261 JTS-Cleaner-16: Cleaning maps
+JO 18:35:07:015 JTS-CCPPing-688: Warning: not received heartbeat at 36742000 elapsed:11000
+JO 18:35:15:487 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,484KB HeapUsage: Max=466,048KB used=30,446KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,909KB committed=41,248KB
+JO 18:35:16:495 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.32% 5 min avg=0.32% 1 min avg=0.33%
+JO 18:35:16:496 JTS-DeadlockMonitor: GC:called=267 times CPU used=0.02%
+JO 18:35:16:498 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:35:18:018 JTS-CCPPing-688: Warning: not received heartbeat at 36753000 elapsed:11000
+JO 18:35:31:428 JTS-Cleaner-16: Cleaning maps
+JO 18:35:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:35:46:261 JTS-Cleaner-16: Cleaning maps
+JO 18:35:57:027 JTS-CCPPing-688: Warning: not received heartbeat at 36792000 elapsed:11000
+JO 18:36:08:029 JTS-CCPPing-688: Warning: not received heartbeat at 36803000 elapsed:11000
+JO 18:36:09:030 JTS-CCPPing-688: Warning: not received heartbeat at 36804000 elapsed:12000
+JO 18:36:10:030 JTS-CCPPing-688: Warning: not received heartbeat at 36805000 elapsed:13000
+JO 18:36:11:031 JTS-CCPPing-688: Warning: not received heartbeat at 36806000 elapsed:14000
+JO 18:36:12:031 JTS-CCPPing-688: Warning: sending test request at 36807000
+JO 18:36:13:032 JTS-CCPPing-688: Warning: not received heartbeat at 36808000 elapsed:16000
+JO 18:36:31:429 JTS-Cleaner-16: Cleaning maps
+JO 18:36:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:36:46:262 JTS-Cleaner-16: Cleaning maps
+JO 18:37:17:045 JTS-CCPPing-688: Warning: not received heartbeat at 36872000 elapsed:11000
+JO 18:37:31:429 JTS-Cleaner-16: Cleaning maps
+JO 18:37:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:37:46:263 JTS-Cleaner-16: Cleaning maps
+JO 18:38:31:429 JTS-Cleaner-16: Cleaning maps
+JO 18:38:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:38:46:263 JTS-Cleaner-16: Cleaning maps
+JO 18:39:31:429 JTS-Cleaner-16: Cleaning maps
+JO 18:39:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:39:46:263 JTS-Cleaner-16: Cleaning maps
+JO 18:40:15:481 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,085KB HeapUsage: Max=466,048KB used=30,741KB committed=225,984KB NonHeapUsage: Max=114,688KB used=40,909KB committed=41,248KB
+JO 18:40:16:492 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.32% 5 min avg=0.34% 1 min avg=0.25%
+JO 18:40:16:492 JTS-DeadlockMonitor: GC:called=269 times CPU used=0.02%
+JO 18:40:16:492 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:40:31:430 JTS-Cleaner-16: Cleaning maps
+JO 18:40:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:40:46:264 JTS-Cleaner-16: Cleaning maps
+JO 18:41:17:100 JTS-CCPPing-688: Warning: not received heartbeat at 37112000 elapsed:11000
+JO 18:41:31:430 JTS-Cleaner-16: Cleaning maps
+JO 18:41:35:861 JTS-Cleaner-16: Cleaning maps
+JO 18:41:46:264 JTS-Cleaner-16: Cleaning maps
+JO 18:41:54:000 JTS-CCPDispatcher-689: Setting time offset to 723 diff 220
+JO 18:41:54:000 JTS-CCPDispatcher-689: Setting time offset to 723 diff 0
+JO 18:42:14:332 JTS-CCPPing-688: Warning: not received heartbeat at 37169000 elapsed:11000
+JO 18:42:31:650 JTS-Cleaner-16: Cleaning maps
+JO 18:42:36:081 JTS-Cleaner-16: Cleaning maps
+JO 18:42:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:42:57:341 JTS-CCPPing-688: Warning: not received heartbeat at 37212000 elapsed:11000
+JO 18:43:17:346 JTS-CCPPing-688: Warning: not received heartbeat at 37232000 elapsed:11000
+JO 18:43:18:347 JTS-CCPPing-688: Warning: not received heartbeat at 37233000 elapsed:12000
+JO 18:43:31:651 JTS-Cleaner-16: Cleaning maps
+JO 18:43:36:081 JTS-Cleaner-16: Cleaning maps
+JO 18:43:39:352 JTS-CCPPing-688: Warning: not received heartbeat at 37254000 elapsed:11000
+JO 18:43:40:352 JTS-CCPPing-688: Warning: not received heartbeat at 37255000 elapsed:12000
+JO 18:43:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:43:57:356 JTS-CCPPing-688: Warning: not received heartbeat at 37272000 elapsed:11000
+JO 18:44:08:359 JTS-CCPPing-688: Warning: not received heartbeat at 37283000 elapsed:11000
+JO 18:44:09:360 JTS-CCPPing-688: Warning: not received heartbeat at 37284000 elapsed:12000
+JO 18:44:27:364 JTS-CCPPing-688: Warning: not received heartbeat at 37302000 elapsed:11000
+JO 18:44:31:651 JTS-Cleaner-16: Cleaning maps
+JO 18:44:36:081 JTS-Cleaner-16: Cleaning maps
+JO 18:44:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:45:15:697 JTS-DeadlockMonitor: Memory:total=466,048KB free=423,722KB HeapUsage: Max=466,048KB used=30,273KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 18:45:16:707 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.32% 5 min avg=0.29% 1 min avg=0.29%
+JO 18:45:16:707 JTS-DeadlockMonitor: GC:called=271 times CPU used=0.02%
+JO 18:45:16:707 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:45:31:651 JTS-Cleaner-16: Cleaning maps
+JO 18:45:36:081 JTS-Cleaner-16: Cleaning maps
+JO 18:45:37:379 JTS-CCPPing-688: Warning: not received heartbeat at 37372000 elapsed:11000
+JO 18:45:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:46:31:652 JTS-Cleaner-16: Cleaning maps
+JO 18:46:36:081 JTS-Cleaner-16: Cleaning maps
+JO 18:46:38:394 JTS-CCPPing-688: Warning: not received heartbeat at 37433000 elapsed:11000
+JO 18:46:39:394 JTS-CCPPing-688: Warning: not received heartbeat at 37434000 elapsed:12000
+JO 18:46:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:46:50:397 JTS-CCPPing-688: Warning: not received heartbeat at 37445000 elapsed:11000
+JO 18:47:08:402 JTS-CCPPing-688: Warning: not received heartbeat at 37463000 elapsed:11000
+JO 18:47:31:651 JTS-Cleaner-16: Cleaning maps
+JO 18:47:36:082 JTS-Cleaner-16: Cleaning maps
+JO 18:47:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:48:31:651 JTS-Cleaner-16: Cleaning maps
+JO 18:48:36:082 JTS-Cleaner-16: Cleaning maps
+JO 18:48:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:49:31:651 JTS-Cleaner-16: Cleaning maps
+JO 18:49:36:082 JTS-Cleaner-16: Cleaning maps
+JO 18:49:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:50:15:709 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,439KB HeapUsage: Max=466,048KB used=30,366KB committed=225,856KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 18:50:16:720 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.33% 5 min avg=0.42% 1 min avg=0.42%
+JO 18:50:16:721 JTS-DeadlockMonitor: GC:called=273 times CPU used=0.02%
+JO 18:50:16:721 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:50:31:651 JTS-Cleaner-16: Cleaning maps
+JO 18:50:36:083 JTS-Cleaner-16: Cleaning maps
+JO 18:50:46:484 JTS-Cleaner-16: Cleaning maps
+JO 18:51:31:652 JTS-Cleaner-16: Cleaning maps
+JO 18:51:36:083 JTS-Cleaner-16: Cleaning maps
+JO 18:51:46:485 JTS-Cleaner-16: Cleaning maps
+JO 18:51:54:000 JTS-CCPDispatcher-689: Setting time offset to 772 diff 49
+JO 18:51:54:000 JTS-CCPDispatcher-689: Setting time offset to 771 diff -1
+JO 18:52:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:52:36:131 JTS-Cleaner-16: Cleaning maps
+JO 18:52:46:533 JTS-Cleaner-16: Cleaning maps
+JO 18:53:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:53:36:131 JTS-Cleaner-16: Cleaning maps
+JO 18:53:46:533 JTS-Cleaner-16: Cleaning maps
+JO 18:54:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:54:36:131 JTS-Cleaner-16: Cleaning maps
+JO 18:54:46:534 JTS-Cleaner-16: Cleaning maps
+JO 18:55:15:771 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,214KB HeapUsage: Max=466,048KB used=30,460KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 18:55:16:783 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.34% 5 min avg=0.36% 1 min avg=0.33%
+JO 18:55:16:783 JTS-DeadlockMonitor: GC:called=275 times CPU used=0.02%
+JO 18:55:16:783 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 18:55:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:55:36:132 JTS-Cleaner-16: Cleaning maps
+JO 18:55:46:534 JTS-Cleaner-16: Cleaning maps
+JO 18:56:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:56:36:132 JTS-Cleaner-16: Cleaning maps
+JO 18:56:46:534 JTS-Cleaner-16: Cleaning maps
+JO 18:57:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:57:36:132 JTS-Cleaner-16: Cleaning maps
+JO 18:57:46:534 JTS-Cleaner-16: Cleaning maps
+JO 18:58:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:58:36:132 JTS-Cleaner-16: Cleaning maps
+JO 18:58:46:534 JTS-Cleaner-16: Cleaning maps
+JO 18:59:31:700 JTS-Cleaner-16: Cleaning maps
+JO 18:59:36:132 JTS-Cleaner-16: Cleaning maps
+JO 18:59:46:534 JTS-Cleaner-16: Cleaning maps
+JO 19:00:15:780 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,958KB HeapUsage: Max=466,048KB used=30,553KB committed=225,600KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 19:00:16:791 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.30% 30 min avg=0.35% 5 min avg=0.36% 1 min avg=0.33%
+JO 19:00:16:791 JTS-DeadlockMonitor: GC:called=277 times CPU used=0.02%
+JO 19:00:16:791 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:00:31:700 JTS-Cleaner-16: Cleaning maps
+JO 19:00:36:132 JTS-Cleaner-16: Cleaning maps
+JO 19:00:46:534 JTS-Cleaner-16: Cleaning maps
+JO 19:01:31:701 JTS-Cleaner-16: Cleaning maps
+JO 19:01:36:132 JTS-Cleaner-16: Cleaning maps
+JO 19:01:46:535 JTS-Cleaner-16: Cleaning maps
+JO 19:01:54:000 JTS-CCPDispatcher-689: Setting time offset to 780 diff 9
+JO 19:01:54:000 JTS-CCPDispatcher-689: Setting time offset to 780 diff 0
+JO 19:02:31:710 JTS-Cleaner-16: Cleaning maps
+JO 19:02:36:142 JTS-Cleaner-16: Cleaning maps
+JO 19:02:46:544 JTS-Cleaner-16: Cleaning maps
+JO 19:03:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:03:36:142 JTS-Cleaner-16: Cleaning maps
+JO 19:03:46:545 JTS-Cleaner-16: Cleaning maps
+JO 19:04:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:04:36:142 JTS-Cleaner-16: Cleaning maps
+JO 19:04:46:545 JTS-Cleaner-16: Cleaning maps
+JO 19:05:15:802 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,336KB HeapUsage: Max=466,048KB used=30,284KB committed=224,768KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 19:05:16:812 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.36% 5 min avg=0.37% 1 min avg=0.29%
+JO 19:05:16:812 JTS-DeadlockMonitor: GC:called=279 times CPU used=0.02%
+JO 19:05:16:812 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:05:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:05:36:142 JTS-Cleaner-16: Cleaning maps
+JO 19:05:46:545 JTS-Cleaner-16: Cleaning maps
+JO 19:06:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:06:36:142 JTS-Cleaner-16: Cleaning maps
+JO 19:06:46:546 JTS-Cleaner-16: Cleaning maps
+JO 19:07:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:07:36:143 JTS-Cleaner-16: Cleaning maps
+JO 19:07:46:546 JTS-Cleaner-16: Cleaning maps
+JO 19:08:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:08:36:143 JTS-Cleaner-16: Cleaning maps
+JO 19:08:46:546 JTS-Cleaner-16: Cleaning maps
+JO 19:09:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:09:36:143 JTS-Cleaner-16: Cleaning maps
+JO 19:09:46:546 JTS-Cleaner-16: Cleaning maps
+JO 19:10:15:802 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,101KB HeapUsage: Max=466,048KB used=30,378KB committed=225,536KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 19:10:16:813 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.30% 30 min avg=0.35% 5 min avg=0.29% 1 min avg=0.25%
+JO 19:10:16:814 JTS-DeadlockMonitor: GC:called=281 times CPU used=0.02%
+JO 19:10:16:814 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:10:31:711 JTS-Cleaner-16: Cleaning maps
+JO 19:10:36:143 JTS-Cleaner-16: Cleaning maps
+JO 19:10:46:546 JTS-Cleaner-16: Cleaning maps
+JO 19:11:31:712 JTS-Cleaner-16: Cleaning maps
+JO 19:11:36:143 JTS-Cleaner-16: Cleaning maps
+JO 19:11:46:547 JTS-Cleaner-16: Cleaning maps
+JO 19:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 788 diff 8
+JO 19:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 787 diff -1
+JO 19:12:14:004 JTS-CCPPing-688: Warning: not received heartbeat at 38968000 elapsed:11000
+JO 19:12:31:719 JTS-Cleaner-16: Cleaning maps
+JO 19:12:36:150 JTS-Cleaner-16: Cleaning maps
+JO 19:12:46:554 JTS-Cleaner-16: Cleaning maps
+JO 19:13:31:719 JTS-Cleaner-16: Cleaning maps
+JO 19:13:36:150 JTS-Cleaner-16: Cleaning maps
+JO 19:13:46:554 JTS-Cleaner-16: Cleaning maps
+JO 19:14:31:719 JTS-Cleaner-16: Cleaning maps
+JO 19:14:36:150 JTS-Cleaner-16: Cleaning maps
+JO 19:14:46:555 JTS-Cleaner-16: Cleaning maps
+JO 19:15:15:818 JTS-DeadlockMonitor: Memory:total=466,048KB free=423,939KB HeapUsage: Max=466,048KB used=30,877KB committed=224,768KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 19:15:16:829 JTS-DeadlockMonitor: CPU:cur=1.50% avg=0.30% 30 min avg=0.37% 5 min avg=0.42% 1 min avg=0.58%
+JO 19:15:16:829 JTS-DeadlockMonitor: GC:called=283 times CPU used=0.02%
+JO 19:15:16:829 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:15:31:719 JTS-Cleaner-16: Cleaning maps
+JO 19:15:36:151 JTS-Cleaner-16: Cleaning maps
+JO 19:15:46:554 JTS-Cleaner-16: Cleaning maps
+JO 19:16:31:720 JTS-Cleaner-16: Cleaning maps
+JO 19:16:36:151 JTS-Cleaner-16: Cleaning maps
+JO 19:16:46:554 JTS-Cleaner-16: Cleaning maps
+JO 19:17:31:720 JTS-Cleaner-16: Cleaning maps
+JO 19:17:36:151 JTS-Cleaner-16: Cleaning maps
+JO 19:17:46:554 JTS-Cleaner-16: Cleaning maps
+JO 19:18:31:720 JTS-Cleaner-16: Cleaning maps
+JO 19:18:36:151 JTS-Cleaner-16: Cleaning maps
+JO 19:18:46:554 JTS-Cleaner-16: Cleaning maps
+JO 19:19:31:721 JTS-Cleaner-16: Cleaning maps
+JO 19:19:36:151 JTS-Cleaner-16: Cleaning maps
+JO 19:19:46:555 JTS-Cleaner-16: Cleaning maps
+JO 19:20:15:824 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,524KB HeapUsage: Max=466,048KB used=30,568KB committed=225,536KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 19:20:16:835 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.37% 5 min avg=0.42% 1 min avg=0.58%
+JO 19:20:16:835 JTS-DeadlockMonitor: GC:called=285 times CPU used=0.02%
+JO 19:20:16:835 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:20:31:721 JTS-Cleaner-16: Cleaning maps
+JO 19:20:36:151 JTS-Cleaner-16: Cleaning maps
+JO 19:20:46:555 JTS-Cleaner-16: Cleaning maps
+JO 19:21:31:721 JTS-Cleaner-16: Cleaning maps
+JO 19:21:36:152 JTS-Cleaner-16: Cleaning maps
+JO 19:21:46:555 JTS-Cleaner-16: Cleaning maps
+JO 19:21:54:000 JTS-CCPDispatcher-689: Setting time offset to 794 diff 7
+JO 19:21:54:000 JTS-CCPDispatcher-689: Setting time offset to 793 diff -1
+JO 19:22:31:728 JTS-Cleaner-16: Cleaning maps
+JO 19:22:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:22:46:144 JTS-CCPPing-688: Warning: not received heartbeat at 39600000 elapsed:11000
+JO 19:22:46:561 JTS-Cleaner-16: Cleaning maps
+JO 19:23:31:728 JTS-Cleaner-16: Cleaning maps
+JO 19:23:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:23:46:561 JTS-Cleaner-16: Cleaning maps
+JO 19:24:31:728 JTS-Cleaner-16: Cleaning maps
+JO 19:24:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:24:46:561 JTS-Cleaner-16: Cleaning maps
+JO 19:25:15:846 JTS-DeadlockMonitor: Memory:total=466,048KB free=423,802KB HeapUsage: Max=466,048KB used=30,294KB committed=224,768KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 19:25:16:853 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.38% 5 min avg=0.41% 1 min avg=0.37%
+JO 19:25:16:854 JTS-DeadlockMonitor: GC:called=287 times CPU used=0.02%
+JO 19:25:16:854 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:25:31:729 JTS-Cleaner-16: Cleaning maps
+JO 19:25:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:25:46:562 JTS-Cleaner-16: Cleaning maps
+JO 19:26:31:729 JTS-Cleaner-16: Cleaning maps
+JO 19:26:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:26:46:562 JTS-Cleaner-16: Cleaning maps
+JO 19:27:31:729 JTS-Cleaner-16: Cleaning maps
+JO 19:27:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:27:46:562 JTS-Cleaner-16: Cleaning maps
+JO 19:28:31:729 JTS-Cleaner-16: Cleaning maps
+JO 19:28:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:28:46:562 JTS-Cleaner-16: Cleaning maps
+JO 19:29:31:729 JTS-Cleaner-16: Cleaning maps
+JO 19:29:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:29:46:562 JTS-Cleaner-16: Cleaning maps
+JO 19:30:15:857 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,827KB HeapUsage: Max=466,048KB used=30,390KB committed=225,344KB NonHeapUsage: Max=114,688KB used=40,896KB committed=41,248KB
+JO 19:30:16:868 JTS-DeadlockMonitor: CPU:cur=1.00% avg=0.31% 30 min avg=0.38% 5 min avg=0.35% 1 min avg=0.37%
+JO 19:30:16:868 JTS-DeadlockMonitor: GC:called=289 times CPU used=0.02%
+JO 19:30:16:868 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:30:31:730 JTS-Cleaner-16: Cleaning maps
+JO 19:30:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:30:46:563 JTS-Cleaner-16: Cleaning maps
+JO 19:31:31:729 JTS-Cleaner-16: Cleaning maps
+JO 19:31:36:158 JTS-Cleaner-16: Cleaning maps
+JO 19:31:46:563 JTS-Cleaner-16: Cleaning maps
+JO 19:31:54:000 JTS-CCPDispatcher-689: Setting time offset to 804 diff 11
+JO 19:31:54:000 JTS-CCPDispatcher-689: Setting time offset to 804 diff 0
+JO 19:32:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:32:36:169 JTS-Cleaner-16: Cleaning maps
+JO 19:32:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:33:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:33:36:169 JTS-Cleaner-16: Cleaning maps
+JO 19:33:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:34:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:34:36:169 JTS-Cleaner-16: Cleaning maps
+JO 19:34:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:35:15:879 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,659KB HeapUsage: Max=466,048KB used=30,486KB committed=224,768KB NonHeapUsage: Max=114,688KB used=40,883KB committed=41,248KB
+JO 19:35:16:890 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.37% 5 min avg=0.32% 1 min avg=0.29%
+JO 19:35:16:890 JTS-DeadlockMonitor: GC:called=291 times CPU used=0.02%
+JO 19:35:16:890 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:35:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:35:36:169 JTS-Cleaner-16: Cleaning maps
+JO 19:35:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:36:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:36:36:170 JTS-Cleaner-16: Cleaning maps
+JO 19:36:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:37:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:37:36:170 JTS-Cleaner-16: Cleaning maps
+JO 19:37:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:38:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:38:36:170 JTS-Cleaner-16: Cleaning maps
+JO 19:38:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:39:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:39:36:170 JTS-Cleaner-16: Cleaning maps
+JO 19:39:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:39:55:999 JTS-EServerSocket-553: [1:53:59:1:0:0:0:ERR] -'oc' : cause - Duplicate ticker id
+JO 19:39:55:999 JTS-EServerSocket-553: Anticipated error
+JO jextend.b: Duplicate ticker id
+	at jextend.oc.f(oc.java:351)
+	at jextend.mb.j(mb.java:308)
+	at jextend.pe.bb(pe.java:1230)
+	at jextend.pe.run(pe.java:1076)
+	at java.lang.Thread.run(Thread.java:662)
+
+
+JO 19:40:15:893 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,488KB HeapUsage: Max=466,048KB used=30,587KB committed=225,344KB NonHeapUsage: Max=114,688KB used=40,884KB committed=41,248KB
+JO 19:40:16:904 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.39% 5 min avg=0.45% 1 min avg=0.50%
+JO 19:40:16:904 JTS-DeadlockMonitor: GC:called=293 times CPU used=0.02%
+JO 19:40:16:904 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:40:31:740 JTS-Cleaner-16: Cleaning maps
+JO 19:40:36:171 JTS-Cleaner-16: Cleaning maps
+JO 19:40:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:41:31:741 JTS-Cleaner-16: Cleaning maps
+JO 19:41:36:171 JTS-Cleaner-16: Cleaning maps
+JO 19:41:46:574 JTS-Cleaner-16: Cleaning maps
+JO 19:41:54:000 JTS-CCPDispatcher-689: Setting time offset to 812 diff 8
+JO 19:41:54:000 JTS-CCPDispatcher-689: Setting time offset to 812 diff 0
+JO 19:42:31:749 JTS-Cleaner-16: Cleaning maps
+JO 19:42:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:42:46:583 JTS-Cleaner-16: Cleaning maps
+JO 19:43:31:749 JTS-Cleaner-16: Cleaning maps
+JO 19:43:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:43:46:583 JTS-Cleaner-16: Cleaning maps
+JO 19:44:31:749 JTS-Cleaner-16: Cleaning maps
+JO 19:44:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:44:46:583 JTS-Cleaner-16: Cleaning maps
+JO 19:45:15:909 JTS-DeadlockMonitor: Memory:total=466,048KB free=423,700KB HeapUsage: Max=466,048KB used=30,305KB committed=224,768KB NonHeapUsage: Max=114,688KB used=40,885KB committed=41,248KB
+JO 19:45:16:920 JTS-DeadlockMonitor: CPU:cur=1.00% avg=0.31% 30 min avg=0.39% 5 min avg=0.42% 1 min avg=0.46%
+JO 19:45:16:921 JTS-DeadlockMonitor: GC:called=295 times CPU used=0.02%
+JO 19:45:16:921 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:45:31:750 JTS-Cleaner-16: Cleaning maps
+JO 19:45:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:45:46:584 JTS-Cleaner-16: Cleaning maps
+JO 19:46:31:749 JTS-Cleaner-16: Cleaning maps
+JO 19:46:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:46:46:584 JTS-Cleaner-16: Cleaning maps
+JO 19:47:31:749 JTS-Cleaner-16: Cleaning maps
+JO 19:47:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:47:46:584 JTS-Cleaner-16: Cleaning maps
+JO 19:48:31:750 JTS-Cleaner-16: Cleaning maps
+JO 19:48:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:48:46:584 JTS-Cleaner-16: Cleaning maps
+JO 19:49:31:750 JTS-Cleaner-16: Cleaning maps
+JO 19:49:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:49:46:584 JTS-Cleaner-16: Cleaning maps
+JO 19:50:15:917 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,597KB HeapUsage: Max=466,048KB used=30,605KB committed=225,152KB NonHeapUsage: Max=114,688KB used=40,885KB committed=41,248KB
+JO 19:50:16:927 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.40% 5 min avg=0.47% 1 min avg=0.37%
+JO 19:50:16:927 JTS-DeadlockMonitor: GC:called=297 times CPU used=0.02%
+JO 19:50:16:927 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:50:31:750 JTS-Cleaner-16: Cleaning maps
+JO 19:50:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:50:46:584 JTS-Cleaner-16: Cleaning maps
+JO 19:51:31:751 JTS-Cleaner-16: Cleaning maps
+JO 19:51:36:179 JTS-Cleaner-16: Cleaning maps
+JO 19:51:46:585 JTS-Cleaner-16: Cleaning maps
+JO 19:51:54:000 JTS-CCPDispatcher-689: Setting time offset to 820 diff 8
+JO 19:51:54:000 JTS-CCPDispatcher-689: Setting time offset to 819 diff -1
+JO 19:52:31:758 JTS-Cleaner-16: Cleaning maps
+JO 19:52:36:186 JTS-Cleaner-16: Cleaning maps
+JO 19:52:46:592 JTS-Cleaner-16: Cleaning maps
+JO 19:53:18:588 JTS-CCPPing-688: Warning: not received heartbeat at 41432000 elapsed:11000
+JO 19:53:31:758 JTS-Cleaner-16: Cleaning maps
+JO 19:53:36:186 JTS-Cleaner-16: Cleaning maps
+JO 19:53:46:592 JTS-Cleaner-16: Cleaning maps
+JO 19:54:31:759 JTS-Cleaner-16: Cleaning maps
+JO 19:54:36:186 JTS-Cleaner-16: Cleaning maps
+JO 19:54:46:592 JTS-Cleaner-16: Cleaning maps
+JO 19:55:15:929 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,086KB HeapUsage: Max=466,048KB used=30,500KB committed=225,216KB NonHeapUsage: Max=114,688KB used=40,885KB committed=41,248KB
+JO 19:55:16:940 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.40% 5 min avg=0.41% 1 min avg=0.46%
+JO 19:55:16:941 JTS-DeadlockMonitor: GC:called=299 times CPU used=0.02%
+JO 19:55:16:941 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 19:55:31:759 JTS-Cleaner-16: Cleaning maps
+JO 19:55:36:186 JTS-Cleaner-16: Cleaning maps
+JO 19:55:46:592 JTS-Cleaner-16: Cleaning maps
+JO 19:56:31:759 JTS-Cleaner-16: Cleaning maps
+JO 19:56:36:187 JTS-Cleaner-16: Cleaning maps
+JO 19:56:46:592 JTS-Cleaner-16: Cleaning maps
+JO 19:57:31:760 JTS-Cleaner-16: Cleaning maps
+JO 19:57:36:187 JTS-Cleaner-16: Cleaning maps
+JO 19:57:46:593 JTS-Cleaner-16: Cleaning maps
+JO 19:58:31:760 JTS-Cleaner-16: Cleaning maps
+JO 19:58:36:187 JTS-Cleaner-16: Cleaning maps
+JO 19:58:46:593 JTS-Cleaner-16: Cleaning maps
+JO 19:59:13:665 JTS-Fuse-ServiceAuthTimeout-973: Farm usfarm/NATIVE: No ping response
+JO 19:59:13:666 JTS-Fuse-ServiceAuthTimeout-973: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 19:59:13:666 JTS-usfarmListener-874: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 19:59:13:667 JTS-usfarmListener-874: Terminating
+JO 19:59:13:668 JTS-Disconnected-974: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 19:59:13:668 JTS-Disconnected-974: Farm usfarm/NATIVE: Resetting
+JO 19:59:13:668 JTS-Disconnected-974: NextConnectTime: 19:59:17:180  in 4331 msec;   base=5000  range = 10000  random: 2333
+JO 19:59:13:669 JTS-usfarmServicePing-878: Terminating
+JO 19:59:13:679 JTS-usfarmDispatcher-875: Terminating
+JO 19:59:18:010 JTS-Fuse-nativepause-975: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 19:59:18:010 JTS-Fuse-nativepause-975: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 19:59:18:261 JTS-Fuse-nativepause-975: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 19:59:18:261 JTS-Fuse-nativepause-975: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 19:59:18:262 JTS-usfarmListener-976: Starting
+JO 19:59:18:266 JTS-usfarmListener-976: Initial listener buffer size is 43690
+JO 19:59:18:266 JTS-usfarmDispatcher-977: Starting
+JO 19:59:18:266 JTS-Fuse-nativepause-975: start ping with 5000 for: JTS-usfarmServicePreAuthPing-978
+JO 19:59:18:266 JTS-usfarmServicePreAuthPing-978: Starting
+JO 19:59:18:666 JTS-usfarmDispatcher-977: Received MD auth msg classid = 1
+JO 19:59:18:666 JTS-usfarmDispatcher-977: Received AUTH_PARAMS
+JO 19:59:18:915 JTS-usfarmDispatcher-977: Received MD auth msg classid = 1
+JO 19:59:18:916 JTS-usfarmDispatcher-977: Received SERVER_PARAMS
+JO 19:59:19:165 JTS-usfarmDispatcher-977: Received MD auth msg classid = 1
+JO 19:59:19:166 JTS-usfarmDispatcher-977: Received AUTH_RESULT
+JO 19:59:19:166 JTS-usfarmDispatcher-977: Passed pwd authentication.
+JO 19:59:19:168 JTS-usfarmDispatcher-977: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 19:59:19:168 JTS-usfarmDispatcher-977: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 19:59:19:168 JTS-usfarmServicePreAuthPing-978: Terminating
+JO 19:59:19:169 JTS-usfarmDispatcher-977: start ping with 60000 for: JTS-usfarmServicePing-980
+JO 19:59:19:172 JTS-usfarmServicePing-980: Starting
+JO 19:59:19:174 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/101...
+JO 19:59:19:176 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/103...
+JO 19:59:19:409 JTS-usfarmDispatcher-977: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 19:59:31:760 JTS-Cleaner-16: Cleaning maps
+JO 19:59:36:188 JTS-Cleaner-16: Cleaning maps
+JO 19:59:46:593 JTS-Cleaner-16: Cleaning maps
+JO 20:00:15:942 JTS-DeadlockMonitor: Memory:total=466,048KB free=418,653KB HeapUsage: Max=466,048KB used=30,927KB committed=225,152KB NonHeapUsage: Max=114,688KB used=40,885KB committed=41,248KB
+JO 20:00:16:953 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.40% 5 min avg=0.37% 1 min avg=0.21%
+JO 20:00:16:953 JTS-DeadlockMonitor: GC:called=301 times CPU used=0.02%
+JO 20:00:16:953 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:00:31:761 JTS-Cleaner-16: Cleaning maps
+JO 20:00:36:187 JTS-Cleaner-16: Cleaning maps
+JO 20:00:46:593 JTS-Cleaner-16: Cleaning maps
+JO 20:01:31:760 JTS-Cleaner-16: Cleaning maps
+JO 20:01:36:187 JTS-Cleaner-16: Cleaning maps
+JO 20:01:46:593 JTS-Cleaner-16: Cleaning maps
+JO 20:01:54:000 JTS-CCPDispatcher-689: Setting time offset to 832 diff 13
+JO 20:01:54:000 JTS-CCPDispatcher-689: Setting time offset to 832 diff 0
+JO 20:02:31:773 JTS-Cleaner-16: Cleaning maps
+JO 20:02:36:200 JTS-Cleaner-16: Cleaning maps
+JO 20:02:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:03:31:773 JTS-Cleaner-16: Cleaning maps
+JO 20:03:36:200 JTS-Cleaner-16: Cleaning maps
+JO 20:03:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:04:31:773 JTS-Cleaner-16: Cleaning maps
+JO 20:04:36:201 JTS-Cleaner-16: Cleaning maps
+JO 20:04:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:05:15:984 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,165KB HeapUsage: Max=466,048KB used=30,320KB committed=225,216KB NonHeapUsage: Max=114,688KB used=40,885KB committed=41,248KB
+JO 20:05:16:995 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.40% 5 min avg=0.30% 1 min avg=0.46%
+JO 20:05:16:996 JTS-DeadlockMonitor: GC:called=303 times CPU used=0.02%
+JO 20:05:16:996 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:05:31:773 JTS-Cleaner-16: Cleaning maps
+JO 20:05:36:201 JTS-Cleaner-16: Cleaning maps
+JO 20:05:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:06:31:774 JTS-Cleaner-16: Cleaning maps
+JO 20:06:36:201 JTS-Cleaner-16: Cleaning maps
+JO 20:06:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:07:31:774 JTS-Cleaner-16: Cleaning maps
+JO 20:07:36:201 JTS-Cleaner-16: Cleaning maps
+JO 20:07:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:08:31:774 JTS-Cleaner-16: Cleaning maps
+JO 20:08:36:202 JTS-Cleaner-16: Cleaning maps
+JO 20:08:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:09:31:774 JTS-Cleaner-16: Cleaning maps
+JO 20:09:36:202 JTS-Cleaner-16: Cleaning maps
+JO 20:09:46:606 JTS-Cleaner-16: Cleaning maps
+JO 20:10:16:015 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,136KB HeapUsage: Max=466,048KB used=30,901KB committed=225,216KB NonHeapUsage: Max=114,688KB used=40,885KB committed=41,248KB
+JO 20:10:17:028 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.38% 5 min avg=0.35% 1 min avg=0.46%
+JO 20:10:17:028 JTS-DeadlockMonitor: GC:called=305 times CPU used=0.02%
+JO 20:10:17:028 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:10:31:775 JTS-Cleaner-16: Cleaning maps
+JO 20:10:36:202 JTS-Cleaner-16: Cleaning maps
+JO 20:10:46:607 JTS-Cleaner-16: Cleaning maps
+JO 20:11:31:774 JTS-Cleaner-16: Cleaning maps
+JO 20:11:36:202 JTS-Cleaner-16: Cleaning maps
+JO 20:11:46:607 JTS-Cleaner-16: Cleaning maps
+JO 20:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 837 diff 5
+JO 20:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 837 diff 0
+JO 20:12:29:201 JTS-Fuse-ServiceAuthTimeout-993: Farm usfarm/NATIVE: No ping response
+JO 20:12:29:202 JTS-Fuse-ServiceAuthTimeout-993: Disconnecting mktgw1.ibllc.com:4000 with status 12
+JO 20:12:29:202 JTS-usfarmDispatcher-977: Terminating
+JO 20:12:29:207 JTS-Disconnected-994: Farm usfarm/NATIVE: Lost active connection with disconnect status 12
+JO 20:12:29:207 JTS-Disconnected-994: Farm usfarm/NATIVE: Resetting
+JO 20:12:29:207 JTS-Disconnected-994: NextConnectTime: 20:12:30:397  in 2027 msec;   base=5000  range = 10000  random: 32
+JO 20:12:29:211 JTS-usfarmListener-976: Socket for connection mktgw1.ibllc.com:4000 was closed by another thread
+JO 20:12:29:211 JTS-usfarmServicePing-980: Terminating
+JO 20:12:29:211 JTS-usfarmListener-976: Terminating
+JO 20:12:31:239 JTS-Fuse-nativepause-995: Farm usfarm/DISCONNECTED: Connecting natively...
+JO 20:12:31:239 JTS-Fuse-nativepause-995: Connecting mktgw1.ibllc.com:4000 timeout=0
+JO 20:12:31:478 JTS-Fuse-nativepause-995: Connected to mktgw1.ibllc.com:4000 on local port 0
+JO 20:12:31:478 JTS-Fuse-nativepause-995: Farm usfarm/PRE_NATIVE: Connected, sending auth
+JO 20:12:31:479 JTS-usfarmListener-996: Starting
+JO 20:12:31:479 JTS-Fuse-nativepause-995: start ping with 5000 for: JTS-usfarmServicePreAuthPing-998
+JO 20:12:31:480 JTS-usfarmDispatcher-997: Starting
+JO 20:12:31:480 JTS-usfarmServicePreAuthPing-998: Starting
+JO 20:12:31:483 JTS-usfarmListener-996: Initial listener buffer size is 43690
+JO 20:12:31:700 JTS-usfarmDispatcher-997: Received MD auth msg classid = 1
+JO 20:12:31:700 JTS-usfarmDispatcher-997: Received AUTH_PARAMS
+JO 20:12:31:780 JTS-Cleaner-16: Cleaning maps
+JO 20:12:31:951 JTS-usfarmDispatcher-997: Received MD auth msg classid = 1
+JO 20:12:31:955 JTS-usfarmDispatcher-997: Received SERVER_PARAMS
+JO 20:12:32:200 JTS-usfarmDispatcher-997: Received MD auth msg classid = 1
+JO 20:12:32:200 JTS-usfarmDispatcher-997: Received AUTH_RESULT
+JO 20:12:32:200 JTS-usfarmDispatcher-997: Passed pwd authentication.
+JO 20:12:32:206 JTS-usfarmDispatcher-997: Reconnection time cleared: argClearBackoff=true base=0 range=5000 next=0 disconnected=0
+JO 20:12:32:206 JTS-usfarmDispatcher-997: Farm usfarm/PRE_NATIVE: Authenticated natively
+JO 20:12:32:206 JTS-usfarmDispatcher-997: start ping with 60000 for: JTS-usfarmServicePing-1000
+JO 20:12:32:206 JTS-usfarmServicePreAuthPing-998: Terminating
+JO 20:12:32:216 JTS-usfarmServicePing-1000: Starting
+JO 20:12:32:217 JTS-MktDataWrapper-17: Sending market data Subscribe Top size=2 start=0 8991352/BEST/105...
+JO 20:12:32:218 JTS-MktDataWrapper-17: Sending market data Subscribe SShortEx size=2 start=0 8991352/BEST/107...
+JO 20:12:32:357 JTS-usfarmDispatcher-997: handleCompatibleRouting MARKET_DATA compmode=true ready=true
+JO 20:12:36:207 JTS-Cleaner-16: Cleaning maps
+JO 20:12:46:612 JTS-Cleaner-16: Cleaning maps
+JO 20:13:31:780 JTS-Cleaner-16: Cleaning maps
+JO 20:13:36:208 JTS-Cleaner-16: Cleaning maps
+JO 20:13:46:612 JTS-Cleaner-16: Cleaning maps
+JO 20:14:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:14:36:207 JTS-Cleaner-16: Cleaning maps
+JO 20:14:46:612 JTS-Cleaner-16: Cleaning maps
+JO 20:15:15:993 JTS-DeadlockMonitor: Memory:total=466,048KB free=418,369KB HeapUsage: Max=466,048KB used=30,891KB committed=225,216KB NonHeapUsage: Max=114,688KB used=40,887KB committed=41,248KB
+JO 20:15:17:005 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.38% 5 min avg=0.38% 1 min avg=0.33%
+JO 20:15:17:005 JTS-DeadlockMonitor: GC:called=307 times CPU used=0.02%
+JO 20:15:17:005 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:15:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:15:36:207 JTS-Cleaner-16: Cleaning maps
+JO 20:15:46:612 JTS-Cleaner-16: Cleaning maps
+JO 20:16:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:16:36:207 JTS-Cleaner-16: Cleaning maps
+JO 20:16:46:612 JTS-Cleaner-16: Cleaning maps
+JO 20:17:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:17:36:207 JTS-Cleaner-16: Cleaning maps
+JO 20:17:46:612 JTS-Cleaner-16: Cleaning maps
+JO 20:18:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:18:36:207 JTS-Cleaner-16: Cleaning maps
+JO 20:18:46:612 JTS-Cleaner-16: Cleaning maps
+JO 20:19:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:19:36:207 JTS-Cleaner-16: Cleaning maps
+JO 20:19:46:613 JTS-Cleaner-16: Cleaning maps
+JO 20:20:16:004 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,046KB HeapUsage: Max=466,048KB used=30,990KB committed=225,152KB NonHeapUsage: Max=114,688KB used=40,887KB committed=41,248KB
+JO 20:20:17:015 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.37% 5 min avg=0.41% 1 min avg=0.42%
+JO 20:20:17:015 JTS-DeadlockMonitor: GC:called=309 times CPU used=0.02%
+JO 20:20:17:016 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:20:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:20:36:208 JTS-Cleaner-16: Cleaning maps
+JO 20:20:46:613 JTS-Cleaner-16: Cleaning maps
+JO 20:21:31:781 JTS-Cleaner-16: Cleaning maps
+JO 20:21:36:208 JTS-Cleaner-16: Cleaning maps
+JO 20:21:46:613 JTS-Cleaner-16: Cleaning maps
+JO 20:21:54:000 JTS-CCPDispatcher-689: Setting time offset to 849 diff 12
+JO 20:21:54:000 JTS-CCPDispatcher-689: Setting time offset to 849 diff 0
+JO 20:22:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:22:36:220 JTS-Cleaner-16: Cleaning maps
+JO 20:22:46:626 JTS-Cleaner-16: Cleaning maps
+JO 20:23:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:23:36:220 JTS-Cleaner-16: Cleaning maps
+JO 20:23:46:626 JTS-Cleaner-16: Cleaning maps
+JO 20:24:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:24:36:220 JTS-Cleaner-16: Cleaning maps
+JO 20:24:46:626 JTS-Cleaner-16: Cleaning maps
+JO 20:25:16:035 JTS-DeadlockMonitor: Memory:total=466,048KB free=422,762KB HeapUsage: Max=466,048KB used=30,307KB committed=225,216KB NonHeapUsage: Max=114,688KB used=40,887KB committed=41,248KB
+JO 20:25:17:047 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.35% 5 min avg=0.32% 1 min avg=0.42%
+JO 20:25:17:047 JTS-DeadlockMonitor: GC:called=311 times CPU used=0.02%
+JO 20:25:17:047 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:25:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:25:36:221 JTS-Cleaner-16: Cleaning maps
+JO 20:25:46:626 JTS-Cleaner-16: Cleaning maps
+JO 20:26:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:26:36:221 JTS-Cleaner-16: Cleaning maps
+JO 20:26:46:626 JTS-Cleaner-16: Cleaning maps
+JO 20:27:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:27:36:221 JTS-Cleaner-16: Cleaning maps
+JO 20:27:46:627 JTS-Cleaner-16: Cleaning maps
+JO 20:28:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:28:36:222 JTS-Cleaner-16: Cleaning maps
+JO 20:28:46:627 JTS-Cleaner-16: Cleaning maps
+JO 20:29:31:793 JTS-Cleaner-16: Cleaning maps
+JO 20:29:36:222 JTS-Cleaner-16: Cleaning maps
+JO 20:29:46:627 JTS-Cleaner-16: Cleaning maps
+JO 20:30:16:027 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,121KB HeapUsage: Max=466,048KB used=30,407KB committed=225,216KB NonHeapUsage: Max=114,688KB used=40,887KB committed=41,248KB
+JO 20:30:17:038 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.36% 5 min avg=0.39% 1 min avg=0.50%
+JO 20:30:17:042 JTS-DeadlockMonitor: GC:called=313 times CPU used=0.02%
+JO 20:30:17:045 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:30:31:794 JTS-Cleaner-16: Cleaning maps
+JO 20:30:36:222 JTS-Cleaner-16: Cleaning maps
+JO 20:30:46:628 JTS-Cleaner-16: Cleaning maps
+JO 20:31:31:794 JTS-Cleaner-16: Cleaning maps
+JO 20:31:36:223 JTS-Cleaner-16: Cleaning maps
+JO 20:31:46:628 JTS-Cleaner-16: Cleaning maps
+JO 20:31:54:000 JTS-CCPDispatcher-689: Setting time offset to 860 diff 11
+JO 20:31:54:000 JTS-CCPDispatcher-689: Setting time offset to 860 diff 0
+JO 20:32:31:806 JTS-Cleaner-16: Cleaning maps
+JO 20:32:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:32:46:639 JTS-Cleaner-16: Cleaning maps
+JO 20:33:31:805 JTS-Cleaner-16: Cleaning maps
+JO 20:33:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:33:46:639 JTS-Cleaner-16: Cleaning maps
+JO 20:34:31:805 JTS-Cleaner-16: Cleaning maps
+JO 20:34:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:34:46:640 JTS-Cleaner-16: Cleaning maps
+JO 20:35:16:048 JTS-DeadlockMonitor: Memory:total=466,048KB free=423,757KB HeapUsage: Max=466,048KB used=30,510KB committed=224,768KB NonHeapUsage: Max=114,688KB used=40,887KB committed=41,248KB
+JO 20:35:17:059 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.31% 30 min avg=0.37% 5 min avg=0.37% 1 min avg=0.42%
+JO 20:35:17:059 JTS-DeadlockMonitor: GC:called=315 times CPU used=0.02%
+JO 20:35:17:059 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:35:31:805 JTS-Cleaner-16: Cleaning maps
+JO 20:35:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:35:46:640 JTS-Cleaner-16: Cleaning maps
+JO 20:36:31:805 JTS-Cleaner-16: Cleaning maps
+JO 20:36:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:36:46:640 JTS-Cleaner-16: Cleaning maps
+JO 20:37:31:806 JTS-Cleaner-16: Cleaning maps
+JO 20:37:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:37:46:641 JTS-Cleaner-16: Cleaning maps
+JO 20:38:31:805 JTS-Cleaner-16: Cleaning maps
+JO 20:38:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:38:46:641 JTS-Cleaner-16: Cleaning maps
+JO 20:39:31:805 JTS-Cleaner-16: Cleaning maps
+JO 20:39:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:39:42:459 JTS-CCPPing-688: Warning: not received heartbeat at 44215000 elapsed:11000
+JO 20:39:46:641 JTS-Cleaner-16: Cleaning maps
+JO 20:40:16:073 JTS-DeadlockMonitor: Memory:total=466,048KB free=422,711KB HeapUsage: Max=466,048KB used=30,611KB committed=225,152KB NonHeapUsage: Max=114,688KB used=40,887KB committed=41,248KB
+JO 20:40:17:082 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.39% 5 min avg=0.47% 1 min avg=0.58%
+JO 20:40:17:083 JTS-DeadlockMonitor: GC:called=317 times CPU used=0.02%
+JO 20:40:17:085 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:40:31:806 JTS-Cleaner-16: Cleaning maps
+JO 20:40:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:40:46:642 JTS-Cleaner-16: Cleaning maps
+JO 20:41:31:806 JTS-Cleaner-16: Cleaning maps
+JO 20:41:36:234 JTS-Cleaner-16: Cleaning maps
+JO 20:41:46:642 JTS-Cleaner-16: Cleaning maps
+JO 20:41:54:000 JTS-CCPDispatcher-689: Setting time offset to 875 diff 15
+JO 20:41:54:000 JTS-CCPDispatcher-689: Setting time offset to 874 diff -1
+JO 20:42:31:820 JTS-Cleaner-16: Cleaning maps
+JO 20:42:36:248 JTS-Cleaner-16: Cleaning maps
+JO 20:42:46:656 JTS-Cleaner-16: Cleaning maps
+JO 20:43:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:43:36:249 JTS-Cleaner-16: Cleaning maps
+JO 20:43:42:524 JTS-CCPPing-688: Warning: not received heartbeat at 44455000 elapsed:11000
+JO 20:43:46:656 JTS-Cleaner-16: Cleaning maps
+JO 20:44:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:44:36:249 JTS-Cleaner-16: Cleaning maps
+JO 20:44:46:656 JTS-Cleaner-16: Cleaning maps
+JO 20:45:16:091 JTS-DeadlockMonitor: Memory:total=466,048KB free=422,769KB HeapUsage: Max=466,048KB used=30,314KB committed=224,768KB NonHeapUsage: Max=114,688KB used=40,887KB committed=41,248KB
+JO 20:45:17:102 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.31% 30 min avg=0.39% 5 min avg=0.38% 1 min avg=0.42%
+JO 20:45:17:102 JTS-DeadlockMonitor: GC:called=319 times CPU used=0.02%
+JO 20:45:17:103 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:45:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:45:32:548 JTS-CCPPing-688: Warning: not received heartbeat at 44565000 elapsed:11000
+JO 20:45:36:249 JTS-Cleaner-16: Cleaning maps
+JO 20:45:46:657 JTS-Cleaner-16: Cleaning maps
+JO 20:46:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:46:36:249 JTS-Cleaner-16: Cleaning maps
+JO 20:46:46:657 JTS-Cleaner-16: Cleaning maps
+JO 20:47:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:47:36:250 JTS-Cleaner-16: Cleaning maps
+JO 20:47:42:577 JTS-CCPPing-688: Warning: not received heartbeat at 44695000 elapsed:11000
+JO 20:47:46:657 JTS-Cleaner-16: Cleaning maps
+JO 20:48:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:48:36:250 JTS-Cleaner-16: Cleaning maps
+JO 20:48:46:657 JTS-Cleaner-16: Cleaning maps
+JO 20:49:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:49:36:250 JTS-Cleaner-16: Cleaning maps
+JO 20:49:46:658 JTS-Cleaner-16: Cleaning maps
+JO 20:50:16:092 JTS-DeadlockMonitor: Memory:total=466,048KB free=422,175KB HeapUsage: Max=466,048KB used=30,416KB committed=225,088KB NonHeapUsage: Max=114,688KB used=40,888KB committed=41,248KB
+JO 20:50:17:103 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.32% 30 min avg=0.42% 5 min avg=0.56% 1 min avg=0.46%
+JO 20:50:17:104 JTS-DeadlockMonitor: GC:called=321 times CPU used=0.02%
+JO 20:50:17:104 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:50:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:50:36:251 JTS-Cleaner-16: Cleaning maps
+JO 20:50:46:657 JTS-Cleaner-16: Cleaning maps
+JO 20:51:31:821 JTS-Cleaner-16: Cleaning maps
+JO 20:51:36:251 JTS-Cleaner-16: Cleaning maps
+JO 20:51:46:657 JTS-Cleaner-16: Cleaning maps
+JO 20:51:54:000 JTS-CCPDispatcher-689: Setting time offset to 880 diff 6
+JO 20:51:54:000 JTS-CCPDispatcher-689: Setting time offset to 880 diff 0
+JO 20:52:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:52:36:257 JTS-Cleaner-16: Cleaning maps
+JO 20:52:46:664 JTS-Cleaner-16: Cleaning maps
+JO 20:53:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:53:36:257 JTS-Cleaner-16: Cleaning maps
+JO 20:53:46:664 JTS-Cleaner-16: Cleaning maps
+JO 20:54:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:54:36:257 JTS-Cleaner-16: Cleaning maps
+JO 20:54:46:664 JTS-Cleaner-16: Cleaning maps
+JO 20:55:16:107 JTS-DeadlockMonitor: Memory:total=466,048KB free=422,061KB HeapUsage: Max=466,048KB used=30,518KB committed=225,088KB NonHeapUsage: Max=114,688KB used=40,889KB committed=41,248KB
+JO 20:55:17:116 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.32% 30 min avg=0.44% 5 min avg=0.43% 1 min avg=0.42%
+JO 20:55:17:117 JTS-DeadlockMonitor: GC:called=323 times CPU used=0.02%
+JO 20:55:17:117 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 20:55:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:55:36:257 JTS-Cleaner-16: Cleaning maps
+JO 20:55:46:665 JTS-Cleaner-16: Cleaning maps
+JO 20:56:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:56:36:258 JTS-Cleaner-16: Cleaning maps
+JO 20:56:46:665 JTS-Cleaner-16: Cleaning maps
+JO 20:57:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:57:36:258 JTS-Cleaner-16: Cleaning maps
+JO 20:57:46:665 JTS-Cleaner-16: Cleaning maps
+JO 20:58:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:58:36:258 JTS-Cleaner-16: Cleaning maps
+JO 20:58:46:665 JTS-Cleaner-16: Cleaning maps
+JO 20:59:31:828 JTS-Cleaner-16: Cleaning maps
+JO 20:59:36:259 JTS-Cleaner-16: Cleaning maps
+JO 20:59:46:665 JTS-Cleaner-16: Cleaning maps
+JO 21:00:16:133 JTS-DeadlockMonitor: Memory:total=466,048KB free=421,930KB HeapUsage: Max=466,048KB used=30,621KB committed=224,960KB NonHeapUsage: Max=114,688KB used=40,889KB committed=41,248KB
+JO 21:00:17:140 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.32% 30 min avg=0.43% 5 min avg=0.37% 1 min avg=0.29%
+JO 21:00:17:140 JTS-DeadlockMonitor: GC:called=325 times CPU used=0.02%
+JO 21:00:17:140 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 21:00:31:828 JTS-Cleaner-16: Cleaning maps
+JO 21:00:36:259 JTS-Cleaner-16: Cleaning maps
+JO 21:00:46:665 JTS-Cleaner-16: Cleaning maps
+JO 21:01:31:829 JTS-Cleaner-16: Cleaning maps
+JO 21:01:36:259 JTS-Cleaner-16: Cleaning maps
+JO 21:01:46:665 JTS-Cleaner-16: Cleaning maps
+JO 21:01:54:000 JTS-CCPDispatcher-689: Setting time offset to 884 diff 4
+JO 21:01:54:000 JTS-CCPDispatcher-689: Setting time offset to 884 diff 0
+JO 21:02:31:834 JTS-Cleaner-16: Cleaning maps
+JO 21:02:36:263 JTS-Cleaner-16: Cleaning maps
+JO 21:02:46:669 JTS-Cleaner-16: Cleaning maps
+JO 21:03:31:833 JTS-Cleaner-16: Cleaning maps
+JO 21:03:36:263 JTS-Cleaner-16: Cleaning maps
+JO 21:03:46:670 JTS-Cleaner-16: Cleaning maps
+JO 21:04:31:833 JTS-Cleaner-16: Cleaning maps
+JO 21:04:36:263 JTS-Cleaner-16: Cleaning maps
+JO 21:04:46:669 JTS-Cleaner-16: Cleaning maps
+JO 21:05:16:146 JTS-DeadlockMonitor: Memory:total=466,048KB free=424,110KB HeapUsage: Max=466,048KB used=30,325KB committed=225,024KB NonHeapUsage: Max=114,688KB used=40,889KB committed=41,248KB
+JO 21:05:17:156 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.32% 30 min avg=0.43% 5 min avg=0.37% 1 min avg=0.25%
+JO 21:05:17:156 JTS-DeadlockMonitor: GC:called=327 times CPU used=0.02%
+JO 21:05:17:156 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 21:05:31:833 JTS-Cleaner-16: Cleaning maps
+JO 21:05:36:263 JTS-Cleaner-16: Cleaning maps
+JO 21:05:46:669 JTS-Cleaner-16: Cleaning maps
+JO 21:06:31:833 JTS-Cleaner-16: Cleaning maps
+JO 21:06:36:264 JTS-Cleaner-16: Cleaning maps
+JO 21:06:46:669 JTS-Cleaner-16: Cleaning maps
+JO 21:07:31:833 JTS-Cleaner-16: Cleaning maps
+JO 21:07:36:264 JTS-Cleaner-16: Cleaning maps
+JO 21:07:46:669 JTS-Cleaner-16: Cleaning maps
+JO 21:08:31:834 JTS-Cleaner-16: Cleaning maps
+JO 21:08:36:264 JTS-Cleaner-16: Cleaning maps
+JO 21:08:46:669 JTS-Cleaner-16: Cleaning maps
+JO 21:09:31:834 JTS-Cleaner-16: Cleaning maps
+JO 21:09:36:264 JTS-Cleaner-16: Cleaning maps
+JO 21:09:46:670 JTS-Cleaner-16: Cleaning maps
+JO 21:10:16:151 JTS-DeadlockMonitor: Memory:total=466,048KB free=426,171KB HeapUsage: Max=466,048KB used=30,428KB committed=225,024KB NonHeapUsage: Max=114,688KB used=40,889KB committed=41,248KB
+JO 21:10:17:164 JTS-DeadlockMonitor: CPU:cur=0.50% avg=0.32% 30 min avg=0.41% 5 min avg=0.37% 1 min avg=0.37%
+JO 21:10:17:164 JTS-DeadlockMonitor: GC:called=329 times CPU used=0.02%
+JO 21:10:17:164 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 21:10:31:834 JTS-Cleaner-16: Cleaning maps
+JO 21:10:36:264 JTS-Cleaner-16: Cleaning maps
+JO 21:10:46:670 JTS-Cleaner-16: Cleaning maps
+JO 21:11:31:834 JTS-Cleaner-16: Cleaning maps
+JO 21:11:36:265 JTS-Cleaner-16: Cleaning maps
+JO 21:11:46:670 JTS-Cleaner-16: Cleaning maps
+JO 21:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 895 diff 11
+JO 21:11:54:000 JTS-CCPDispatcher-689: Setting time offset to 895 diff 0
+JO 21:12:31:846 JTS-Cleaner-16: Cleaning maps
+JO 21:12:36:275 JTS-Cleaner-16: Cleaning maps
+JO 21:12:46:681 JTS-Cleaner-16: Cleaning maps
+JO 21:13:31:846 JTS-Cleaner-16: Cleaning maps
+JO 21:13:36:275 JTS-Cleaner-16: Cleaning maps
+JO 21:13:46:681 JTS-Cleaner-16: Cleaning maps
+JO 21:14:31:846 JTS-Cleaner-16: Cleaning maps
+JO 21:14:36:275 JTS-Cleaner-16: Cleaning maps
+JO 21:14:46:681 JTS-Cleaner-16: Cleaning maps
+JO 21:15:16:168 JTS-DeadlockMonitor: Memory:total=466,048KB free=425,053KB HeapUsage: Max=466,048KB used=30,532KB committed=224,704KB NonHeapUsage: Max=114,688KB used=40,889KB committed=41,248KB
+JO 21:15:17:179 JTS-DeadlockMonitor: CPU:cur=0.00% avg=0.32% 30 min avg=0.41% 5 min avg=0.35% 1 min avg=0.37%
+JO 21:15:17:179 JTS-DeadlockMonitor: GC:called=331 times CPU used=0.02%
+JO 21:15:17:179 JTS-DeadlockMonitor: Finalizer:cur=0.00% avg=0.00% 30 min avg=0.00% 5 min avg=0.00% 1 min avg=0.00%
+JO 21:15:31:847 JTS-Cleaner-16: Cleaning maps
+JO 21:15:36:275 JTS-Cleaner-16: Cleaning maps
+JO 21:15:46:681 JTS-Cleaner-16: Cleaning maps
+JO 21:16:31:847 JTS-Cleaner-16: Cleaning maps
