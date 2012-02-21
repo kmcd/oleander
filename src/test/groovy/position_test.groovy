@@ -33,15 +33,6 @@ class PositionTest extends GroovyTestCase {
       assertEquals(0, position.short_shares() % 1)
    }
    
-   void test_spy_spy_profit_target_price() {
-      assert position.spy_profit_target(134.02, 10.0) == 133.57
-      assert position.spy_profit_target(134.01, 10.0) == 133.56
-      assert position.spy_profit_target(134.00, 10.0) == 133.55
-      
-      assert position.spy_profit_target(134.07, 10.0) == 133.62
-      assert position.spy_profit_target(134.06, 10.0) == 133.61
-   }
-   
    void test_spy_profitability() {
       Quote.create 'spy_ask', "2011-11-14 09:30:00:00", 133.57
       Quote.create 'ivv_bid', "2011-11-14 09:30:00:00", 134.07
