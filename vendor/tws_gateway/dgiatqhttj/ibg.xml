@@ -231,14 +231,14 @@
 		<OrderDefault varName="element" version="17" side="0" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="100" sizeInc="#" rfqSize="1000" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" totalValueCurrency="USD" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 			<Attributes varName="attribs">
 				<OpenCloseAttrib val="O"/>
+				<TouchedTrigger val="1.0" allowZero="false"/>
+				<OutsideRth val="false"/>
 				<TriggerMethod>
 					<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 				</TriggerMethod>
-				<OutsideRth val="false"/>
 				<CommissionPolicy>
 					<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 				</CommissionPolicy>
-				<TouchedTrigger val="1.0" allowZero="false"/>
 			</Attributes>
 			<startTime></startTime>
 			<endTime></endTime>
@@ -311,14 +311,14 @@
 				<OrderDefault varName="element" version="17" side="0" secType="STK" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="100" sizeInc="#" rfqSize="1000" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="O"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
+						<OutsideRth val="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
-						<OutsideRth val="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -392,13 +392,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="CFD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="100" sizeInc="#" rfqSize="1000" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -472,13 +472,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="OPT" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="20" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -552,13 +552,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="FOP" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -632,13 +632,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="WAR" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -712,13 +712,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="IOPT" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -792,13 +792,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="FUT" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -872,13 +872,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="COMB" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -952,13 +952,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="CASH" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -1031,13 +1031,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="AUD" symbol="AUD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="25000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1111,13 +1111,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="BRL" symbol="BRL" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1191,13 +1191,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="CAD" symbol="CAD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="25000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1271,13 +1271,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="CHF" symbol="CHF" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="25000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1351,13 +1351,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="CNY" symbol="CNY" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1431,13 +1431,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="CZK" symbol="CZK" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1511,13 +1511,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="DKK" symbol="DKK" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1591,13 +1591,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="EUR" symbol="EUR" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="20000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1671,13 +1671,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="GBP" symbol="GBP" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="17000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1751,13 +1751,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="GCU" symbol="GCU" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="100000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1831,13 +1831,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="HKD" symbol="HKD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="200000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1911,13 +1911,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="HUF" symbol="HUF" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -1991,13 +1991,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="ILS" symbol="ILS" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2071,13 +2071,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="INR" symbol="INR" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2151,13 +2151,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="JPY" symbol="JPY" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="2500000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2231,13 +2231,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="KRW" symbol="KRW" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="50000000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2311,13 +2311,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="MXN" symbol="MXN" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="300000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2391,13 +2391,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="NOK" symbol="NOK" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="150000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2471,13 +2471,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="NZD" symbol="NZD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="35000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2551,13 +2551,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="PLN" symbol="PLN" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2631,13 +2631,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="RUB" symbol="RUB" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="25000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2711,13 +2711,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="SEK" symbol="SEK" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="175000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2791,13 +2791,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="SGD" symbol="SGD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="35000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2871,13 +2871,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="TWD" symbol="TWD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="0" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -2951,13 +2951,13 @@
 						<OrderDefault varName="element" version="17" side="0" secType="USD" symbol="USD" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="false" defSize="25000" sizeInc="1000" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 							<Attributes varName="attribs">
 								<OpenCloseAttrib val="C"/>
+								<TouchedTrigger val="1.0" allowZero="false"/>
 								<TriggerMethod>
 									<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 								</TriggerMethod>
 								<CommissionPolicy>
 									<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 								</CommissionPolicy>
-								<TouchedTrigger val="1.0" allowZero="false"/>
 							</Attributes>
 							<startTime></startTime>
 							<endTime></endTime>
@@ -3033,13 +3033,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="IND" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -3113,13 +3113,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="BOND" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -3193,13 +3193,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="BILL" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -3272,11 +3272,11 @@
 			<OrderDefaultNode>
 				<OrderDefault varName="element" version="17" side="0" secType="FUND" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="100" sizeInc="#" rfqSize="0" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="1" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
-						<MonetaryValue val="3000.0"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
+						<MonetaryValue val="3000.0"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -3350,13 +3350,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="SLB" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="100" sizeInc="#" rfqSize="1000" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>
@@ -3430,13 +3430,13 @@
 				<OrderDefault varName="element" version="17" side="0" secType="CMDTY" useClosePositionSizeFirst="false" useCumulativeSizeForMarketDepth="true" preferSmart="false" percentCheck="3" strategy="false" active="true" defSize="1" sizeInc="#" rfqSize="100" trailingOffset="1.0" trailingUnit="0" relativeOffset="0.01" orderType="2" ticketOrderType="1" orderOrigin="0" timeInForce="DAY" numOfTicks="0" useDefaultAmt="false" defaultAmt="0.0" useRemainingTicketSize="false" defaultDisplaySizeTo50PercOfSize="false" defaultDestination="true" stopOffset="1.0" stopLimitOffset="3.0" stopLimitOffsetUnit="1">
 					<Attributes varName="attribs">
 						<OpenCloseAttrib val="C"/>
+						<TouchedTrigger val="1.0" allowZero="false"/>
 						<TriggerMethod>
 							<TwsEnum type="jfix.FixTriggerMethod" varName="val" val="0"/>
 						</TriggerMethod>
 						<CommissionPolicy>
 							<TwsEnum type="jfix.FixCommissionPolicy" varName="val" val="0"/>
 						</CommissionPolicy>
-						<TouchedTrigger val="1.0" allowZero="false"/>
 					</Attributes>
 					<startTime></startTime>
 					<endTime></endTime>

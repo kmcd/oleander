@@ -17,7 +17,7 @@ while(true) {
       pair_order.exit( position )
    } 
    else {
-      // if entry signal
+      // if long/short entry signal
       pair_order.enter( position )
    }
 }

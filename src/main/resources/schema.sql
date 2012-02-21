@@ -1,8 +1,9 @@
+create table spy_ask(time_stamp timestamp primary key, price decimal not null );
 create table spy_bid(time_stamp timestamp primary key, price decimal not null );
 create table ivv_bid(time_stamp timestamp primary key, price decimal not null );
 create table ivv_ask(time_stamp timestamp primary key, price decimal not null );
-create table long_spreads(time_stamp timestamp primary key, spread decimal not null );
-create table short_spreads(time_stamp timestamp primary key, spread decimal not null );
+create table long_spreads(time_stamp timestamp primary key, spread decimal not null);
+create table short_spreads(time_stamp timestamp primary key, spread decimal not null);
 
 create function spy_bid(timestamp)
 returns decimal as $$ 
@@ -40,30 +41,17 @@ create rule calculate_short_spread_ivv
 as on insert to ivv_ask
 do insert into short_spreads values(NEW.time_stamp, spy_bid(NEW.time_stamp) - NEW.price);
 
-create or replace view short_entry_stats as
-   select time_stamp, 
-      spread - avg(spread) over( order by time_stamp ) as score,
-      spread - stddev(spread) over( order by time_stamp ) as stddev
-   from short_spreads;
-  
-create or replace view long_entry_stats as
-select time_stamp, 
-   spread - avg(spread) over( order by time_stamp ) as score,
-   spread - stddev(spread) over( order by time_stamp ) as stddev
-from long_spreads;
-  
-create view long_zscore as
-   select time_stamp, score/stddev as zscore from long_entry_stats;
-   
-create view short_zscore as
-   select time_stamp, score/stddev as zscore from short_entry_stats;
-   
-create view long_entry_signals as
-   select time_stamp, zscore, spy_ask(time_stamp), ivv_bid(time_stamp)
-   from long_zscore
-   order by time_stamp desc; 
-   
-create view short_entry_signals as
-   select time_stamp, zscore, spy_bid(time_stamp), ivv_ask(time_stamp)
-   from short_zscore
-   order by time_stamp desc; 
+create or replace function long_entry()
+returns decimal as $$ 
+select round( avg(spread) - -0.015, 2) as spread from long_spreads; 
+$$ language sql;
+
+create or replace function short_entry()
+returns decimal as $$ 
+select round( avg(spread) - -0.015, 2) as spread from short_spreads; 
+$$ language sql;
+
+select *, spy_ask(time_stamp), ivv_bid(time_stamp)
+from long_spreads
+order by time_stamp desc 
+limit 1;

@@ -43,7 +43,7 @@ class Quote {
    static parse_date(time_stamp) { Date.parse(date_format, time_stamp) }
    
    static delete_all() {
-      [ 'spy_bid', 'spy_ask', 'ivv_bid', 'ivv_ask' ].each { 
+      [ 'spy_bid', 'spy_ask', 'ivv_bid', 'ivv_ask', 'long_spreads', 'short_spreads' ].each { 
          Quote.repository.execute "delete from ${Sql.expand(it)}"
       }
    }
