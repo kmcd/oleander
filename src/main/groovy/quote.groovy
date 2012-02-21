@@ -8,6 +8,15 @@ class Quote {
    static request_ids = [:]
    static date_format = 'yyyy-MM-dd HH:mm:ss:S'
    
+   static current_bid(ticker) { 
+      repository.firstRow("select price from ${Sql.expand(ticker)}_bid order by time_stamp desc limit 1")['price'] 
+   }
+   
+   static current_ask(ticker) { 
+      // TODO: dry up with bid
+      repository.firstRow("select price from ${Sql.expand(ticker)}_ask order by time_stamp desc limit 1")['price']
+   }
+   
    static create(reqId, time_stamp, open, high, low, close, volume, wap, count) {
       create ticker_for(reqId) , time_stamp, close
    }
