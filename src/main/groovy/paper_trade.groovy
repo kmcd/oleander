@@ -2,6 +2,7 @@ gateway = new Gateway()
 spy = new Stock("spy")
 ivv = new Stock("ivv")
 position = new Position()
+pair = new Pair()
 pair_order = new PairOrder(gateway)
 
 gateway.connect()
