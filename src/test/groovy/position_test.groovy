@@ -1,10 +1,15 @@
 import groovy.util.GroovyTestCase
+import groovy.mock.interceptor.StubFor
+import groovy.sql.Sql
 
 class PositionTest extends GroovyTestCase {
    def position
    
    void setUp() {
-      position = new Position(spy:133.57, ivv:134.07, open:"2011-07-08 11:09:00")
+      Quote.repository = Sql.newInstance 'jdbc:postgresql://localhost:5432/hawk_moth_test'
+      Quote.delete_all()
+      Quote.request_ids = [:]
+      position = new Position(spy:133.57, ivv:134.07)
    }
    
    void test_calculate_current_profit() {
@@ -35,5 +40,28 @@ class PositionTest extends GroovyTestCase {
       
       assert position.spy_profit_target(134.07, 10.0) == 133.62
       assert position.spy_profit_target(134.06, 10.0) == 133.61
+   }
+   
+   void test_spy_profitability() {
+      Quote.create 'spy_ask', "2011-11-14 09:30:00:00", 133.57
+      Quote.create 'ivv_bid', "2011-11-14 09:30:00:00", 134.07
+      
+      assert position.profitable() == false
+      
+      Quote.create 'spy_ask', "2011-11-14 09:30:01:00", 133.565
+      Quote.create 'ivv_bid', "2011-11-14 09:30:01:00", 134.02
+      
+      assert position.profitable() == true
+   }
+   
+   void test_spy_profitable_only_when_available() {
+      Quote.create 'spy_ask', "2011-11-14 09:30:01:00", 133.565
+      Quote.create 'ivv_bid', "2011-11-14 09:30:01:00", 134.02
+      
+      position.available = true
+      assert position.profitable() == false
+      
+      position.available = false
+      assert position.profitable() == true
    }
 }

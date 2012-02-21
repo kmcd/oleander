@@ -50,8 +50,3 @@ create or replace function short_entry()
 returns decimal as $$ 
 select round( avg(spread) - -0.015, 2) as spread from short_spreads; 
 $$ language sql;
-
-select *, spy_ask(time_stamp), ivv_bid(time_stamp)
-from long_spreads
-order by time_stamp desc 
-limit 1;

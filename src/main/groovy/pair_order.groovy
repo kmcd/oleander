@@ -31,7 +31,7 @@ class PairOrder {
       gateway.place_order(long_contract(), sell_order(sell_price) )
       gateway.place_order(short_contract(), cover_order(cover_price) )
       
-      position.open = false
+      position.available = false
    }
    
    def order(action, quantity, price, type='LMT', duration='IOC') {

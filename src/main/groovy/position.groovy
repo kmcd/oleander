@@ -4,13 +4,28 @@ class Position {
    def short_spy = false
    def spy
    def ivv
-   def open
+   def available
    def funding_available = 100000.00
    
    def spy_profit_target(ivv_ask, target) {
       def spy_bid = opening_long_price() - 10.0
       while( profit(spy:spy_bid, ivv:ivv_ask) < target ) { spy_bid += 0.01 }
       spy_bid
+   }
+   
+   def profitable(target=3.0) {
+      if ( available ) { return false }
+      
+      def net_profit
+      
+      if(short_spy) { 
+         net_profit = profit(spy:Quote.current_bid('spy'), ivv:Quote.current_ask('ivv')) 
+      }
+      else { 
+         net_profit = profit(spy:Quote.current_ask('spy'), ivv:Quote.current_bid('ivv')) 
+      }
+      
+      net_profit >= target
    }
    
    def profit(tickers) {
