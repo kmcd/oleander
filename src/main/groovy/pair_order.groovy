@@ -6,32 +6,61 @@ class PairOrder {
    def gateway
    def position
    
-   PairOrder(ib_gateway) {
-      gateway = ib_gateway
-   }
+   PairOrder(ib_gateway) { gateway = ib_gateway }
    
    def enter(new_position) {
+      if( !new_position.pair.entry_signal() ) { return false }
+      
       position = new_position
+      long_order_id = long_entry_order()
+      short_order_id = short_entry_order()
       
-      gateway.place_order(long_contract(), long_order())
+      sleep(500)
       
-      // If buy order succesful
-      // OCA order:
-      //    SHORT IVV
-      //    LMT -1 SPY (stop loss @ -7.27)
-      gateway.place_order(short_contract(), short_order())
+      if( filled(long_order_id) && !filled(short_order_id) ) { long_exit_order() } 
+      if( filled(short_order_id) && !filled(long_order_id) ) { short_exit_order() }
       
-         // If sell order fails: wait OR market ? nbbo +/-
+      if ( filled(long_order_id) && filled(short_order_id) ) {
+         position.available = false
+      }
    }
    
-   def exit(spy_price, ivv_price) {
-      def cover_price = position.short_spy ? spy_price : ivv_price
-      def sell_price = position.short_spy ? ivv_price : spy_price
+   def exit() {
+      if( !position.profitable() ) { return false }
       
-      gateway.place_order(long_contract(), sell_order(sell_price) )
-      gateway.place_order(short_contract(), cover_order(cover_price) )
+      long_order_id = long_exit_order()
+      short_order_id = short_exit_order()
       
-      position.available = false
+      if( filled(long_order_id) && !filled(short_order_id) ) { short_exit_order() } 
+      if( filled(short_order_id) && !filled(long_order_id) ) { long_exit_order() }
+      
+      position.available = true
+   }
+   
+   def filled(order_id) { gateway.order_filled(short_order_id) }
+   
+   def long_entry_order() {
+      gateway.place_order(long_contract(), long_order())
+   }
+   
+   def short_entry_order() {
+      gateway.place_order(short_contract(), short_order())
+   }
+   
+   def long_exit_order() {
+      gateway.place_order(long_contract(), sell_order(sell_price()) )
+   }
+   
+   def short_exit_order() {
+      gateway.place_order(short_contract(), cover_order(cover_price()) )
+   }
+   
+   def sell_price() {
+      position.short_spy ? Quote.current_ask('spy') : Quote.current_ask('ivv')
+   }
+   
+   def cover_price() {
+      position.short_spy ? Quote.current_bid('spy') : Quote.current_bid('ivv')
    }
    
    def order(action, quantity, price, type='LMT', duration='IOC') {
@@ -62,10 +91,10 @@ class PairOrder {
    }
    
    def long_contract() {
-      position.short_spy ? new Stock("IVV").contract : new Stock("SPY").contract
+      position.short_spy ? new Stock("ivv").contract : new Stock("spy").contract
    }
    
    def short_contract() {
-      position.short_spy ? new Stock("SPY").contract : new Stock("IVV").contract
+      position.short_spy ? new Stock("spy").contract : new Stock("ivv").contract
    }
 }

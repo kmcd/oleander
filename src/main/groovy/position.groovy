@@ -2,10 +2,30 @@ import java.math.*
 
 class Position {
    def short_spy = false
+   def pair
    def spy
    def ivv
    def available
    def funding_available = 100000.00
+   
+   Position(tickers) {
+      spy = tickers['spy']
+      ivv = tickers['ivv']
+   }
+   
+   Position(Pair new_pair) {
+      pair = new_pair
+      
+      if( pair.long_entry_signal() ) {
+         spy = Quote.current_ask 'spy'
+         ivv = Quote.current_bid 'ivv'
+      }
+      else {
+         spy = Quote.current_bid 'spy'
+         ivv = Quote.current_ask 'ivv'
+         short_spy = true
+      }
+   }
    
    def profitable(target=3.0) {
       if ( available ) { return false }

@@ -35,9 +35,12 @@ class Gateway extends IbGateway {
       client_socket.reqIds(client_id)
       wait_for_next_request_id_from_gateway()
       client_socket.placeOrder(next_order_id, contract, order)
-      
-      log.info("[ORDER] type:${order.m_action} symbol:${contract.m_symbol} quantity:${order.m_totalQuantity} price:${order.m_lmtPrice}")
+      next_order_id
    }
    
-   def wait_for_next_request_id_from_gateway() { sleep(250) }
+   def wait_for_next_request_id_from_gateway() { sleep(100) }
+   
+   def order_filled(order_id) {
+      orders[order_id] =~ '(?i)filled'
+   }
 }

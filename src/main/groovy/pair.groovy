@@ -1,5 +1,7 @@
 class Pair {
-   def entry_signal() { long_entry_signal() || short_entry_signal() }
+   def entry_signal() { 
+      long_entry_signal() || short_entry_signal() 
+   }
    
    def long_entry_signal() {
       def long_spread = Quote.repository.firstRow "select spread from long_spreads order by time_stamp desc limit 1"
