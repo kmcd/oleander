@@ -41,6 +41,7 @@ class PositionTest extends GroovyTestCase {
       
       Quote.create 'spy_ask', "2011-11-14 09:30:01:00", 133.565
       Quote.create 'ivv_bid', "2011-11-14 09:30:01:00", 134.02
+      position.available = false
       
       assert position.profitable() == true
    }

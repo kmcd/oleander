@@ -5,41 +5,62 @@ class Position {
    def pair
    def spy
    def ivv
-   def available
+   def cover_price
+   def sell_price
+   def available = true
    def funding_available = 100000.00
    
-   Position(tickers) {
-      spy = tickers['spy']
-      ivv = tickers['ivv']
-   }
+   Position() {}
    
    Position(Pair new_pair) {
       pair = new_pair
       
-      if( pair.long_entry_signal() ) {
-         spy = Quote.current_ask 'spy'
-         ivv = Quote.current_bid 'ivv'
+      if( pair.short_spy ) {
+         ivv = pair.opening_long_price
+         spy = pair.opening_short_price
+         short_spy = true
       }
       else {
-         spy = Quote.current_bid 'spy'
-         ivv = Quote.current_ask 'ivv'
-         short_spy = true
+         spy = pair.opening_long_price
+         ivv = pair.opening_short_price
+      }
+   }
+   
+   def opening_prices_changed() {
+      if(short_spy) {
+         spy != Quote.current_bid('spy')  || ivv != Quote.current_ask('ivv') 
+      }
+      else { 
+         spy != Quote.current_ask('spy')  || ivv != Quote.current_bid('ivv') 
+      }
+   }
+   
+   def exit_prices_changed() {
+      if(short_spy) {
+         cover_price != Quote.current_bid('spy')  || sell_price != Quote.current_ask('ivv') 
+      }
+      else { 
+         sell_price != Quote.current_ask('spy')  || cover_price != Quote.current_bid('ivv') 
       }
    }
    
    def profitable(target=3.0) {
       if ( available ) { return false }
-      
       def net_profit
       
-      if(short_spy) { 
-         net_profit = profit(spy:Quote.current_bid('spy'), ivv:Quote.current_ask('ivv')) 
+      if(short_spy) {
+         cover_price = Quote.current_bid('spy')
+         sell_price = Quote.current_ask('ivv')
+         net_profit = profit(spy:cover_price, ivv:sell_price) 
       }
       else { 
-         net_profit = profit(spy:Quote.current_ask('spy'), ivv:Quote.current_bid('ivv')) 
+         sell_price = Quote.current_ask('spy')
+         cover_price = Quote.current_bid('ivv')
+         net_profit = profit(spy:sell_price, ivv:cover_price)
       }
       
-      net_profit >= target
+      if( net_profit >= target ) { true } 
+      else { sell_price = null ; cover_price = null }
    }
    
    def profit(tickers) {

@@ -40,13 +40,3 @@ do insert into short_spreads values(NEW.time_stamp, NEW.price - ivv_ask(NEW.time
 create rule calculate_short_spread_ivv
 as on insert to ivv_ask
 do insert into short_spreads values(NEW.time_stamp, spy_bid(NEW.time_stamp) - NEW.price);
-
-create or replace function long_entry()
-returns decimal as $$ 
-select round( avg(spread) - -0.015, 2) as spread from long_spreads; 
-$$ language sql;
-
-create or replace function short_entry()
-returns decimal as $$ 
-select round( avg(spread) - -0.015, 2) as spread from short_spreads; 
-$$ language sql;

@@ -5,62 +5,93 @@ import Gateway
 class PairOrder {
    def gateway
    def position
+   def long_order_id
+   def short_order_id
    
    PairOrder(ib_gateway) { gateway = ib_gateway }
    
    def enter(new_position) {
-      if( !new_position.pair.entry_signal() ) { return false }
-      
       position = new_position
-      long_order_id = long_entry_order()
-      short_order_id = short_entry_order()
+      if( position.opening_prices_changed() ) { return false }
       
-      sleep(500)
+      long_entry_order()
+      short_entry_order()
       
-      if( filled(long_order_id) && !filled(short_order_id) ) { long_exit_order() } 
-      if( filled(short_order_id) && !filled(long_order_id) ) { short_exit_order() }
-      
-      if ( filled(long_order_id) && filled(short_order_id) ) {
-         position.available = false
+      while( !orders_complete() ) {
+         gateway.wait_for_response()
+         if( position.opening_prices_changed() )   { cancel_both_orders() }
       }
+      
+      position.available = !filled(long_order_id) && !filled(short_order_id)
    }
    
    def exit() {
-      if( !position.profitable() ) { return false }
+      if( position.exit_prices_changed() ) { return false }
       
-      long_order_id = long_exit_order()
-      short_order_id = short_exit_order()
+      long_exit_order()
+      short_exit_order()
       
-      if( filled(long_order_id) && !filled(short_order_id) ) { short_exit_order() } 
-      if( filled(short_order_id) && !filled(long_order_id) ) { long_exit_order() }
+      while( !orders_complete() ) {
+         gateway.wait_for_response()
+         if( position.exit_prices_changed() )   { cancel_both_orders() }
+      }
       
-      position.available = true
+      position.available = filled(long_order_id) && filled(short_order_id)
    }
    
-   def filled(order_id) { gateway.order_filled(short_order_id) }
+   def orders_complete() {
+      ( filled(long_order_id) && filled(short_order_id) ) ||
+      ( cancelled(long_order_id) && cancelled(short_order_id) ) ||
+      legged_position_recovered()
+   }
    
+   def legged_position_recovered() {
+      if( !legged() ) { return false }
+      
+      if( exposed_long() ) { 
+         long_exit_order('MKT')
+         while( !filled(long_order_id)) { gateway.wait_for_response() }
+      }
+      
+      if( exposed_short() ) { 
+         short_exit_order('MKT')
+         while( !filled(short_order_id)) { gateway.wait_for_response() }
+      }
+      
+      true
+   }
+   
+   def legged() { exposed_long() || exposed_short() }
+   
+   def cancel_both_orders() {
+      gateway.cancel(long_order_id)
+      gateway.cancel(short_order_id)
+   }
+   
+   def exposed_long()      { filled(long_order_id) && cancelled(short_order_id) }
+   def exposed_short()     { filled(short_order_id) && cancelled(long_order_id) }
+   def filled(order_id)    { gateway.order_filled(order_id) }
+   def cancelled(order_id) { gateway.order_cancelled(order_id) }
+   
+   // TODO: move to Order factory
    def long_entry_order() {
-      gateway.place_order(long_contract(), long_order())
+      long_order_id = gateway.place_order(long_contract(), 
+         order('BUY', position.long_shares(), position.opening_long_price() ))
+   }
+   
+   def long_exit_order(type='LMT') {
+      long_order_id = gateway.place_order(long_contract(), 
+         order('SELL', position.long_shares(), position.sell_price, type))
    }
    
    def short_entry_order() {
-      gateway.place_order(short_contract(), short_order())
+      short_order_id = gateway.place_order(short_contract(), 
+         order('SELL', position.short_shares(), position.opening_short_price()))
    }
    
-   def long_exit_order() {
-      gateway.place_order(long_contract(), sell_order(sell_price()) )
-   }
-   
-   def short_exit_order() {
-      gateway.place_order(short_contract(), cover_order(cover_price()) )
-   }
-   
-   def sell_price() {
-      position.short_spy ? Quote.current_ask('spy') : Quote.current_ask('ivv')
-   }
-   
-   def cover_price() {
-      position.short_spy ? Quote.current_bid('spy') : Quote.current_bid('ivv')
+   def short_exit_order(type='LMT') {
+      short_order_id = gateway.place_order(short_contract(), 
+         order('BUY', position.short_shares(), position.cover_price, type))
    }
    
    def order(action, quantity, price, type='LMT', duration='IOC') {
@@ -70,24 +101,12 @@ class PairOrder {
       order.m_orderType = type
       order.m_tif = duration
       order.m_allOrNone = 1
-      order.m_lmtPrice = ( price as BigDecimal ).round( new MathContext(5) )
+      
+      if( type == 'LMT') {
+         order.m_lmtPrice = ( price as BigDecimal ).round( new MathContext(5) )
+      }
+      
       return order
-   }
-   
-   def long_order() {
-      order('BUY', position.long_shares(), position.opening_long_price() )
-   }
-   
-   def short_order() {
-      order('SELL', position.short_shares(), position.opening_short_price() )
-   }
-   
-   def sell_order(price) {
-      order('SELL', position.long_shares(), price )
-   }
-   
-   def cover_order(price) {
-      order('BUY', position.short_shares(), price )
    }
    
    def long_contract() {

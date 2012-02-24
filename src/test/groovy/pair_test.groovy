@@ -18,8 +18,8 @@ class PairTest extends GroovyTestCase {
          Quote.create 'spy_ask', time_stamp, it[-2] as Float
          Quote.create 'ivv_bid', time_stamp, it[-1] as Float
          
-         if(time_stamp =~ ~"2012-02-21 16:55:47") { assert pair.entry_signal() } 
-         if(time_stamp =~ ~"2012-02-21 17:00:11") { assert pair.entry_signal() }
+         if(time_stamp =~ ~"2012-02-21 16:50:10") { assert !pair.entry_signal() }
+         if(time_stamp =~ ~"2012-02-21 16:54:16") { assert pair.entry_signal() }
       }
    }
    
@@ -29,6 +29,7 @@ class PairTest extends GroovyTestCase {
          Quote.create 'spy_bid', time_stamp, it[-2] as Float
          Quote.create 'ivv_ask', time_stamp, it[-1] as Float
          
+         if(time_stamp =~ ~"2012-02-21 16:50:10") { assert !pair.entry_signal() }
          if(time_stamp =~ ~"2012-02-21 16:55:47") { assert pair.entry_signal() }
          if(time_stamp =~ ~"2012-02-21 17:00:11") { assert pair.entry_signal() }
       }
